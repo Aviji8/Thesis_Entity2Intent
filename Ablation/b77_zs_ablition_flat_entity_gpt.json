@@ -1,0 +1,4617 @@
+[
+  {
+    "id": 2317,
+    "text": "What is the point of an identity check?",
+    "true_label": "why_verify_identity",
+    "top_k_predictions": [
+      "why_verify_identity",
+      "unable_to_verify_identity",
+      "verify_my_identity",
+      "card_acceptance",
+      "balance_not_updated_after_cheque_or_cash_deposit"
+    ],
+    "entities": "identity check",
+    "explanation": "The key terms in the query are \"identity check,\" which indicates the user is asking about the purpose or reason behind verifying one's identity.",
+    "predicted_label": "why_verify_identity"
+  },
+  {
+    "id": 360,
+    "text": "I want to skip verification of my identity.",
+    "true_label": "why_verify_identity",
+    "top_k_predictions": [
+      "why_verify_identity",
+      "unable_to_verify_identity",
+      "verify_my_identity",
+      "activate_my_card",
+      "card_payment_not_recognised"
+    ],
+    "entities": "skip, verification, identity",
+    "explanation": "The key terms in the sentence are \"skip,\" \"verification,\" and \"identity.\" The user is expressing a desire to avoid or not go through the process of verifying their identity.",
+    "predicted_label": "why_verify_identity"
+  },
+  {
+    "id": 2932,
+    "text": "Someone stole my wallet earlier today, not sure exactly when, probably on Piccadilly circus. Can you check if there were any attempts to use the card and obviously block it?",
+    "true_label": "lost_or_stolen_card",
+    "top_k_predictions": [
+      "lost_or_stolen_card",
+      "compromised_card",
+      "card_payment_not_recognised",
+      "card_not_working",
+      "card_swallowed"
+    ],
+    "entities": "stole, wallet, Piccadilly Circus, attempts, use, block",
+    "explanation": "The key terms in the query suggest that the user is concerned about potential unauthorized use of their card after their wallet was stolen. They are seeking to check for any attempts to use the card and block it if necessary.",
+    "predicted_label": "compromised_card"
+  },
+  {
+    "id": 2515,
+    "text": "My account is blocked, how do I log in now",
+    "true_label": "pin_blocked",
+    "top_k_predictions": [
+      "card_not_working",
+      "activate_my_card",
+      "unable_to_verify_identity",
+      "pin_blocked",
+      "verify_my_identity"
+    ],
+    "entities": "account, blocked, log in",
+    "explanation": "The key terms in the query are \"account,\" \"blocked,\" and \"log in,\" indicating that the user is facing an issue with accessing their account due to it being blocked.",
+    "predicted_label": "unable_to_verify_identity"
+  },
+  {
+    "id": 1799,
+    "text": "When should I expect to see my transfer hit my account?",
+    "true_label": "transfer_timing",
+    "top_k_predictions": [
+      "transfer_timing",
+      "transfer_into_account",
+      "transfer_not_received_by_recipient",
+      "failed_transfer",
+      "pending_transfer"
+    ],
+    "entities": "expect, transfer, hit, account",
+    "explanation": "The key terms in the query are \"expect,\" \"transfer,\" \"hit,\" and \"account,\" which indicate the user is inquiring about the timing of a transfer hitting their account.",
+    "predicted_label": "transfer_timing"
+  },
+  {
+    "id": 447,
+    "text": "Where's the money that got charged to my card? It's not showing up in my account balance",
+    "true_label": "topping_up_by_card",
+    "top_k_predictions": [
+      "Refund_not_showing_up",
+      "card_payment_not_recognised",
+      "balance_not_updated_after_bank_transfer",
+      "extra_charge_on_statement",
+      "balance_not_updated_after_cheque_or_cash_deposit"
+    ],
+    "entities": "money, charged, card, account balance",
+    "explanation": "The key terms in the query are \"money,\" \"charged,\" \"card,\" and \"account balance,\" indicating a concern about a transaction not reflecting in the account balance after being charged to a card.",
+    "predicted_label": "card_payment_not_recognised"
+  },
+  {
+    "id": 2770,
+    "text": "How do I know when my card will arrive?",
+    "true_label": "card_arrival",
+    "top_k_predictions": [
+      "card_delivery_estimate",
+      "card_arrival",
+      "order_physical_card",
+      "get_physical_card",
+      "pending_card_payment"
+    ],
+    "entities": "card, arrive",
+    "explanation": "The key terms in the query are \"card\" and \"arrive,\" indicating that the user is inquiring about the delivery or arrival of a card.",
+    "predicted_label": "card_arrival"
+  },
+  {
+    "id": 2323,
+    "text": "What's the process for ID verification?",
+    "true_label": "verify_my_identity",
+    "top_k_predictions": [
+      "why_verify_identity",
+      "unable_to_verify_identity",
+      "verify_my_identity",
+      "card_delivery_estimate",
+      "activate_my_card"
+    ],
+    "entities": "process, ID verification",
+    "explanation": "The key terms in the query are \"process\" and \"ID verification,\" indicating that the user is seeking information about the steps or procedure involved in verifying their identity.",
+    "predicted_label": "why_verify_identity"
+  },
+  {
+    "id": 1517,
+    "text": "How does my identity get verified?",
+    "true_label": "verify_my_identity",
+    "top_k_predictions": [
+      "why_verify_identity",
+      "unable_to_verify_identity",
+      "verify_my_identity",
+      "card_payment_not_recognised",
+      "activate_my_card"
+    ],
+    "entities": "identity, verified",
+    "explanation": "The key terms in the query are \"identity\" and \"verified,\" indicating that the user is seeking information on the process of verifying their identity.",
+    "predicted_label": "verify_my_identity"
+  },
+  {
+    "id": 330,
+    "text": "I see a charge on my account that I don't recall making. I feel like my account may have been compromised.",
+    "true_label": "card_payment_not_recognised",
+    "top_k_predictions": [
+      "compromised_card",
+      "card_payment_not_recognised",
+      "card_not_working",
+      "card_payment_wrong_exchange_rate",
+      "extra_charge_on_statement"
+    ],
+    "entities": "charge, account, recall, compromised",
+    "explanation": "The key terms in the sentence are \"charge,\" \"account,\" \"recall,\" and \"compromised.\" The user is expressing concern about a charge on their account that they do not remember making and suspects that their account may have been compromised.",
+    "predicted_label": "compromised_card"
+  },
+  {
+    "id": 1678,
+    "text": "Where do I need to go in the app to enter my card info?",
+    "true_label": "card_linking",
+    "top_k_predictions": [
+      "card_payment_not_recognised",
+      "card_linking",
+      "card_acceptance",
+      "activate_my_card",
+      "topping_up_by_card"
+    ],
+    "entities": "card, enter, app, info",
+    "explanation": "The key terms in the query are \"card,\" \"enter,\" \"app,\" and \"info,\" which indicate the user is looking to input their card information in the app.",
+    "predicted_label": "card_linking"
+  },
+  {
+    "id": 803,
+    "text": "Where can I receive my card?",
+    "true_label": "order_physical_card",
+    "top_k_predictions": [
+      "card_arrival",
+      "get_physical_card",
+      "order_physical_card",
+      "card_delivery_estimate",
+      "receiving_money"
+    ],
+    "entities": "receive, card",
+    "explanation": "The key terms \"receive\" and \"card\" indicate that the user is inquiring about the location or method of receiving their card.",
+    "predicted_label": "card_arrival"
+  },
+  {
+    "id": 1519,
+    "text": "I'm just wondering when my card will get here.",
+    "true_label": "card_delivery_estimate",
+    "top_k_predictions": [
+      "card_arrival",
+      "card_delivery_estimate",
+      "get_physical_card",
+      "order_physical_card",
+      "getting_spare_card"
+    ],
+    "entities": "card, get, here",
+    "explanation": "The key terms in the sentence are \"card\" (referring to a physical card), \"get\" (indicating a request or action), and \"here\" (referring to the user's location or destination). These terms suggest that the user is inquiring about the delivery or arrival of a physical card.",
+    "predicted_label": "card_delivery_estimate"
+  },
+  {
+    "id": 588,
+    "text": "I want a refund because my package has been taking too long to arrive. How do I go about doing that?",
+    "true_label": "request_refund",
+    "top_k_predictions": [
+      "request_refund",
+      "Refund_not_showing_up",
+      "card_arrival"
+    ],
+    "entities": "refund, package, taking too long, arrive",
+    "explanation": "The key terms in the sentence are \"refund,\" \"package,\" \"taking too long,\" and \"arrive,\" indicating that the user is concerned about a delayed package and wants to request a refund.",
+    "predicted_label": "request_refund"
+  },
+  {
+    "id": 875,
+    "text": "I was retrieving money and my card wouldn't remove.",
+    "true_label": "card_swallowed",
+    "top_k_predictions": [
+      "card_swallowed",
+      "card_not_working",
+      "cash_withdrawal_not_recognised",
+      "cash_withdrawal_charge",
+      "card_payment_not_recognised"
+    ],
+    "entities": "retrieving money, card wouldn't remove",
+    "explanation": "The key terms in the sentence are \"retrieving money\" and \"card wouldn't remove,\" indicating an issue with the card not being able to be removed during a transaction.",
+    "predicted_label": "card_swallowed"
+  },
+  {
+    "id": 171,
+    "text": "Where can I find your locations?",
+    "true_label": "country_support",
+    "top_k_predictions": [
+      "country_support",
+      "card_acceptance",
+      "card_arrival",
+      "get_physical_card",
+      "supported_cards_and_currencies"
+    ],
+    "entities": "locations",
+    "explanation": "The key term \"locations\" indicates that the user is looking for information about the physical places associated with the service.",
+    "predicted_label": "get_physical_card"
+  },
+  {
+    "id": 906,
+    "text": "Can I use app to freeze my card and dispute fraud?",
+    "true_label": "compromised_card",
+    "top_k_predictions": [
+      "lost_or_stolen_card",
+      "card_payment_not_recognised",
+      "compromised_card",
+      "card_not_working"
+    ],
+    "entities": "freeze, card, dispute, fraud",
+    "explanation": "The key terms in the query are \"freeze,\" \"card,\" \"dispute,\" and \"fraud,\" indicating the user is concerned about taking action related to a potentially compromised or fraudulently used card.",
+    "predicted_label": "compromised_card"
+  },
+  {
+    "id": 169,
+    "text": "How can I fund my top-up account using my bank account?",
+    "true_label": "transfer_into_account",
+    "top_k_predictions": [
+      "topping_up_by_card",
+      "top_up_by_bank_transfer_charge",
+      "pending_top_up",
+      "top_up_by_cash_or_cheque",
+      "transfer_into_account"
+    ],
+    "entities": "fund, top-up account, bank account",
+    "explanation": "The key terms in the query are \"fund,\" \"top-up account,\" and \"bank account,\" indicating the user is looking for information on how to add money to their top-up account using their bank account.",
+    "predicted_label": "topping_up_by_bank_transfer_charge"
+  },
+  {
+    "id": 1394,
+    "text": "Do I need to verify my identity each time I wish to use my account?",
+    "true_label": "why_verify_identity",
+    "top_k_predictions": [
+      "why_verify_identity",
+      "verify_my_identity",
+      "unable_to_verify_identity",
+      "activate_my_card",
+      "country_support"
+    ],
+    "entities": "verify, identity, account",
+    "explanation": "The key terms in the sentence are \"verify,\" \"identity,\" and \"account,\" which indicate a concern about the process of verifying identity for account usage.",
+    "predicted_label": "why_verify_identity"
+  },
+  {
+    "id": 2068,
+    "text": "When will my funds transfer?",
+    "true_label": "transfer_not_received_by_recipient",
+    "top_k_predictions": [
+      "transfer_timing",
+      "pending_transfer",
+      "transfer_not_received_by_recipient",
+      "transfer_fee_charged",
+      "transfer_into_account"
+    ],
+    "entities": "funds, transfer",
+    "explanation": "The key terms in the query are \"funds\" and \"transfer,\" indicating that the user is inquiring about the timing of a fund transfer.",
+    "predicted_label": "transfer_timing"
+  },
+  {
+    "id": 726,
+    "text": "My disposable card seems not to be working am I doing something wrong?",
+    "true_label": "virtual_card_not_working",
+    "top_k_predictions": [
+      "card_not_working",
+      "disposable_card_limits",
+      "card_payment_not_recognised",
+      "card_acceptance",
+      "declined_card_payment"
+    ],
+    "entities": "disposable card, not working",
+    "explanation": "The key terms in the sentence are \"disposable card\" and \"not working,\" indicating an issue with the functionality of the disposable card.",
+    "predicted_label": "card_not_working"
+  },
+  {
+    "id": 2374,
+    "text": "top up did not complete",
+    "true_label": "pending_top_up",
+    "top_k_predictions": [
+      "top_up_failed",
+      "pending_top_up",
+      "topping_up_by_card",
+      "top_up_reverted",
+      "failed_transfer"
+    ],
+    "entities": "top up, complete",
+    "explanation": "The key terms in the sentence are \"top up\" and \"complete,\" indicating that the user is referring to a failed or incomplete top-up transaction.",
+    "predicted_label": "top_up_failed"
+  },
+  {
+    "id": 1899,
+    "text": "My ATM got stuck and I'm not sure what to do.",
+    "true_label": "card_swallowed",
+    "top_k_predictions": [
+      "lost_or_stolen_card",
+      "card_swallowed",
+      "card_not_working",
+      "cash_withdrawal_not_recognised",
+      "pending_cash_withdrawal"
+    ],
+    "entities": "ATM, stuck",
+    "explanation": "The key terms \"ATM\" and \"stuck\" indicate that the user is facing an issue with their ATM card being stuck in the machine.",
+    "predicted_label": "card_swallowed"
+  },
+  {
+    "id": 1016,
+    "text": "Unknown direct deposit",
+    "true_label": "direct_debit_payment_not_recognised",
+    "top_k_predictions": [
+      "receiving_money",
+      "direct_debit_payment_not_recognised",
+      "transfer_not_received_by_recipient",
+      "card_payment_not_recognised",
+      "pending_transfer"
+    ],
+    "entities": "unknown, direct deposit",
+    "explanation": "The key terms in the query are \"unknown\" and \"direct deposit,\" indicating that the user is referring to a deposit that is not recognized or identified.",
+    "predicted_label": "direct_debit_payment_not_recognised"
+  },
+  {
+    "id": 852,
+    "text": "Someone has my card number, freeze my account.",
+    "true_label": "compromised_card",
+    "top_k_predictions": [
+      "compromised_card",
+      "card_payment_not_recognised",
+      "lost_or_stolen_card",
+      "card_payment_wrong_exchange_rate",
+      "card_payment_fee_charged"
+    ],
+    "entities": "card number, freeze, account",
+    "explanation": "The key terms in the query are \"card number,\" \"freeze,\" and \"account.\" The user is concerned about their card number being compromised and wants to freeze their account to prevent unauthorized use.",
+    "predicted_label": "compromised_card"
+  },
+  {
+    "id": 2773,
+    "text": "Hi, I would like to file a claim for an inquiry. I am a frequent customer of the company in question and have never had any issue with my purchases, payments, or otherwise. However, the price deducted for an item I purchased a couple of weeks ago has been returned to my checking account. Was there an issue with my payment? The item has already been delivered to me.",
+    "true_label": "reverted_card_payment?",
+    "top_k_predictions": [
+      "card_payment_not_recognised",
+      "Refund_not_showing_up",
+      "reverted_card_payment?",
+      "card_payment_fee_charged",
+      "request_refund"
+    ],
+    "entities": "claim, inquiry, frequent customer, purchases, payments, price deducted, item purchased, returned, checking account, issue, payment, delivered",
+    "explanation": "The key terms in the query suggest that the user is inquiring about a payment-related issue where the price for an item purchased was returned to their checking account, leading to confusion about the payment status.",
+    "predicted_label": "card_payment_not_recognised"
+  },
+  {
+    "id": 1738,
+    "text": "Why can't I get my virtual card to work?",
+    "true_label": "virtual_card_not_working",
+    "top_k_predictions": [
+      "virtual_card_not_working",
+      "card_not_working",
+      "card_acceptance",
+      "card_payment_not_recognised",
+      "activate_my_card"
+    ],
+    "entities": "virtual card, work",
+    "explanation": "The key terms in the query are \"virtual card\" and \"work,\" indicating that the user is having trouble with their virtual card not working.",
+    "predicted_label": "virtual_card_not_working"
+  },
+  {
+    "id": 3047,
+    "text": "WTF??? I tried to withdraw some money at a Metro bank on High St. Kensington and without any notice it disappeared in the machine. The bank was already closed so I couldn't do anything. How do I get it back?",
+    "true_label": "card_swallowed",
+    "top_k_predictions": [
+      "card_swallowed",
+      "cash_withdrawal_not_recognised",
+      "pending_cash_withdrawal",
+      "top_up_reverted",
+      "lost_or_stolen_card"
+    ],
+    "entities": "money, Metro bank, High St. Kensington, disappeared, machine, bank closed",
+    "explanation": "The user is describing a situation where they attempted to withdraw money from a Metro bank ATM on High St. Kensington, but the money disappeared without any notice. They are seeking guidance on how to retrieve the lost money since the bank was closed at the time of the incident.",
+    "predicted_label": "pending_cash_withdrawal"
+  },
+  {
+    "id": 1828,
+    "text": "When will the card arrive?",
+    "true_label": "card_delivery_estimate",
+    "top_k_predictions": [
+      "card_arrival",
+      "card_delivery_estimate",
+      "card_not_working",
+      "transfer_timing",
+      "pending_card_payment"
+    ],
+    "entities": "card, arrive",
+    "explanation": "The key terms in the query are \"card\" and \"arrive,\" indicating that the user is inquiring about the arrival of a card.",
+    "predicted_label": "card_arrival"
+  },
+  {
+    "id": 3051,
+    "text": "I don't think my card payment exchange rate is correct.",
+    "true_label": "card_payment_wrong_exchange_rate",
+    "top_k_predictions": [
+      "card_payment_wrong_exchange_rate",
+      "exchange_charge",
+      "card_payment_not_recognised",
+      "wrong_exchange_rate_for_cash_withdrawal",
+      "exchange_via_app"
+    ],
+    "entities": "card payment, exchange rate, correct",
+    "explanation": "The key terms in the sentence are \"card payment,\" \"exchange rate,\" and \"correct.\" The user is expressing concern about the exchange rate for a card payment transaction.",
+    "predicted_label": "card_payment_wrong_exchange_rate"
+  },
+  {
+    "id": 2261,
+    "text": "Is there any documentation needed for the identity check?",
+    "true_label": "verify_my_identity",
+    "top_k_predictions": [
+      "why_verify_identity",
+      "verify_my_identity",
+      "unable_to_verify_identity",
+      "supported_cards_and_currencies",
+      "order_physical_card"
+    ],
+    "entities": "documentation, identity check",
+    "explanation": "The key terms in the query are \"documentation\" and \"identity check,\" indicating that the user is inquiring about the requirements for verifying their identity.",
+    "predicted_label": "why_verify_identity"
+  },
+  {
+    "id": 2370,
+    "text": "My card doesn't accept any transaction at all. What's wrong??",
+    "true_label": "card_not_working",
+    "top_k_predictions": [
+      "card_not_working",
+      "card_acceptance",
+      "card_payment_not_recognised",
+      "card_payment_fee_charged",
+      "card_payment_wrong_exchange_rate"
+    ],
+    "entities": "card, transaction",
+    "explanation": "The key terms in the query are \"card\" and \"transaction,\" indicating an issue with the card not accepting transactions.",
+    "predicted_label": "card_acceptance"
+  },
+  {
+    "id": 419,
+    "text": "Where can the card be used?",
+    "true_label": "card_acceptance",
+    "top_k_predictions": [
+      "card_acceptance",
+      "supported_cards_and_currencies",
+      "card_not_working",
+      "card_delivery_estimate",
+      "card_payment_not_recognised"
+    ],
+    "entities": "card, used",
+    "explanation": "The key terms in the query are \"card\" and \"used,\" indicating that the user is inquiring about the locations or places where the card can be utilized.",
+    "predicted_label": "card_acceptance"
+  },
+  {
+    "id": 729,
+    "text": "Why didn`t my topup go through?",
+    "true_label": "top_up_failed",
+    "top_k_predictions": [
+      "top_up_failed",
+      "top_up_reverted",
+      "pending_top_up",
+      "card_payment_not_recognised",
+      "topping_up_by_card"
+    ],
+    "entities": "topup, go through",
+    "explanation": "The key terms in the query are \"topup\" and \"go through,\" indicating that the user is inquiring about a failed top-up transaction.",
+    "predicted_label": "top_up_failed"
+  },
+  {
+    "id": 1008,
+    "text": "I initiated a Bank transfer form Europe, how long will this take?",
+    "true_label": "transfer_timing",
+    "top_k_predictions": [
+      "pending_transfer",
+      "transfer_timing",
+      "transfer_into_account",
+      "balance_not_updated_after_bank_transfer",
+      "failed_transfer"
+    ],
+    "entities": "initiated, Bank transfer, Europe, how long, take",
+    "explanation": "The key terms in the query are \"initiated,\" \"Bank transfer,\" \"Europe,\" \"how long,\" and \"take.\" These terms suggest that the user is inquiring about the timing or duration of a bank transfer initiated from Europe.",
+    "predicted_label": "transfer_timing"
+  },
+  {
+    "id": 1440,
+    "text": "Is there a way my new card can be renewed?",
+    "true_label": "activate_my_card",
+    "top_k_predictions": [
+      "card_arrival",
+      "activate_my_card",
+      "get_physical_card",
+      "card_not_working",
+      "card_delivery_estimate"
+    ],
+    "entities": "new card, renewed",
+    "explanation": "The key terms \"new card\" and \"renewed\" suggest that the user is inquiring about the renewal process for their new card.",
+    "predicted_label": "card_arrival"
+  },
+  {
+    "id": 708,
+    "text": "Do I need to verify my identity to use my account?",
+    "true_label": "why_verify_identity",
+    "top_k_predictions": [
+      "why_verify_identity",
+      "verify_my_identity",
+      "unable_to_verify_identity",
+      "activate_my_card",
+      "card_payment_not_recognised"
+    ],
+    "entities": "verify, identity, use, account",
+    "explanation": "The key terms in the sentence are \"verify,\" \"identity,\" \"use,\" and \"account,\" which indicate the user is inquiring about the process of verifying their identity to use their account.",
+    "predicted_label": "why_verify_identity"
+  },
+  {
+    "id": 276,
+    "text": "I cannot get my virtual card to work.",
+    "true_label": "virtual_card_not_working",
+    "top_k_predictions": [
+      "virtual_card_not_working",
+      "card_not_working",
+      "card_acceptance",
+      "card_payment_not_recognised",
+      "activate_my_card"
+    ],
+    "entities": "virtual card, work",
+    "explanation": "The key terms in the sentence are \"virtual card\" and \"work,\" indicating that the user is having trouble with their virtual card not working.",
+    "predicted_label": "virtual_card_not_working"
+  },
+  {
+    "id": 2579,
+    "text": "I am having issues with identity verification",
+    "true_label": "unable_to_verify_identity",
+    "top_k_predictions": [
+      "verify_my_identity",
+      "unable_to_verify_identity",
+      "why_verify_identity",
+      "pending_transfer",
+      "card_not_working"
+    ],
+    "entities": "issues, identity verification",
+    "explanation": "The key terms in the sentence are \"issues\" and \"identity verification,\" indicating a problem with the process of verifying identity.",
+    "predicted_label": "unable_to_verify_identity"
+  },
+  {
+    "id": 2101,
+    "text": "What is the maximum I can transfer before I incur fees?",
+    "true_label": "transfer_fee_charged",
+    "top_k_predictions": [
+      "transfer_fee_charged",
+      "transfer_timing",
+      "top_up_limits",
+      "exchange_charge",
+      "transfer_into_account"
+    ],
+    "entities": "maximum, transfer, fees",
+    "explanation": "The key terms in the query are \"maximum,\" \"transfer,\" and \"fees,\" indicating that the user is inquiring about the maximum amount that can be transferred before incurring fees.",
+    "predicted_label": "top_up_limits"
+  },
+  {
+    "id": 787,
+    "text": "The stupid machine just swallowed my card!! I need a new one ASAP",
+    "true_label": "card_swallowed",
+    "top_k_predictions": [
+      "card_swallowed",
+      "card_acceptance",
+      "lost_or_stolen_card",
+      "getting_spare_card",
+      "card_not_working"
+    ],
+    "entities": "machine, swallowed, card, new one, ASAP",
+    "explanation": "The user is expressing frustration over their card being swallowed by a machine and urgently needs a replacement.",
+    "predicted_label": "card_swallowed"
+  },
+  {
+    "id": 2737,
+    "text": "How do I show this stupid system that this is really my identity?",
+    "true_label": "unable_to_verify_identity",
+    "top_k_predictions": [
+      "why_verify_identity",
+      "unable_to_verify_identity",
+      "verify_my_identity",
+      "activate_my_card",
+      "card_not_working"
+    ],
+    "entities": "show, system, identity",
+    "explanation": "The key terms in the query are \"show,\" \"system,\" and \"identity,\" indicating that the user is trying to prove or demonstrate their identity to a system.",
+    "predicted_label": "verify_my_identity"
+  },
+  {
+    "id": 311,
+    "text": "How can I start using my card?",
+    "true_label": "activate_my_card",
+    "top_k_predictions": [
+      "activate_my_card",
+      "card_arrival",
+      "card_acceptance",
+      "get_physical_card",
+      "card_not_working"
+    ],
+    "entities": "start, using, card",
+    "explanation": "The key terms in the query are \"start,\" \"using,\" and \"card,\" indicating that the user is looking for information on how to begin using their card.",
+    "predicted_label": "card_acceptance"
+  },
+  {
+    "id": 779,
+    "text": "My money transfer has not arrived.",
+    "true_label": "transfer_not_received_by_recipient",
+    "top_k_predictions": [
+      "transfer_not_received_by_recipient",
+      "transfer_timing",
+      "pending_transfer",
+      "transfer_into_account",
+      "failed_transfer"
+    ],
+    "entities": "money transfer, not arrived",
+    "explanation": "The key terms in the sentence are \"money transfer\" and \"not arrived,\" indicating that the user is inquiring about a transfer that has not been received.",
+    "predicted_label": "transfer_not_received_by_recipient"
+  },
+  {
+    "id": 2605,
+    "text": "How long does it take to get my card? Can I choose when to receive it?",
+    "true_label": "card_delivery_estimate",
+    "top_k_predictions": [
+      "card_delivery_estimate",
+      "card_arrival",
+      "get_physical_card",
+      "activate_my_card",
+      "getting_spare_card"
+    ],
+    "entities": "card, take, choose, receive",
+    "explanation": "The key terms in the query are \"card,\" \"take,\" \"choose,\" and \"receive,\" which indicate the user is inquiring about the time it takes to receive their card and if they can choose the delivery time.",
+    "predicted_label": "card_delivery_estimate"
+  },
+  {
+    "id": 2353,
+    "text": "When getting my ID checked, what are the steps involved?",
+    "true_label": "verify_my_identity",
+    "top_k_predictions": [
+      "verify_my_identity",
+      "why_verify_identity",
+      "unable_to_verify_identity",
+      "activate_my_card",
+      "card_acceptance"
+    ],
+    "entities": "ID, steps",
+    "explanation": "The key terms in the query are \"ID\" and \"steps,\" indicating that the user is asking about the process or steps involved in verifying their identity.",
+    "predicted_label": "verify_my_identity"
+  },
+  {
+    "id": 1850,
+    "text": "I would like to not have to do the identity verification.",
+    "true_label": "why_verify_identity",
+    "top_k_predictions": [
+      "unable_to_verify_identity",
+      "why_verify_identity",
+      "verify_my_identity",
+      "balance_not_updated_after_bank_transfer",
+      "pending_card_payment"
+    ],
+    "entities": "identity verification",
+    "explanation": "The key term in the query is \"identity verification,\" indicating the user's intent to avoid or not have to go through the process of verifying their identity.",
+    "predicted_label": "unable_to_verify_identity"
+  },
+  {
+    "id": 777,
+    "text": "Im waiting for my transaction to go through.",
+    "true_label": "transfer_not_received_by_recipient",
+    "top_k_predictions": [
+      "pending_transfer",
+      "pending_cash_withdrawal",
+      "pending_top_up",
+      "transfer_timing",
+      "pending_card_payment"
+    ],
+    "entities": "transaction, go through",
+    "explanation": "The user is referring to a transaction that is pending or in progress.",
+    "predicted_label": "pending_transfer"
+  },
+  {
+    "id": 2943,
+    "text": "Why is the exchange rate wrong when I purchase something abroad?",
+    "true_label": "card_payment_wrong_exchange_rate",
+    "top_k_predictions": [
+      "wrong_exchange_rate_for_cash_withdrawal",
+      "exchange_charge",
+      "card_payment_wrong_exchange_rate",
+      "balance_not_updated_after_bank_transfer",
+      "card_payment_not_recognised"
+    ],
+    "entities": "exchange rate, purchase, abroad",
+    "explanation": "The key terms in the query are \"exchange rate,\" \"purchase,\" and \"abroad,\" indicating that the user is concerned about the exchange rate when making a purchase in a foreign country.",
+    "predicted_label": "wrong_exchange_rate_for_cash_withdrawal"
+  },
+  {
+    "id": 2357,
+    "text": "I need help because I drunken blocked my card?",
+    "true_label": "pin_blocked",
+    "top_k_predictions": [
+      "card_not_working",
+      "compromised_card",
+      "card_payment_not_recognised",
+      "lost_or_stolen_card",
+      "pin_blocked"
+    ],
+    "entities": "help, drunken, blocked, card",
+    "explanation": "The key terms in the sentence are \"help,\" \"drunken,\" \"blocked,\" and \"card.\" The user is seeking assistance because they have blocked their card after being drunk.",
+    "predicted_label": "pin_blocked"
+  },
+  {
+    "id": 1950,
+    "text": "My top-up showed as complete, but it's no longer there! What's going on here?",
+    "true_label": "top_up_reverted",
+    "top_k_predictions": [
+      "pending_top_up",
+      "top_up_reverted",
+      "top_up_failed",
+      "balance_not_updated_after_bank_transfer",
+      "card_payment_not_recognised"
+    ],
+    "entities": "top-up, complete, no longer there",
+    "explanation": "The key terms in the query are \"top-up,\" \"complete,\" and \"no longer there,\" indicating that the user is experiencing an issue with a completed top-up that is no longer reflected.",
+    "predicted_label": "pending_top_up"
+  },
+  {
+    "id": 2224,
+    "text": "In the past month I often used this account to manage payments for my new holiday villa. Now all of a sudden your fees have increased exorbitantly! Don't you have a rewards programme for frequent users?",
+    "true_label": "transfer_fee_charged",
+    "top_k_predictions": [
+      "card_payment_fee_charged",
+      "extra_charge_on_statement",
+      "exchange_charge",
+      "card_payment_not_recognised",
+      "card_payment_wrong_exchange_rate"
+    ],
+    "entities": "account, payments, fees, increased, rewards programme, frequent users",
+    "explanation": "The user is expressing concern about increased fees on their account and inquires about a rewards programme for frequent users.",
+    "predicted_label": "extra_charge_on_statement"
+  },
+  {
+    "id": 226,
+    "text": "Where is my transfer from [country]?",
+    "true_label": "balance_not_updated_after_bank_transfer",
+    "top_k_predictions": [
+      "transfer_timing",
+      "transfer_not_received_by_recipient",
+      "pending_transfer",
+      "transfer_into_account",
+      "failed_transfer"
+    ],
+    "entities": "transfer, [country]",
+    "explanation": "The key terms in the query are \"transfer\" and the specific country mentioned. The user is inquiring about the location or status of a transfer originating from a particular country.",
+    "predicted_label": "pending_transfer"
+  },
+  {
+    "id": 2402,
+    "text": "do the details of my profile have to match my documents",
+    "true_label": "verify_my_identity",
+    "top_k_predictions": [
+      "verify_my_identity",
+      "unable_to_verify_identity",
+      "why_verify_identity",
+      "card_linking",
+      "card_payment_not_recognised"
+    ],
+    "entities": "details, profile, match, documents",
+    "explanation": "The key terms in the query are \"details,\" \"profile,\" \"match,\" and \"documents,\" which indicate a user asking about the necessity of matching the details in their profile with their documents.",
+    "predicted_label": "why_verify_identity"
+  },
+  {
+    "id": 2594,
+    "text": "There is an incoming payment into my account, but it is deactivated. Will they still be processed?",
+    "true_label": "fiat_currency_support",
+    "top_k_predictions": [
+      "transfer_not_received_by_recipient",
+      "transfer_into_account",
+      "receiving_money",
+      "pending_transfer",
+      "top_up_failed"
+    ],
+    "entities": "incoming payment, account, deactivated, processed",
+    "explanation": "The key terms in the query are \"incoming payment,\" \"account,\" \"deactivated,\" and \"processed.\" The user is inquiring about the processing of an incoming payment into their deactivated account.",
+    "predicted_label": "receiving_money"
+  },
+  {
+    "id": 607,
+    "text": "Can I change the amount I made on a payment that I made to the payment is correct.",
+    "true_label": "cancel_transfer",
+    "top_k_predictions": [
+      "card_payment_wrong_exchange_rate",
+      "card_payment_not_recognised",
+      "request_refund",
+      "card_payment_fee_charged",
+      "reverted_card_payment?"
+    ],
+    "entities": "change, amount, payment, correct",
+    "explanation": "The key terms in the query are \"change,\" \"amount,\" \"payment,\" and \"correct,\" indicating that the user is looking to modify the amount of a payment to ensure it is correct.",
+    "predicted_label": "card_payment_wrong_exchange_rate"
+  },
+  {
+    "id": 1240,
+    "text": "Can I be topped up once I hit a certain balance?",
+    "true_label": "automatic_top_up",
+    "top_k_predictions": [
+      "topping_up_by_card",
+      "pending_top_up",
+      "top_up_limits",
+      "top_up_reverted",
+      "automatic_top_up"
+    ],
+    "entities": "topped up, certain balance",
+    "explanation": "The key terms in the query are \"topped up\" and \"certain balance,\" indicating the user is inquiring about the possibility of being topped up when reaching a specific balance.",
+    "predicted_label": "pending_top_up"
+  },
+  {
+    "id": 1153,
+    "text": "Can you help me figure out what's happening? I'm trying to transfer money to a friend but it keeps getting returned. I'm not sure what i'm doing wrong.",
+    "true_label": "failed_transfer",
+    "top_k_predictions": [
+      "failed_transfer",
+      "declined_transfer",
+      "transfer_not_received_by_recipient",
+      "transfer_timing",
+      "cancel_transfer"
+    ],
+    "entities": "transfer, money, friend, returned, doing wrong",
+    "explanation": "The key terms in the query indicate that the user is facing issues with transferring money to a friend, and the transfer keeps getting returned. The user is unsure about what they are doing wrong.",
+    "predicted_label": "failed_transfer"
+  },
+  {
+    "id": 2726,
+    "text": "If I started the Bank transfer from Europe, how long will the process take to complete?",
+    "true_label": "transfer_timing",
+    "top_k_predictions": [
+      "transfer_timing",
+      "balance_not_updated_after_bank_transfer",
+      "transfer_not_received_by_recipient",
+      "pending_transfer",
+      "transfer_fee_charged"
+    ],
+    "entities": "Bank transfer, Europe, process, complete",
+    "explanation": "The key terms in the query are \"Bank transfer,\" \"Europe,\" \"process,\" and \"complete,\" indicating that the user is inquiring about the timing or duration of a bank transfer initiated from Europe.",
+    "predicted_label": "transfer_timing"
+  },
+  {
+    "id": 1391,
+    "text": "Since my id hasn't been verified, when can I use my account?",
+    "true_label": "why_verify_identity",
+    "top_k_predictions": [
+      "why_verify_identity",
+      "verify_my_identity",
+      "unable_to_verify_identity",
+      "activate_my_card",
+      "card_not_working"
+    ],
+    "entities": "id, verified, account",
+    "explanation": "The key terms in the sentence are \"id,\" \"verified,\" and \"account,\" indicating that the user is concerned about the verification of their identity and when they can use their account.",
+    "predicted_label": "why_verify_identity"
+  },
+  {
+    "id": 2543,
+    "text": "How long do transfer pend for?",
+    "true_label": "pending_transfer",
+    "top_k_predictions": [
+      "pending_transfer",
+      "transfer_timing",
+      "failed_transfer",
+      "transfer_not_received_by_recipient",
+      "balance_not_updated_after_bank_transfer"
+    ],
+    "entities": "transfer, pend",
+    "explanation": "The key terms in the sentence are \"transfer\" and \"pend,\" indicating that the user is inquiring about the timing or duration of a transfer process.",
+    "predicted_label": "transfer_timing"
+  },
+  {
+    "id": 1654,
+    "text": "Is there a way to know when my card will arrive?",
+    "true_label": "card_arrival",
+    "top_k_predictions": [
+      "card_arrival",
+      "card_delivery_estimate",
+      "get_physical_card",
+      "order_physical_card",
+      "card_not_working"
+    ],
+    "entities": "card, arrive",
+    "explanation": "The key terms in the sentence are \"card\" and \"arrive,\" indicating that the user is inquiring about the delivery or arrival of a card.",
+    "predicted_label": "card_arrival"
+  },
+  {
+    "id": 2607,
+    "text": "Why won't my card show up on the app?",
+    "true_label": "card_linking",
+    "top_k_predictions": [
+      "card_not_working",
+      "card_payment_not_recognised",
+      "card_acceptance",
+      "card_arrival",
+      "card_linking"
+    ],
+    "entities": "card, show up, app",
+    "explanation": "The key terms in the query are \"card,\" \"show up,\" and \"app.\" The user is inquiring about why their card is not appearing on the app.",
+    "predicted_label": "card_linking"
+  },
+  {
+    "id": 1790,
+    "text": "What all am I required to show for the identity check?",
+    "true_label": "verify_my_identity",
+    "top_k_predictions": [
+      "why_verify_identity",
+      "verify_my_identity",
+      "unable_to_verify_identity",
+      "activate_my_card",
+      "card_delivery_estimate"
+    ],
+    "entities": "identity check",
+    "explanation": "The key terms in the sentence are \"identity check,\" which indicate that the user is inquiring about the process or requirements for verifying their identity.",
+    "predicted_label": "why_verify_identity"
+  },
+  {
+    "id": 1216,
+    "text": "Can you explain the virtual cards limit?",
+    "true_label": "disposable_card_limits",
+    "top_k_predictions": [
+      "virtual_card_not_working",
+      "card_not_working",
+      "card_payment_fee_charged",
+      "card_payment_not_recognised",
+      "top_up_limits"
+    ],
+    "entities": "virtual cards, limit",
+    "explanation": "The key terms in the query are \"virtual cards\" and \"limit,\" indicating that the user is inquiring about the limits associated with virtual cards.",
+    "predicted_label": "top_up_limits"
+  },
+  {
+    "id": 1886,
+    "text": "How do i finalize a card payment",
+    "true_label": "pending_card_payment",
+    "top_k_predictions": [
+      "card_payment_not_recognised",
+      "card_payment_fee_charged",
+      "pending_card_payment",
+      "card_payment_wrong_exchange_rate"
+    ],
+    "entities": "finalize, card payment",
+    "explanation": "The key terms in the query are \"finalize\" and \"card payment,\" indicating that the user is seeking information on completing a card payment.",
+    "predicted_label": "pending_card_payment"
+  },
+  {
+    "id": 2626,
+    "text": "So I just put my top-up into the card and it hasn't changed.",
+    "true_label": "pending_top_up",
+    "top_k_predictions": [
+      "top_up_failed",
+      "topping_up_by_card",
+      "top_up_reverted",
+      "card_not_working",
+      "automatic_top_up"
+    ],
+    "entities": "top-up, card, changed",
+    "explanation": "The key terms in the sentence are \"top-up,\" \"card,\" and \"changed,\" indicating a user query related to a top-up transaction using a card that did not go through as expected.",
+    "predicted_label": "top_up_failed"
+  },
+  {
+    "id": 548,
+    "text": "Why is a money transfer not showing?",
+    "true_label": "pending_transfer",
+    "top_k_predictions": [
+      "transfer_not_received_by_recipient",
+      "transfer_timing",
+      "failed_transfer",
+      "transfer_fee_charged",
+      "transfer_into_account"
+    ],
+    "entities": "money transfer, not showing",
+    "explanation": "The key terms \"money transfer\" and \"not showing\" indicate that the user is inquiring about a transfer that is not visible or reflected in their account.",
+    "predicted_label": "transfer_not_received_by_recipient"
+  },
+  {
+    "id": 2012,
+    "text": "I topped up my card but the money disappeared.",
+    "true_label": "topping_up_by_card",
+    "top_k_predictions": [
+      "top_up_reverted",
+      "top_up_failed",
+      "card_payment_not_recognised",
+      "balance_not_updated_after_bank_transfer",
+      "topping_up_by_card"
+    ],
+    "entities": "topped up, card, money, disappeared",
+    "explanation": "The key terms in the sentence are \"topped up,\" \"card,\" \"money,\" and \"disappeared.\" The user is mentioning that they added money to their card, but it disappeared.",
+    "predicted_label": "top_up_failed"
+  },
+  {
+    "id": 1927,
+    "text": "Where is the money I topped off with?",
+    "true_label": "pending_top_up",
+    "top_k_predictions": [
+      "top_up_reverted",
+      "topping_up_by_card",
+      "balance_not_updated_after_bank_transfer",
+      "pending_top_up",
+      "cash_withdrawal_not_recognised"
+    ],
+    "entities": "money, topped off",
+    "explanation": "The key terms in the query are \"money\" and \"topped off,\" indicating that the user is inquiring about the location or status of the money they recently added to their account.",
+    "predicted_label": "pending_top_up"
+  },
+  {
+    "id": 1051,
+    "text": "What is stopping my money from transferring?",
+    "true_label": "failed_transfer",
+    "top_k_predictions": [
+      "balance_not_updated_after_bank_transfer",
+      "pending_transfer",
+      "transfer_not_received_by_recipient",
+      "failed_transfer",
+      "transfer_into_account"
+    ],
+    "entities": "money, transferring",
+    "explanation": "The key terms \"money\" and \"transferring\" indicate that the user is inquiring about a transfer issue related to their funds.",
+    "predicted_label": "transfer_not_received_by_recipient"
+  },
+  {
+    "id": 1407,
+    "text": "Your exchange rate is totally wrong for my card payment",
+    "true_label": "card_payment_wrong_exchange_rate",
+    "top_k_predictions": [
+      "wrong_exchange_rate_for_cash_withdrawal",
+      "exchange_charge",
+      "card_payment_wrong_exchange_rate",
+      "card_payment_not_recognised",
+      "card_payment_fee_charged"
+    ],
+    "entities": "exchange rate, card payment",
+    "explanation": "The key terms in the sentence are \"exchange rate\" and \"card payment,\" indicating that the user is concerned about the exchange rate for their card payment.",
+    "predicted_label": "card_payment_wrong_exchange_rate"
+  },
+  {
+    "id": 3079,
+    "text": "im not sure what this charge is for",
+    "true_label": "card_payment_fee_charged",
+    "top_k_predictions": [
+      "card_payment_not_recognised",
+      "extra_charge_on_statement",
+      "card_payment_fee_charged",
+      "declined_card_payment",
+      "compromised_card"
+    ],
+    "entities": "charge",
+    "explanation": "The key term \"charge\" indicates that the user is concerned about a specific charge on their statement.",
+    "predicted_label": "extra_charge_on_statement"
+  },
+  {
+    "id": 1280,
+    "text": "Why is my virtual card is being declined?",
+    "true_label": "virtual_card_not_working",
+    "top_k_predictions": [
+      "virtual_card_not_working",
+      "declined_card_payment",
+      "card_payment_not_recognised",
+      "card_not_working",
+      "card_acceptance"
+    ],
+    "entities": "virtual card, declined",
+    "explanation": "The key terms in the query are \"virtual card\" and \"declined,\" indicating that the user is experiencing issues with their virtual card being declined.",
+    "predicted_label": "virtual_card_not_working"
+  },
+  {
+    "id": 1467,
+    "text": "I followed the instructions to transfer money using my card, but then the money disappeared and I don't know what happened.",
+    "true_label": "topping_up_by_card",
+    "top_k_predictions": [
+      "balance_not_updated_after_bank_transfer",
+      "failed_transfer",
+      "transfer_not_received_by_recipient",
+      "transfer_timing",
+      "transfer_into_account"
+    ],
+    "entities": "transfer, money, card, disappeared",
+    "explanation": "The key terms in the sentence are \"transfer,\" \"money,\" \"card,\" and \"disappeared,\" indicating a problem or issue with a money transfer using a card.",
+    "predicted_label": "failed_transfer"
+  },
+  {
+    "id": 129,
+    "text": "I don't want the transaction to go through now",
+    "true_label": "cancel_transfer",
+    "top_k_predictions": [
+      "failed_transfer",
+      "cancel_transfer",
+      "transfer_timing",
+      "pending_transfer",
+      "declined_transfer"
+    ],
+    "entities": "transaction, go through",
+    "explanation": "The key terms \"transaction\" and \"go through\" indicate a user's intention to prevent a transaction from being completed.",
+    "predicted_label": "cancel_transfer"
+  },
+  {
+    "id": 2299,
+    "text": "Where is the transfer I started?",
+    "true_label": "transfer_not_received_by_recipient",
+    "top_k_predictions": [
+      "transfer_not_received_by_recipient",
+      "transfer_timing",
+      "pending_transfer",
+      "transfer_into_account",
+      "failed_transfer"
+    ],
+    "entities": "transfer, started",
+    "explanation": "The key terms in the query are \"transfer\" and \"started,\" indicating that the user is inquiring about the status or location of a transfer they initiated.",
+    "predicted_label": "pending_transfer"
+  },
+  {
+    "id": 549,
+    "text": "Do I have to do the identity check?",
+    "true_label": "why_verify_identity",
+    "top_k_predictions": [
+      "unable_to_verify_identity",
+      "verify_my_identity",
+      "why_verify_identity",
+      "card_payment_not_recognised",
+      "activate_my_card"
+    ],
+    "entities": "identity check",
+    "explanation": "The key terms in the query are \"identity check,\" which indicates that the user is inquiring about the process of verifying their identity.",
+    "predicted_label": "verify_my_identity"
+  },
+  {
+    "id": 342,
+    "text": "Is there a top-up feature, if there isn't a lot of money left?",
+    "true_label": "automatic_top_up",
+    "top_k_predictions": [
+      "balance_not_updated_after_cheque_or_cash_deposit",
+      "automatic_top_up",
+      "balance_not_updated_after_bank_transfer",
+      "top_up_limits",
+      "pending_top_up"
+    ],
+    "entities": "top-up feature, money",
+    "explanation": "The key terms \"top-up feature\" and \"money\" indicate that the user is inquiring about a feature related to adding funds when there is not much money left.",
+    "predicted_label": "automatic_top_up"
+  },
+  {
+    "id": 366,
+    "text": "I just got my new card but am not sure how to check its PIN.",
+    "true_label": "get_physical_card",
+    "top_k_predictions": [
+      "pin_blocked",
+      "activate_my_card",
+      "get_physical_card",
+      "card_not_working",
+      "card_arrival"
+    ],
+    "entities": "new card, check, PIN",
+    "explanation": "The key terms in the query are \"new card,\" \"check,\" and \"PIN,\" indicating that the user is looking for information on how to check the PIN of their new card.",
+    "predicted_label": "pin_blocked"
+  },
+  {
+    "id": 1360,
+    "text": "Which cards do you guys support? I want to top up using my credit card.",
+    "true_label": "supported_cards_and_currencies",
+    "top_k_predictions": [
+      "supported_cards_and_currencies",
+      "topping_up_by_card",
+      "card_acceptance",
+      "card_payment_not_recognised",
+      "card_payment_wrong_exchange_rate"
+    ],
+    "entities": "cards, support, top up, credit card",
+    "explanation": "The key terms in the query are \"cards,\" \"support,\" \"top up,\" and \"credit card,\" indicating the user is inquiring about supported cards for topping up.",
+    "predicted_label": "supported_cards_and_currencies"
+  },
+  {
+    "id": 189,
+    "text": "How long will it take for my transferred money to show up?",
+    "true_label": "balance_not_updated_after_bank_transfer",
+    "top_k_predictions": [
+      "pending_transfer",
+      "transfer_timing",
+      "transfer_into_account",
+      "receiving_money",
+      "transfer_not_received_by_recipient"
+    ],
+    "entities": "transferred money, show up",
+    "explanation": "The key terms in the query are \"transferred money\" and \"show up,\" indicating the user is inquiring about the timing or status of a money transfer.",
+    "predicted_label": "transfer_timing"
+  },
+  {
+    "id": 2478,
+    "text": "Can friends add to my account",
+    "true_label": "topping_up_by_card",
+    "top_k_predictions": [
+      "card_payment_wrong_exchange_rate",
+      "transfer_into_account",
+      "card_payment_not_recognised",
+      "card_not_working",
+      "card_linking"
+    ],
+    "entities": "friends, add, account",
+    "explanation": "The key terms in the query are \"friends,\" \"add,\" and \"account,\" indicating a user's interest in adding friends to their account.",
+    "predicted_label": "transfer_into_account"
+  },
+  {
+    "id": 168,
+    "text": "What stores can I sue my card?",
+    "true_label": "card_acceptance",
+    "top_k_predictions": [
+      "card_payment_not_recognised",
+      "card_acceptance",
+      "card_payment_wrong_exchange_rate",
+      "card_payment_fee_charged",
+      "card_not_working"
+    ],
+    "entities": "stores, card",
+    "explanation": "The key terms in the query are \"stores\" and \"card,\" indicating that the user is asking about where they can use their card for payment.",
+    "predicted_label": "card_acceptance"
+  },
+  {
+    "id": 1024,
+    "text": "My transaction was just declined when I was using my disposable virtual card. What can I do?",
+    "true_label": "virtual_card_not_working",
+    "top_k_predictions": [
+      "declined_card_payment",
+      "virtual_card_not_working",
+      "card_not_working",
+      "card_payment_not_recognised",
+      "declined_transfer"
+    ],
+    "entities": "transaction, declined, disposable virtual card",
+    "explanation": "The key terms in the query are \"transaction,\" \"declined,\" and \"disposable virtual card.\" The user is experiencing an issue with a declined transaction while using a disposable virtual card.",
+    "predicted_label": "virtual_card_not_working"
+  },
+  {
+    "id": 385,
+    "text": "What currency's can i exchange for?",
+    "true_label": "exchange_via_app",
+    "top_k_predictions": [
+      "fiat_currency_support",
+      "exchange_via_app",
+      "exchange_charge",
+      "supported_cards_and_currencies",
+      "balance_not_updated_after_bank_transfer"
+    ],
+    "entities": "currency, exchange",
+    "explanation": "The key terms in the sentence are \"currency\" and \"exchange,\" indicating that the user is inquiring about the types of currencies they can exchange.",
+    "predicted_label": "supported_currencies_exchange"
+  },
+  {
+    "id": 1085,
+    "text": "Was charged an ATM fee despite it being a small withdrawal on the 1st day of the month. I thought I was allowed 200 per month?",
+    "true_label": "cash_withdrawal_charge",
+    "top_k_predictions": [
+      "card_payment_fee_charged",
+      "cash_withdrawal_charge",
+      "extra_charge_on_statement",
+      "cash_withdrawal_not_recognised",
+      "card_payment_wrong_exchange_rate"
+    ],
+    "entities": "ATM fee, small withdrawal, 1st day of the month, allowed 200 per month",
+    "explanation": "The user is inquiring about an ATM fee charged despite making a small withdrawal on the 1st day of the month and questioning the monthly limit of 200.",
+    "predicted_label": "cash_withdrawal_charge"
+  },
+  {
+    "id": 1839,
+    "text": "How do I do a successful transfer to an account?",
+    "true_label": "beneficiary_not_allowed",
+    "top_k_predictions": [
+      "transfer_into_account",
+      "transfer_timing",
+      "failed_transfer",
+      "balance_not_updated_after_bank_transfer",
+      "transfer_not_received_by_recipient"
+    ],
+    "entities": "successful transfer, account",
+    "explanation": "The key terms \"successful transfer\" and \"account\" indicate that the user is seeking information on how to successfully transfer funds to an account.",
+    "predicted_label": "transfer_into_account"
+  },
+  {
+    "id": 709,
+    "text": "Can you tell me if my pop-up went through?",
+    "true_label": "top_up_failed",
+    "top_k_predictions": [
+      "card_payment_not_recognised",
+      "card_payment_wrong_exchange_rate",
+      "pending_transfer",
+      "top_up_failed",
+      "card_not_working"
+    ],
+    "entities": "pop-up",
+    "explanation": "The key term \"pop-up\" indicates that the user is inquiring about a specific transaction or action that may have occurred.",
+    "predicted_label": "pending_transfer"
+  },
+  {
+    "id": 124,
+    "text": "I have a top up that didn't go through.  Why?",
+    "true_label": "top_up_failed",
+    "top_k_predictions": [
+      "top_up_failed",
+      "failed_transfer",
+      "card_payment_not_recognised",
+      "topping_up_by_card",
+      "pending_card_payment"
+    ],
+    "entities": "top up, didn't go through",
+    "explanation": "The key terms \"top up\" and \"didn't go through\" indicate a failed transaction related to topping up.",
+    "predicted_label": "top_up_failed"
+  },
+  {
+    "id": 654,
+    "text": "Can I use my account without verifying my identity?",
+    "true_label": "why_verify_identity",
+    "top_k_predictions": [
+      "why_verify_identity",
+      "unable_to_verify_identity",
+      "verify_my_identity",
+      "activate_my_card",
+      "card_not_working"
+    ],
+    "entities": "use, account, verifying, identity",
+    "explanation": "The key terms in the query are \"use,\" \"account,\" \"verifying,\" and \"identity.\" The user is asking about using their account without verifying their identity.",
+    "predicted_label": "why_verify_identity"
+  },
+  {
+    "id": 980,
+    "text": "There is a fee I don't recognize on my statement.",
+    "true_label": "extra_charge_on_statement",
+    "top_k_predictions": [
+      "extra_charge_on_statement",
+      "card_payment_fee_charged",
+      "card_payment_not_recognised",
+      "cash_withdrawal_not_recognised",
+      "transfer_fee_charged"
+    ],
+    "entities": "fee, recognize, statement",
+    "explanation": "The key terms in the query are \"fee,\" \"recognize,\" and \"statement,\" indicating that the user is questioning a charge on their statement that they do not recognize.",
+    "predicted_label": "card_payment_not_recognised"
+  },
+  {
+    "id": 234,
+    "text": "When will my transfer be available in my account.",
+    "true_label": "balance_not_updated_after_bank_transfer",
+    "top_k_predictions": [
+      "transfer_timing",
+      "transfer_into_account",
+      "pending_transfer",
+      "transfer_not_received_by_recipient",
+      "failed_transfer"
+    ],
+    "entities": "transfer, available, account",
+    "explanation": "The key terms in the query are \"transfer,\" \"available,\" and \"account,\" indicating that the user is inquiring about the timing of a transfer being available in their account.",
+    "predicted_label": "transfer_timing"
+  },
+  {
+    "id": 1416,
+    "text": "Why was a transaction on my card declined?",
+    "true_label": "declined_card_payment",
+    "top_k_predictions": [
+      "declined_card_payment",
+      "declined_transfer",
+      "card_payment_not_recognised",
+      "card_payment_fee_charged",
+      "card_not_working"
+    ],
+    "entities": "transaction, card, declined",
+    "explanation": "The key terms in the query are \"transaction,\" \"card,\" and \"declined,\" indicating that the user is inquiring about a declined transaction on their card.",
+    "predicted_label": "declined_card_payment"
+  },
+  {
+    "id": 600,
+    "text": "I'm in Spain and my stuff has been stolen. My card was with it and I need a new one shipped and the old one frozen.",
+    "true_label": "lost_or_stolen_card",
+    "top_k_predictions": [
+      "lost_or_stolen_card",
+      "compromised_card",
+      "card_arrival",
+      "get_physical_card",
+      "getting_spare_card"
+    ],
+    "entities": "Spain, stolen, card, new one, shipped, old one, frozen",
+    "explanation": "The key terms in the sentence indicate that the user's card was stolen in Spain and they need a new card shipped while freezing the old one.",
+    "predicted_label": "lost_or_stolen_card"
+  },
+  {
+    "id": 657,
+    "text": "Hi, I have been overcharged for my payment last Saturday. I guess exchange rate was wrong.",
+    "true_label": "card_payment_wrong_exchange_rate",
+    "top_k_predictions": [
+      "wrong_exchange_rate_for_cash_withdrawal",
+      "extra_charge_on_statement",
+      "card_payment_wrong_exchange_rate",
+      "exchange_charge",
+      "exchange_via_app"
+    ],
+    "entities": "overcharged, payment, Saturday, exchange rate, wrong",
+    "explanation": "The key terms in the query are \"overcharged,\" \"payment,\" \"Saturday,\" \"exchange rate,\" and \"wrong.\" The user is indicating that they believe they were overcharged due to a wrong exchange rate during a payment transaction on Saturday.",
+    "predicted_label": "card_payment_wrong_exchange_rate"
+  },
+  {
+    "id": 2410,
+    "text": "I do not have what is required to prove my identity",
+    "true_label": "unable_to_verify_identity",
+    "top_k_predictions": [
+      "verify_my_identity",
+      "unable_to_verify_identity",
+      "why_verify_identity",
+      "activate_my_card",
+      "card_payment_not_recognised"
+    ],
+    "entities": "prove, identity",
+    "explanation": "The key terms \"prove\" and \"identity\" indicate that the user is expressing difficulty in verifying their identity.",
+    "predicted_label": "unable_to_verify_identity"
+  },
+  {
+    "id": 3018,
+    "text": "For some reason, the virtual card won't work for me.",
+    "true_label": "virtual_card_not_working",
+    "top_k_predictions": [
+      "virtual_card_not_working",
+      "card_not_working",
+      "card_payment_not_recognised",
+      "card_payment_wrong_exchange_rate",
+      "card_linking"
+    ],
+    "entities": "virtual card, won't work",
+    "explanation": "The key terms \"virtual card\" and \"won't work\" indicate an issue with the virtual card not functioning properly.",
+    "predicted_label": "virtual_card_not_working"
+  },
+  {
+    "id": 1308,
+    "text": "Are you able to locate my card?",
+    "true_label": "lost_or_stolen_card",
+    "top_k_predictions": [
+      "card_not_working",
+      "card_delivery_estimate",
+      "card_arrival",
+      "card_payment_not_recognised",
+      "verify_my_identity"
+    ],
+    "entities": "card, locate",
+    "explanation": "The key terms \"card\" and \"locate\" are important for understanding the intent of the user query. The user is asking about the location or status of their card.",
+    "predicted_label": "card_arrival"
+  },
+  {
+    "id": 1553,
+    "text": "My disposable virtual card is broken.",
+    "true_label": "virtual_card_not_working",
+    "top_k_predictions": [
+      "virtual_card_not_working",
+      "card_not_working",
+      "card_arrival",
+      "disposable_card_limits",
+      "lost_or_stolen_card"
+    ],
+    "entities": "disposable virtual card, broken",
+    "explanation": "The key terms in the query are \"disposable virtual card\" and \"broken,\" indicating an issue with a virtual card.",
+    "predicted_label": "virtual_card_not_working"
+  },
+  {
+    "id": 2439,
+    "text": "help me with my transfer",
+    "true_label": "failed_transfer",
+    "top_k_predictions": [
+      "transfer_not_received_by_recipient",
+      "transfer_timing",
+      "transfer_into_account",
+      "pending_transfer",
+      "failed_transfer"
+    ],
+    "entities": "transfer",
+    "explanation": "The key term \"transfer\" is the most important word in the sentence and indicates that the user is seeking assistance related to a transfer.",
+    "predicted_label": "transfer_timing"
+  },
+  {
+    "id": 2227,
+    "text": "Am I allowed to use any card to make a payment?",
+    "true_label": "visa_or_mastercard",
+    "top_k_predictions": [
+      "card_payment_not_recognised",
+      "card_payment_wrong_exchange_rate",
+      "card_payment_fee_charged",
+      "card_acceptance",
+      "card_not_working"
+    ],
+    "entities": "card, payment",
+    "explanation": "The key terms in the query are \"card\" and \"payment,\" indicating that the user is inquiring about using a card for making a payment.",
+    "predicted_label": "card_acceptance"
+  },
+  {
+    "id": 2399,
+    "text": "Will filling stations accept my card?",
+    "true_label": "card_acceptance",
+    "top_k_predictions": [
+      "card_acceptance",
+      "country_support",
+      "card_payment_not_recognised",
+      "supported_cards_and_currencies",
+      "card_not_working"
+    ],
+    "entities": "filling stations, card",
+    "explanation": "The key terms in the query are \"filling stations\" and \"card,\" indicating that the user is inquiring about whether their card will be accepted at gas stations.",
+    "predicted_label": "card_acceptance"
+  },
+  {
+    "id": 2349,
+    "text": "what is the identity check?",
+    "true_label": "why_verify_identity",
+    "top_k_predictions": [
+      "verify_my_identity",
+      "why_verify_identity",
+      "unable_to_verify_identity",
+      "balance_not_updated_after_cheque_or_cash_deposit",
+      "card_acceptance"
+    ],
+    "entities": "identity check",
+    "explanation": "The key term \"identity check\" is important for understanding the user query.",
+    "predicted_label": "why_verify_identity"
+  },
+  {
+    "id": 2898,
+    "text": "Can I have a card after my first one?",
+    "true_label": "getting_spare_card",
+    "top_k_predictions": [
+      "card_arrival",
+      "get_physical_card",
+      "topping_up_by_card",
+      "card_delivery_estimate",
+      "getting_spare_card"
+    ],
+    "entities": "card, first one",
+    "explanation": "The key terms in the query are \"card\" and \"first one,\" indicating that the user is asking about receiving a new card after their initial one.",
+    "predicted_label": "card_arrival"
+  },
+  {
+    "id": 2783,
+    "text": "What do I do if my virtual card won't work.",
+    "true_label": "virtual_card_not_working",
+    "top_k_predictions": [
+      "virtual_card_not_working",
+      "card_not_working",
+      "card_payment_not_recognised",
+      "card_payment_wrong_exchange_rate",
+      "card_acceptance"
+    ],
+    "entities": "virtual card, won't work",
+    "explanation": "The key terms in the query are \"virtual card\" and \"won't work,\" indicating an issue with a virtual card not functioning properly.",
+    "predicted_label": "virtual_card_not_working"
+  },
+  {
+    "id": 77,
+    "text": "I transferred money yesterday, but it still isn't available?",
+    "true_label": "pending_transfer",
+    "top_k_predictions": [
+      "transfer_not_received_by_recipient",
+      "failed_transfer",
+      "transfer_timing",
+      "transfer_into_account",
+      "pending_transfer"
+    ],
+    "entities": "transferred money, yesterday, available",
+    "explanation": "The key terms in the query are \"transferred money,\" \"yesterday,\" and \"available.\" The user is inquiring about the availability of money transferred the previous day.",
+    "predicted_label": "transfer_timing"
+  },
+  {
+    "id": 2443,
+    "text": "Why isn't my virtual card working?",
+    "true_label": "virtual_card_not_working",
+    "top_k_predictions": [
+      "virtual_card_not_working",
+      "card_not_working",
+      "card_payment_not_recognised",
+      "card_swallowed",
+      "card_acceptance"
+    ],
+    "entities": "virtual card, working",
+    "explanation": "The key terms in the query are \"virtual card\" and \"working,\" indicating that the user is experiencing an issue with their virtual card not functioning properly.",
+    "predicted_label": "virtual_card_not_working"
+  },
+  {
+    "id": 1794,
+    "text": "Why is my disposable virtual card being denied?",
+    "true_label": "virtual_card_not_working",
+    "top_k_predictions": [
+      "virtual_card_not_working",
+      "disposable_card_limits",
+      "card_not_working",
+      "card_acceptance",
+      "declined_card_payment"
+    ],
+    "entities": "disposable virtual card, denied",
+    "explanation": "The key terms in the query are \"disposable virtual card\" and \"denied,\" indicating that the user is experiencing an issue with their virtual card being declined.",
+    "predicted_label": "declined_card_payment"
+  },
+  {
+    "id": 1584,
+    "text": "what is this charge on my account",
+    "true_label": "direct_debit_payment_not_recognised",
+    "top_k_predictions": [
+      "extra_charge_on_statement",
+      "card_payment_fee_charged",
+      "card_payment_not_recognised",
+      "card_not_working",
+      "exchange_charge"
+    ],
+    "entities": "charge, account",
+    "explanation": "The key terms in the query are \"charge\" and \"account,\" indicating that the user is inquiring about a specific charge on their account.",
+    "predicted_label": "extra_charge_on_statement"
+  },
+  {
+    "id": 590,
+    "text": "Why am I being charged more ?",
+    "true_label": "card_payment_wrong_exchange_rate",
+    "top_k_predictions": [
+      "extra_charge_on_statement",
+      "card_payment_fee_charged",
+      "top_up_by_bank_transfer_charge",
+      "card_payment_wrong_exchange_rate",
+      "card_payment_not_recognised"
+    ],
+    "entities": "charged, more",
+    "explanation": "The key terms \"charged\" and \"more\" indicate that the user is questioning an additional charge or fee on their account.",
+    "predicted_label": "extra_charge_on_statement"
+  },
+  {
+    "id": 893,
+    "text": "How does a transfer work?",
+    "true_label": "transfer_into_account",
+    "top_k_predictions": [
+      "transfer_timing",
+      "pending_transfer",
+      "transfer_not_received_by_recipient",
+      "transfer_into_account",
+      "receiving_money"
+    ],
+    "entities": "transfer",
+    "explanation": "The key term \"transfer\" is important for understanding the user query about how transfers work.",
+    "predicted_label": "transfer_timing"
+  },
+  {
+    "id": 1555,
+    "text": "I need to verify my identity",
+    "true_label": "verify_my_identity",
+    "top_k_predictions": [
+      "unable_to_verify_identity",
+      "why_verify_identity",
+      "verify_my_identity",
+      "card_not_working",
+      "activate_my_card"
+    ],
+    "entities": "verify, identity",
+    "explanation": "The key terms \"verify\" and \"identity\" are important for understanding the intent of the user query.",
+    "predicted_label": "verify_my_identity"
+  },
+  {
+    "id": 500,
+    "text": "I am missing some funds from my account - I tried to transfer them using my credit card number, and it disappeared.",
+    "true_label": "topping_up_by_card",
+    "top_k_predictions": [
+      "failed_transfer",
+      "card_not_working",
+      "card_payment_not_recognised",
+      "transfer_timing",
+      "transfer_not_received_by_recipient"
+    ],
+    "entities": "missing funds, transfer, credit card number, disappeared",
+    "explanation": "The key terms in the sentence indicate that the user is experiencing an issue related to a transfer made using a credit card, where the funds are missing.",
+    "predicted_label": "failed_transfer"
+  },
+  {
+    "id": 1863,
+    "text": "How can I get a real-life card of my own?",
+    "true_label": "order_physical_card",
+    "top_k_predictions": [
+      "get_physical_card",
+      "order_physical_card",
+      "card_delivery_estimate",
+      "getting_spare_card",
+      "card_arrival"
+    ],
+    "entities": "get, real-life card",
+    "explanation": "The key terms in the query are \"get\" and \"real-life card,\" indicating the user is looking for information on obtaining a physical card.",
+    "predicted_label": "get_physical_card"
+  },
+  {
+    "id": 2716,
+    "text": "There is a fraudulent charge on my statement.",
+    "true_label": "card_payment_not_recognised",
+    "top_k_predictions": [
+      "extra_charge_on_statement",
+      "card_payment_not_recognised",
+      "compromised_card",
+      "card_not_working",
+      "Refund_not_showing_up"
+    ],
+    "entities": "fraudulent charge, statement",
+    "explanation": "The key terms \"fraudulent charge\" and \"statement\" indicate that the user is concerned about a potential unauthorized transaction on their account.",
+    "predicted_label": "extra_charge_on_statement"
+  },
+  {
+    "id": 2852,
+    "text": "Is there any way to verify who I am?",
+    "true_label": "verify_my_identity",
+    "top_k_predictions": [
+      "why_verify_identity",
+      "unable_to_verify_identity",
+      "verify_my_identity",
+      "card_payment_not_recognised",
+      "activate_my_card"
+    ],
+    "entities": "verify, who, I am",
+    "explanation": "The key terms in the query are \"verify\" and \"who I am,\" indicating a user's interest in confirming their identity.",
+    "predicted_label": "verify_my_identity"
+  },
+  {
+    "id": 1903,
+    "text": "How do I reset my PIN, I can't seem to use my card?",
+    "true_label": "pin_blocked",
+    "top_k_predictions": [
+      "pin_blocked",
+      "card_not_working",
+      "visa_or_mastercard",
+      "card_payment_not_recognised",
+      "activate_my_card"
+    ],
+    "entities": "reset, PIN, use, card",
+    "explanation": "The key terms in the query are \"reset,\" \"PIN,\" \"use,\" and \"card,\" indicating that the user is having trouble using their card and wants to reset their PIN.",
+    "predicted_label": "pin_blocked"
+  },
+  {
+    "id": 2161,
+    "text": "My disposable virtual card has been rejected by the merchant earlier today. What should I do?",
+    "true_label": "virtual_card_not_working",
+    "top_k_predictions": [
+      "card_acceptance",
+      "card_not_working",
+      "card_payment_not_recognised",
+      "card_payment_wrong_exchange_rate",
+      "declined_card_payment"
+    ],
+    "entities": "disposable virtual card, rejected, merchant",
+    "explanation": "The key terms in the query are \"disposable virtual card,\" \"rejected,\" and \"merchant.\" The user is seeking advice on what to do after their disposable virtual card was rejected by a merchant.",
+    "predicted_label": "declined_card_payment"
+  },
+  {
+    "id": 1142,
+    "text": "Can you explain the transfer fee to me?",
+    "true_label": "transfer_fee_charged",
+    "top_k_predictions": [
+      "transfer_fee_charged",
+      "exchange_charge",
+      "wrong_exchange_rate_for_cash_withdrawal",
+      "transfer_timing"
+    ],
+    "entities": "transfer fee",
+    "explanation": "The key terms in the query are \"transfer fee,\" indicating that the user is seeking information about the fee associated with transferring money.",
+    "predicted_label": "transfer_fee_charged"
+  },
+  {
+    "id": 2290,
+    "text": "I made a withdrawal from my account but it has not posted?",
+    "true_label": "pending_cash_withdrawal",
+    "top_k_predictions": [
+      "balance_not_updated_after_bank_transfer",
+      "pending_cash_withdrawal",
+      "cash_withdrawal_not_recognised",
+      "balance_not_updated_after_cheque_or_cash_deposit",
+      "cash_withdrawal_charge"
+    ],
+    "entities": "withdrawal, account, posted",
+    "explanation": "The key terms in the query are \"withdrawal,\" \"account,\" and \"posted.\" The user is mentioning that they made a withdrawal from their account but it has not posted, indicating a concern about the transaction not being reflected in their account balance.",
+    "predicted_label": "balance_not_updated_after_bank_transfer"
+  },
+  {
+    "id": 1753,
+    "text": "Is a copy of the police report necessary for completing the report process?",
+    "true_label": "lost_or_stolen_card",
+    "top_k_predictions": [
+      "card_not_working",
+      "card_acceptance",
+      "cancel_transfer",
+      "balance_not_updated_after_bank_transfer",
+      "compromised_card"
+    ],
+    "entities": "police report, completing, report process",
+    "explanation": "The key terms in the query are \"police report,\" \"completing,\" and \"report process,\" indicating a question related to the process of completing a report that may involve a police report.",
+    "predicted_label": "report_process_inquiry"
+  },
+  {
+    "id": 2559,
+    "text": "I need to cancel my card that got stolen a little while ago. Someone has already taken some money out and I don't want them to take anymore. Can you please do that?",
+    "true_label": "cash_withdrawal_not_recognised",
+    "top_k_predictions": [
+      "lost_or_stolen_card",
+      "compromised_card",
+      "cancel_transfer",
+      "card_not_working",
+      "pending_card_payment"
+    ],
+    "entities": "cancel, card, stolen, money",
+    "explanation": "The key terms in the query are \"cancel,\" \"card,\" \"stolen,\" and \"money,\" indicating the user wants to cancel a stolen card to prevent further unauthorized transactions.",
+    "predicted_label": "lost_or_stolen_card"
+  },
+  {
+    "id": 1448,
+    "text": "My transfer hasn't gone through yet.",
+    "true_label": "pending_transfer",
+    "top_k_predictions": [
+      "failed_transfer",
+      "pending_transfer",
+      "transfer_timing",
+      "transfer_not_received_by_recipient",
+      "transfer_into_account"
+    ],
+    "entities": "transfer, gone through",
+    "explanation": "The key terms in the sentence are \"transfer\" and \"gone through,\" indicating that the user is referring to a transfer that has not been completed.",
+    "predicted_label": "pending_transfer"
+  },
+  {
+    "id": 592,
+    "text": "I don't like that I have to fill out so much information about my identity.",
+    "true_label": "why_verify_identity",
+    "top_k_predictions": [
+      "why_verify_identity",
+      "unable_to_verify_identity",
+      "verify_my_identity",
+      "country_support",
+      "balance_not_updated_after_bank_transfer"
+    ],
+    "entities": "fill out, information, identity",
+    "explanation": "The key terms in the sentence indicate the user is expressing dissatisfaction with having to provide a lot of information about their identity.",
+    "predicted_label": "why_verify_identity"
+  },
+  {
+    "id": 2698,
+    "text": "I am getting continuous failure for all my transfers. I have cross checked each recipient detail again and again and everything is correct.",
+    "true_label": "declined_transfer",
+    "top_k_predictions": [
+      "failed_transfer",
+      "transfer_not_received_by_recipient",
+      "top_up_failed",
+      "declined_transfer",
+      "pending_transfer"
+    ],
+    "entities": "continuous failure, transfers, recipient detail",
+    "explanation": "The user is experiencing continuous failures with their transfers despite verifying recipient details multiple times.",
+    "predicted_label": "failed_transfer"
+  },
+  {
+    "id": 614,
+    "text": "OMG!  I'm trying to load my card and it wont top up!  I desperately need the money either on my card or in my bank, where is it?",
+    "true_label": "pending_top_up",
+    "top_k_predictions": [
+      "top_up_failed",
+      "pending_top_up",
+      "balance_not_updated_after_bank_transfer",
+      "topping_up_by_card",
+      "failed_transfer"
+    ],
+    "entities": "load, card, top up, money, bank",
+    "explanation": "The user is experiencing an issue with topping up their card and is concerned about the money being on their card or in their bank.",
+    "predicted_label": "topping_up_by_card"
+  },
+  {
+    "id": 149,
+    "text": "Are there any hindrances to using a disposable virtual card?",
+    "true_label": "disposable_card_limits",
+    "top_k_predictions": [
+      "disposable_card_limits",
+      "virtual_card_not_working",
+      "card_payment_not_recognised",
+      "card_acceptance",
+      "card_not_working"
+    ],
+    "entities": "hindrances, disposable virtual card",
+    "explanation": "The key terms \"hindrances\" and \"disposable virtual card\" indicate that the user is inquiring about potential obstacles or issues related to using a disposable virtual card.",
+    "predicted_label": "disposable_card_limits"
+  },
+  {
+    "id": 2308,
+    "text": "Can you please identify the problem with my bank card?",
+    "true_label": "card_not_working",
+    "top_k_predictions": [
+      "card_payment_not_recognised",
+      "card_not_working",
+      "card_swallowed",
+      "card_payment_wrong_exchange_rate",
+      "compromised_card"
+    ],
+    "entities": "bank card, problem",
+    "explanation": "The key terms in the query are \"bank card\" and \"problem,\" indicating that the user is seeking help to identify an issue with their bank card.",
+    "predicted_label": "card_not_working"
+  },
+  {
+    "id": 2739,
+    "text": "The balance on my account wasn't updated after I made a depost.",
+    "true_label": "balance_not_updated_after_cheque_or_cash_deposit",
+    "top_k_predictions": [
+      "balance_not_updated_after_bank_transfer",
+      "balance_not_updated_after_cheque_or_cash_deposit",
+      "card_payment_not_recognised",
+      "topping_up_by_card",
+      "transfer_not_received_by_recipient"
+    ],
+    "entities": "balance, account, updated, deposit",
+    "explanation": "The key terms in the sentence are \"balance,\" \"account,\" \"updated,\" and \"deposit.\" These terms indicate that the user is concerned about the balance not being updated after making a deposit.",
+    "predicted_label": "balance_not_updated_after_deposit"
+  },
+  {
+    "id": 377,
+    "text": "I believe my money did not go through with my top up, was there a problem on your end?",
+    "true_label": "top_up_reverted",
+    "top_k_predictions": [
+      "pending_top_up",
+      "top_up_failed",
+      "card_payment_not_recognised",
+      "failed_transfer",
+      "balance_not_updated_after_bank_transfer"
+    ],
+    "entities": "money, top up, problem",
+    "explanation": "The key terms in the query are \"money,\" \"top up,\" and \"problem,\" indicating a concern related to a transaction not going through successfully.",
+    "predicted_label": "pending_top_up"
+  },
+  {
+    "id": 1930,
+    "text": "Can I get my card expedited?",
+    "true_label": "card_delivery_estimate",
+    "top_k_predictions": [
+      "get_physical_card",
+      "card_arrival",
+      "order_physical_card",
+      "card_delivery_estimate",
+      "card_payment_not_recognised"
+    ],
+    "entities": "card, expedited",
+    "explanation": "The key terms in the query are \"card\" and \"expedited,\" indicating that the user is inquiring about expediting the delivery or arrival of their card.",
+    "predicted_label": "card_arrival"
+  },
+  {
+    "id": 1664,
+    "text": "I'm unsure of a withdrawl in my statement.",
+    "true_label": "cash_withdrawal_not_recognised",
+    "top_k_predictions": [
+      "cash_withdrawal_charge",
+      "cash_withdrawal_not_recognised",
+      "balance_not_updated_after_bank_transfer",
+      "extra_charge_on_statement",
+      "pending_cash_withdrawal"
+    ],
+    "entities": "unsure, withdrawal, statement",
+    "explanation": "The key terms in the query are \"unsure,\" \"withdrawal,\" and \"statement,\" indicating that the user is uncertain about a withdrawal transaction in their bank statement.",
+    "predicted_label": "cash_withdrawal_not_recognised"
+  },
+  {
+    "id": 2189,
+    "text": "where in the app can i find out about my new pin",
+    "true_label": "get_physical_card",
+    "top_k_predictions": [
+      "pin_blocked",
+      "activate_my_card",
+      "get_physical_card",
+      "card_not_working",
+      "card_linking"
+    ],
+    "entities": "app, find, new pin",
+    "explanation": "The key terms in the query are \"app,\" \"find,\" and \"new pin,\" indicating that the user is looking for information on locating their new PIN within the app.",
+    "predicted_label": "pin_blocked"
+  },
+  {
+    "id": 760,
+    "text": "Is there any limit to the amount I can add to a card at a time?",
+    "true_label": "top_up_limits",
+    "top_k_predictions": [
+      "top_up_limits",
+      "topping_up_by_card",
+      "top_up_reverted",
+      "pending_top_up",
+      "top_up_by_bank_transfer_charge"
+    ],
+    "entities": "limit, amount, add, card",
+    "explanation": "The key terms in the query are \"limit,\" \"amount,\" \"add,\" and \"card,\" which indicate the user is inquiring about the maximum amount that can be added to a card at a time.",
+    "predicted_label": "top_up_limits"
+  },
+  {
+    "id": 705,
+    "text": "Can I make transfers before identity verification?",
+    "true_label": "why_verify_identity",
+    "top_k_predictions": [
+      "transfer_timing",
+      "why_verify_identity",
+      "verify_my_identity",
+      "unable_to_verify_identity",
+      "transfer_not_received_by_recipient"
+    ],
+    "entities": "transfers, identity verification",
+    "explanation": "The key terms in the query are \"transfers\" and \"identity verification,\" indicating that the user is inquiring about the possibility of making transfers before completing the identity verification process.",
+    "predicted_label": "transfer_timing"
+  },
+  {
+    "id": 209,
+    "text": "How long do card transactions take to clear?",
+    "true_label": "pending_card_payment",
+    "top_k_predictions": [
+      "card_payment_not_recognised",
+      "transfer_timing",
+      "balance_not_updated_after_bank_transfer",
+      "card_payment_wrong_exchange_rate",
+      "card_payment_fee_charged"
+    ],
+    "entities": "card transactions, clear",
+    "explanation": "The key terms in the query are \"card transactions\" and \"clear,\" indicating the user is inquiring about the timing or duration of card transactions to clear.",
+    "predicted_label": "transfer_timing"
+  },
+  {
+    "id": 1965,
+    "text": "What is needed to prove my identity?",
+    "true_label": "verify_my_identity",
+    "top_k_predictions": [
+      "why_verify_identity",
+      "verify_my_identity",
+      "unable_to_verify_identity",
+      "activate_my_card",
+      "card_payment_not_recognised"
+    ],
+    "entities": "prove, identity",
+    "explanation": "The key terms in the query are \"prove\" and \"identity,\" indicating that the user is seeking information on how to verify or prove their identity.",
+    "predicted_label": "why_verify_identity"
+  },
+  {
+    "id": 246,
+    "text": "What can I use to verify my identify?",
+    "true_label": "verify_my_identity",
+    "top_k_predictions": [
+      "verify_my_identity",
+      "unable_to_verify_identity",
+      "why_verify_identity",
+      "activate_my_card",
+      "card_not_working"
+    ],
+    "entities": "verify, identity",
+    "explanation": "The key terms \"verify\" and \"identity\" indicate that the user is asking about the process or methods to confirm their identity.",
+    "predicted_label": "verify_my_identity"
+  },
+  {
+    "id": 1144,
+    "text": "How long is it going to take for my funds to show in my account?",
+    "true_label": "transfer_timing",
+    "top_k_predictions": [
+      "transfer_timing",
+      "transfer_into_account",
+      "receiving_money",
+      "pending_transfer",
+      "balance_not_updated_after_bank_transfer"
+    ],
+    "entities": "funds, show, account",
+    "explanation": "The key terms in the query are \"funds,\" \"show,\" and \"account,\" which indicate the user is inquiring about the timing of when money will be available in their account.",
+    "predicted_label": "transfer_timing"
+  },
+  {
+    "id": 2318,
+    "text": "I bought something and returned it and the money from the return isn't in my account.",
+    "true_label": "Refund_not_showing_up",
+    "top_k_predictions": [
+      "Refund_not_showing_up",
+      "reverted_card_payment?",
+      "balance_not_updated_after_bank_transfer",
+      "request_refund",
+      "card_payment_not_recognised"
+    ],
+    "entities": "bought, returned, money, account",
+    "explanation": "The key terms in the sentence indicate that the user is talking about a purchase, return, money not received, and account balance.",
+    "predicted_label": "request_refund"
+  },
+  {
+    "id": 2453,
+    "text": "I made a transfer and am still waiting.",
+    "true_label": "balance_not_updated_after_bank_transfer",
+    "top_k_predictions": [
+      "failed_transfer",
+      "transfer_timing",
+      "pending_transfer",
+      "transfer_not_received_by_recipient",
+      "transfer_into_account"
+    ],
+    "entities": "transfer, waiting",
+    "explanation": "The key terms in the sentence are \"transfer\" and \"waiting,\" indicating that the user is inquiring about the status of a transfer they made.",
+    "predicted_label": "pending_transfer"
+  },
+  {
+    "id": 1780,
+    "text": "Do I have to pay any fees in order to receive money?",
+    "true_label": "top_up_by_bank_transfer_charge",
+    "top_k_predictions": [
+      "transfer_fee_charged",
+      "card_payment_fee_charged",
+      "receiving_money",
+      "card_not_working",
+      "card_payment_not_recognised"
+    ],
+    "entities": "fees, receive money",
+    "explanation": "The key terms in the query are \"fees\" and \"receive money,\" indicating that the user is inquiring about potential charges associated with receiving money.",
+    "predicted_label": "receiving_money"
+  },
+  {
+    "id": 2563,
+    "text": "What happened to the cash that I tried to deposit into my account? It's gone!",
+    "true_label": "balance_not_updated_after_cheque_or_cash_deposit",
+    "top_k_predictions": [
+      "balance_not_updated_after_cheque_or_cash_deposit",
+      "Refund_not_showing_up",
+      "lost_or_stolen_card",
+      "transfer_into_account",
+      "cash_withdrawal_not_recognised"
+    ],
+    "entities": "cash, deposit, account, gone",
+    "explanation": "The key terms in the query are \"cash,\" \"deposit,\" \"account,\" and \"gone,\" indicating a concern about a cash deposit not reflecting in the account.",
+    "predicted_label": "balance_not_updated_after_cheque_or_cash_deposit"
+  },
+  {
+    "id": 2424,
+    "text": "I made a transaction and it is taking a very long time to go through.",
+    "true_label": "transfer_not_received_by_recipient",
+    "top_k_predictions": [
+      "pending_transfer",
+      "transfer_timing",
+      "failed_transfer",
+      "transfer_not_received_by_recipient",
+      "pending_cash_withdrawal"
+    ],
+    "entities": "transaction, taking a long time",
+    "explanation": "The user is expressing concern about a transaction taking a long time to go through, indicating a delay or issue with the transfer process.",
+    "predicted_label": "pending_transfer"
+  },
+  {
+    "id": 2061,
+    "text": "The ATM at Metro bank on High St. Kensington didn't return my card. What should I do now that the bank is closed?",
+    "true_label": "card_swallowed",
+    "top_k_predictions": [
+      "lost_or_stolen_card",
+      "card_swallowed",
+      "card_not_working",
+      "card_payment_not_recognised",
+      "card_acceptance"
+    ],
+    "entities": "ATM, Metro bank, High St. Kensington, card, bank closed",
+    "explanation": "The key terms in the sentence are related to an issue with an ATM not returning the user's card at a specific bank location and the bank being closed.",
+    "predicted_label": "card_swallowed"
+  },
+  {
+    "id": 2804,
+    "text": "I had a transfer blocked",
+    "true_label": "beneficiary_not_allowed",
+    "top_k_predictions": [
+      "failed_transfer",
+      "declined_transfer",
+      "transfer_timing",
+      "transfer_not_received_by_recipient",
+      "transfer_fee_charged"
+    ],
+    "entities": "transfer, blocked",
+    "explanation": "The key terms in the sentence are \"transfer\" and \"blocked,\" indicating that the user is referring to a transfer that was blocked or not successful.",
+    "predicted_label": "failed_transfer"
+  },
+  {
+    "id": 1420,
+    "text": "When will my transfer go through?",
+    "true_label": "pending_transfer",
+    "top_k_predictions": [
+      "transfer_timing",
+      "pending_transfer",
+      "transfer_not_received_by_recipient",
+      "transfer_into_account",
+      "failed_transfer"
+    ],
+    "entities": "transfer, go through",
+    "explanation": "The key terms \"transfer\" and \"go through\" indicate that the user is inquiring about the timing or status of a transfer.",
+    "predicted_label": "transfer_timing"
+  },
+  {
+    "id": 2246,
+    "text": "What should I do with my atm that got stuck?",
+    "true_label": "card_swallowed",
+    "top_k_predictions": [
+      "card_swallowed",
+      "card_not_working",
+      "lost_or_stolen_card",
+      "pending_cash_withdrawal",
+      "cash_withdrawal_not_recognised"
+    ],
+    "entities": "atm, stuck",
+    "explanation": "The key terms \"atm\" and \"stuck\" indicate that the user is facing an issue with their ATM card being stuck in the machine.",
+    "predicted_label": "card_swallowed"
+  },
+  {
+    "id": 1484,
+    "text": "Why has my payment not gone through?",
+    "true_label": "pending_card_payment",
+    "top_k_predictions": [
+      "failed_transfer",
+      "card_payment_not_recognised",
+      "top_up_failed",
+      "card_payment_fee_charged",
+      "card_not_working"
+    ],
+    "entities": "payment, not gone through",
+    "explanation": "The key terms \"payment\" and \"not gone through\" suggest that the user is inquiring about a failed payment or transaction.",
+    "predicted_label": "failed_transfer"
+  },
+  {
+    "id": 2202,
+    "text": "My new card keeps getting declined. I was very excited to use it for the first time today. Why is this doing this?",
+    "true_label": "declined_card_payment",
+    "top_k_predictions": [
+      "declined_card_payment",
+      "card_not_working",
+      "card_payment_not_recognised",
+      "card_acceptance",
+      "pending_card_payment"
+    ],
+    "entities": "new card, declined, excited, first time",
+    "explanation": "The key terms in the sentence are \"new card\" and \"declined,\" indicating that the user is experiencing issues with a newly acquired card being declined.",
+    "predicted_label": "declined_card_payment"
+  },
+  {
+    "id": 3035,
+    "text": "Do I have to verify my identity?",
+    "true_label": "why_verify_identity",
+    "top_k_predictions": [
+      "why_verify_identity",
+      "verify_my_identity",
+      "unable_to_verify_identity",
+      "pending_card_payment",
+      "activate_my_card"
+    ],
+    "entities": "verify, identity",
+    "explanation": "The key terms in the sentence are \"verify\" and \"identity,\" indicating a question about the necessity of verifying one's identity.",
+    "predicted_label": "why_verify_identity"
+  },
+  {
+    "id": 2562,
+    "text": "I want to go back on what I did this morning",
+    "true_label": "cancel_transfer",
+    "top_k_predictions": [
+      "balance_not_updated_after_bank_transfer",
+      "card_payment_wrong_exchange_rate",
+      "failed_transfer",
+      "card_not_working",
+      "cancel_transfer"
+    ],
+    "entities": "go back, this morning",
+    "explanation": "The key terms \"go back\" and \"this morning\" indicate a desire to reverse or undo a previous action taken earlier in the day.",
+    "predicted_label": "undo_action"
+  },
+  {
+    "id": 297,
+    "text": "I was charged for something I didn't expect",
+    "true_label": "transfer_fee_charged",
+    "top_k_predictions": [
+      "card_payment_fee_charged",
+      "transfer_fee_charged",
+      "extra_charge_on_statement",
+      "wrong_exchange_rate_for_cash_withdrawal",
+      "card_payment_not_recognised"
+    ],
+    "entities": "charged, didn't expect",
+    "explanation": "The key terms \"charged\" and \"didn't expect\" indicate that the user is referring to an unexpected charge on their account.",
+    "predicted_label": "extra_charge_on_statement"
+  },
+  {
+    "id": 2803,
+    "text": "I believe my card payment exchange rate is incorrect.",
+    "true_label": "card_payment_wrong_exchange_rate",
+    "top_k_predictions": [
+      "card_payment_wrong_exchange_rate",
+      "wrong_exchange_rate_for_cash_withdrawal",
+      "card_payment_fee_charged",
+      "card_payment_not_recognised",
+      "exchange_charge"
+    ],
+    "entities": "card payment, exchange rate, incorrect",
+    "explanation": "The key terms in the sentence are \"card payment,\" \"exchange rate,\" and \"incorrect.\" The user is expressing concern about the exchange rate associated with a card payment being incorrect.",
+    "predicted_label": "card_payment_wrong_exchange_rate"
+  },
+  {
+    "id": 2723,
+    "text": "What type of deposits do you accept into my account?",
+    "true_label": "top_up_by_cash_or_cheque",
+    "top_k_predictions": [
+      "transfer_into_account",
+      "balance_not_updated_after_cheque_or_cash_deposit",
+      "card_acceptance",
+      "cash_withdrawal_charge",
+      "fiat_currency_support"
+    ],
+    "entities": "deposits, account",
+    "explanation": "The key terms in the query are \"deposits\" and \"account,\" indicating that the user is inquiring about the types of deposits accepted into their account.",
+    "predicted_label": "transfer_into_account"
+  },
+  {
+    "id": 1174,
+    "text": "What do I need to show who I am?",
+    "true_label": "verify_my_identity",
+    "top_k_predictions": [
+      "why_verify_identity",
+      "verify_my_identity",
+      "unable_to_verify_identity",
+      "activate_my_card",
+      "card_acceptance"
+    ],
+    "entities": "show, who I am",
+    "explanation": "The key terms in the query are \"show\" and \"who I am,\" indicating a request for information on how to prove one's identity.",
+    "predicted_label": "why_verify_identity"
+  },
+  {
+    "id": 1901,
+    "text": "The exchange rate was wrong when I bought something outside the country.",
+    "true_label": "card_payment_wrong_exchange_rate",
+    "top_k_predictions": [
+      "wrong_exchange_rate_for_cash_withdrawal",
+      "exchange_charge",
+      "card_payment_wrong_exchange_rate",
+      "transfer_timing",
+      "exchange_via_app"
+    ],
+    "entities": "exchange rate, wrong, bought, outside the country",
+    "explanation": "The key terms in the sentence are \"exchange rate,\" \"wrong,\" \"bought,\" and \"outside the country.\" The user is expressing dissatisfaction with the exchange rate when making a purchase outside the country.",
+    "predicted_label": "wrong_exchange_rate_for_cash_withdrawal"
+  },
+  {
+    "id": 2595,
+    "text": "Is there a trick to get the disposable virtual card to work?",
+    "true_label": "virtual_card_not_working",
+    "top_k_predictions": [
+      "virtual_card_not_working",
+      "card_not_working",
+      "disposable_card_limits",
+      "card_payment_wrong_exchange_rate",
+      "card_payment_not_recognised"
+    ],
+    "entities": "disposable virtual card, work",
+    "explanation": "The key terms in the query are \"disposable virtual card\" and \"work,\" indicating the user is having trouble making the disposable virtual card function properly.",
+    "predicted_label": "virtual_card_not_working"
+  },
+  {
+    "id": 2179,
+    "text": "When will the transfer be completed?",
+    "true_label": "pending_transfer",
+    "top_k_predictions": [
+      "transfer_timing",
+      "transfer_not_received_by_recipient",
+      "pending_transfer",
+      "transfer_into_account",
+      "cancel_transfer"
+    ],
+    "entities": "transfer, completed",
+    "explanation": "The key terms \"transfer\" and \"completed\" indicate that the user is inquiring about the timing or status of a transfer.",
+    "predicted_label": "transfer_timing"
+  },
+  {
+    "id": 2858,
+    "text": "Will there be any charges for money received?",
+    "true_label": "top_up_by_bank_transfer_charge",
+    "top_k_predictions": [
+      "cash_withdrawal_charge",
+      "receiving_money",
+      "exchange_charge",
+      "transfer_fee_charged",
+      "card_payment_fee_charged"
+    ],
+    "entities": "charges, money received",
+    "explanation": "The key terms in the query are \"charges\" and \"money received,\" indicating that the user is inquiring about potential fees or charges related to receiving money.",
+    "predicted_label": "receiving_money"
+  },
+  {
+    "id": 2072,
+    "text": "Is a non-electronic card available as well",
+    "true_label": "order_physical_card",
+    "top_k_predictions": [
+      "get_physical_card",
+      "order_physical_card",
+      "card_not_working",
+      "card_arrival",
+      "getting_spare_card"
+    ],
+    "entities": "non-electronic card",
+    "explanation": "The key term \"non-electronic card\" indicates that the user is inquiring about a physical card that is not electronic.",
+    "predicted_label": "get_physical_card"
+  },
+  {
+    "id": 2083,
+    "text": "Can you tell me what the transfer policy is?",
+    "true_label": "top_up_by_bank_transfer_charge",
+    "top_k_predictions": [
+      "transfer_timing",
+      "balance_not_updated_after_bank_transfer",
+      "transfer_fee_charged",
+      "card_acceptance",
+      "transfer_not_received_by_recipient"
+    ],
+    "entities": "transfer, policy",
+    "explanation": "The key terms in the query are \"transfer\" and \"policy,\" indicating that the user is seeking information about the rules or guidelines related to transfers.",
+    "predicted_label": "transfer_timing"
+  },
+  {
+    "id": 1760,
+    "text": "Do I have to do an identity check?",
+    "true_label": "why_verify_identity",
+    "top_k_predictions": [
+      "why_verify_identity",
+      "verify_my_identity",
+      "unable_to_verify_identity",
+      "card_not_working",
+      "activate_my_card"
+    ],
+    "entities": "identity check",
+    "explanation": "The key terms in the query are \"identity check,\" which indicates that the user is inquiring about the process of verifying their identity.",
+    "predicted_label": "why_verify_identity"
+  },
+  {
+    "id": 763,
+    "text": "How can someone add money to my account?",
+    "true_label": "topping_up_by_card",
+    "top_k_predictions": [
+      "topping_up_by_card",
+      "transfer_into_account",
+      "top_up_limits",
+      "top_up_failed",
+      "top_up_by_bank_transfer_charge"
+    ],
+    "entities": "add money, account",
+    "explanation": "The key terms \"add money\" and \"account\" indicate the user is looking for a way to deposit or transfer funds into their account.",
+    "predicted_label": "transfer_into_account"
+  },
+  {
+    "id": 2163,
+    "text": "What all currencies can be exchanged?",
+    "true_label": "exchange_via_app",
+    "top_k_predictions": [
+      "supported_cards_and_currencies",
+      "fiat_currency_support",
+      "exchange_charge",
+      "exchange_via_app",
+      "country_support"
+    ],
+    "entities": "currencies, exchanged",
+    "explanation": "The key terms in the sentence are \"currencies\" and \"exchanged,\" indicating that the user is inquiring about the types of currencies that can be exchanged.",
+    "predicted_label": "supported_cards_and_currencies"
+  },
+  {
+    "id": 1679,
+    "text": "Trouble transferring transaction contact for help",
+    "true_label": "declined_transfer",
+    "top_k_predictions": [
+      "transfer_timing",
+      "transfer_not_received_by_recipient",
+      "failed_transfer",
+      "transfer_into_account",
+      "transfer_fee_charged"
+    ],
+    "entities": "trouble, transferring, transaction, contact, help",
+    "explanation": "The key terms in the query are \"trouble,\" \"transferring,\" \"transaction,\" \"contact,\" and \"help,\" indicating that the user is experiencing issues with a transfer and needs assistance.",
+    "predicted_label": "failed_transfer"
+  },
+  {
+    "id": 2534,
+    "text": "I got a message that I need to verify my identity; what do I do?",
+    "true_label": "verify_my_identity",
+    "top_k_predictions": [
+      "why_verify_identity",
+      "unable_to_verify_identity",
+      "verify_my_identity",
+      "activate_my_card",
+      "card_not_working"
+    ],
+    "entities": "message, verify, identity",
+    "explanation": "The key terms in the sentence are \"message,\" \"verify,\" and \"identity,\" indicating that the user is seeking guidance on how to verify their identity based on a received message.",
+    "predicted_label": "verify_my_identity"
+  },
+  {
+    "id": 2186,
+    "text": "My funding to my card didn't go through.",
+    "true_label": "top_up_failed",
+    "top_k_predictions": [
+      "declined_card_payment",
+      "card_payment_not_recognised",
+      "card_not_working",
+      "top_up_failed",
+      "failed_transfer"
+    ],
+    "entities": "funding, card, go through",
+    "explanation": "The key terms in the sentence are \"funding,\" \"card,\" and \"go through,\" indicating a problem with transferring money to a card.",
+    "predicted_label": "failed_transfer"
+  },
+  {
+    "id": 2352,
+    "text": "I have found my lost or stolen card. Is there a way I can link the card with my account through my app again?",
+    "true_label": "card_linking",
+    "top_k_predictions": [
+      "card_linking",
+      "lost_or_stolen_card",
+      "activate_my_card",
+      "card_not_working",
+      "card_swallowed"
+    ],
+    "entities": "found, lost or stolen card, link, account, app",
+    "explanation": "The key terms in the query indicate that the user has found their lost or stolen card and wants to link it with their account through the app.",
+    "predicted_label": "card_linking"
+  },
+  {
+    "id": 660,
+    "text": "Are there restrictions for my disposable card since it does not seem to be working?",
+    "true_label": "virtual_card_not_working",
+    "top_k_predictions": [
+      "card_not_working",
+      "disposable_card_limits",
+      "activate_my_card",
+      "card_payment_not_recognised",
+      "card_payment_wrong_exchange_rate"
+    ],
+    "entities": "restrictions, disposable card, not working",
+    "explanation": "The key terms in the query are \"restrictions,\" \"disposable card,\" and \"not working,\" indicating that the user is concerned about limitations or issues with their disposable card.",
+    "predicted_label": "disposable_card_limits"
+  },
+  {
+    "id": 721,
+    "text": "I made an out of country transfer and it hasn't went through yet.",
+    "true_label": "balance_not_updated_after_bank_transfer",
+    "top_k_predictions": [
+      "pending_transfer",
+      "transfer_timing",
+      "transfer_not_received_by_recipient",
+      "failed_transfer",
+      "transfer_into_account"
+    ],
+    "entities": "out of country transfer, hasn't went through",
+    "explanation": "The key terms in the sentence are \"out of country transfer\" and \"hasn't went through,\" indicating a concern about a transfer not being completed successfully.",
+    "predicted_label": "pending_transfer"
+  },
+  {
+    "id": 404,
+    "text": "My exchange went wrong. I swapped Russian Ruble for UK pounds and was charged too much.",
+    "true_label": "card_payment_wrong_exchange_rate",
+    "top_k_predictions": [
+      "exchange_charge",
+      "wrong_exchange_rate_for_cash_withdrawal",
+      "card_payment_wrong_exchange_rate",
+      "exchange_via_app",
+      "failed_transfer"
+    ],
+    "entities": "exchange, wrong, Russian Ruble, UK pounds, charged too much",
+    "explanation": "The key terms in the sentence indicate that the user is referring to an issue with a currency exchange transaction where they were charged more than expected.",
+    "predicted_label": "wrong_exchange_rate_for_cash_withdrawal"
+  },
+  {
+    "id": 1345,
+    "text": "i know i entered the right info, but my top up isn't in my balance",
+    "true_label": "topping_up_by_card",
+    "top_k_predictions": [
+      "top_up_failed",
+      "balance_not_updated_after_bank_transfer",
+      "top_up_reverted",
+      "pending_top_up",
+      "balance_not_updated_after_cheque_or_cash_deposit"
+    ],
+    "entities": "top up, balance",
+    "explanation": "The key terms in the query are \"top up\" and \"balance,\" indicating that the user is referring to a transaction where they added funds to their account but the balance hasn't been updated.",
+    "predicted_label": "pending_top_up"
+  },
+  {
+    "id": 1127,
+    "text": "How do I receive my physical card",
+    "true_label": "order_physical_card",
+    "top_k_predictions": [
+      "order_physical_card",
+      "get_physical_card",
+      "card_delivery_estimate",
+      "card_arrival",
+      "activate_my_card"
+    ],
+    "entities": "receive, physical card",
+    "explanation": "The key terms \"receive\" and \"physical card\" indicate that the user is inquiring about the process of obtaining their physical card.",
+    "predicted_label": "get_physical_card"
+  },
+  {
+    "id": 2141,
+    "text": "How long does a transfer take from the point it's sent, to the point it arrives in my account?",
+    "true_label": "transfer_timing",
+    "top_k_predictions": [
+      "transfer_timing",
+      "transfer_into_account",
+      "transfer_not_received_by_recipient",
+      "pending_transfer",
+      "transfer_fee_charged"
+    ],
+    "entities": "transfer, timing, sent, arrives, account",
+    "explanation": "The key terms in the query are \"transfer,\" \"timing,\" \"sent,\" \"arrives,\" and \"account,\" indicating that the user is inquiring about the duration of a transfer process from sending to arrival in their account.",
+    "predicted_label": "transfer_timing"
+  },
+  {
+    "id": 2683,
+    "text": "Can I still use my account, even though the identity verification has not passed yet?",
+    "true_label": "why_verify_identity",
+    "top_k_predictions": [
+      "why_verify_identity",
+      "unable_to_verify_identity",
+      "verify_my_identity",
+      "card_not_working",
+      "activate_my_card"
+    ],
+    "entities": "account, identity verification, passed",
+    "explanation": "The key terms in the sentence are \"account,\" \"identity verification,\" and \"passed.\" The user is inquiring about using their account despite not passing the identity verification process.",
+    "predicted_label": "unable_to_verify_identity"
+  },
+  {
+    "id": 2431,
+    "text": "I need help getting the virtual card to work.",
+    "true_label": "virtual_card_not_working",
+    "top_k_predictions": [
+      "virtual_card_not_working",
+      "card_not_working",
+      "card_acceptance",
+      "card_linking",
+      "activate_my_card"
+    ],
+    "entities": "virtual card, work",
+    "explanation": "The key terms in the sentence are \"virtual card\" and \"work,\" indicating that the user is having issues with their virtual card not functioning properly.",
+    "predicted_label": "virtual_card_not_working"
+  },
+  {
+    "id": 2362,
+    "text": "Why do you need to know so much about me",
+    "true_label": "why_verify_identity",
+    "top_k_predictions": [
+      "why_verify_identity",
+      "verify_my_identity",
+      "unable_to_verify_identity",
+      "reverted_card_payment?",
+      "receiving_money"
+    ],
+    "entities": "know, much, me",
+    "explanation": "The key terms in the sentence are \"know,\" \"much,\" and \"me,\" which indicate a question about the need for information.",
+    "predicted_label": "why_verify_identity"
+  },
+  {
+    "id": 2440,
+    "text": "what is the process for setting up a pin",
+    "true_label": "get_physical_card",
+    "top_k_predictions": [
+      "pin_blocked",
+      "activate_my_card",
+      "get_physical_card",
+      "card_not_working",
+      "card_payment_wrong_exchange_rate"
+    ],
+    "entities": "process, setting up, pin",
+    "explanation": "The key terms in the query are \"process,\" \"setting up,\" and \"pin,\" indicating that the user is seeking information on how to set up a PIN.",
+    "predicted_label": "pin_blocked"
+  },
+  {
+    "id": 1636,
+    "text": "My payments from my virtual card keep getting rejected.",
+    "true_label": "virtual_card_not_working",
+    "top_k_predictions": [
+      "virtual_card_not_working",
+      "card_not_working",
+      "card_payment_not_recognised",
+      "card_payment_wrong_exchange_rate",
+      "card_acceptance"
+    ],
+    "entities": "payments, virtual card, rejected",
+    "explanation": "The key terms in the sentence are \"payments,\" \"virtual card,\" and \"rejected,\" indicating an issue with payment rejection using a virtual card.",
+    "predicted_label": "virtual_card_not_working"
+  },
+  {
+    "id": 2603,
+    "text": "How do I deposit my paycheck to this account?",
+    "true_label": "receiving_money",
+    "top_k_predictions": [
+      "transfer_into_account",
+      "balance_not_updated_after_bank_transfer",
+      "card_payment_not_recognised",
+      "balance_not_updated_after_cheque_or_cash_deposit",
+      "receiving_money"
+    ],
+    "entities": "deposit, paycheck, account",
+    "explanation": "The key terms in the query are \"deposit,\" \"paycheck,\" and \"account,\" indicating that the user is looking for information on how to deposit their paycheck into an account.",
+    "predicted_label": "receiving_money"
+  },
+  {
+    "id": 1303,
+    "text": "This rate is too low. Are you sure your using the right exchange rate.",
+    "true_label": "card_payment_wrong_exchange_rate",
+    "top_k_predictions": [
+      "card_payment_wrong_exchange_rate",
+      "exchange_charge",
+      "wrong_exchange_rate_for_cash_withdrawal",
+      "exchange_via_app",
+      "transfer_timing"
+    ],
+    "entities": "rate, low, right exchange rate",
+    "explanation": "The key terms in the sentence are \"rate,\" \"low,\" and \"right exchange rate,\" indicating a concern about the exchange rate being used.",
+    "predicted_label": "wrong_exchange_rate"
+  },
+  {
+    "id": 479,
+    "text": "Will you accept my other card?",
+    "true_label": "supported_cards_and_currencies",
+    "top_k_predictions": [
+      "card_acceptance",
+      "card_not_working",
+      "visa_or_mastercard",
+      "card_payment_not_recognised",
+      "card_payment_fee_charged"
+    ],
+    "entities": "accept, card",
+    "explanation": "The key terms \"accept\" and \"card\" indicate that the user is inquiring about whether a specific card will be accepted.",
+    "predicted_label": "card_acceptance"
+  },
+  {
+    "id": 1197,
+    "text": "Which forms of currency are accepted?",
+    "true_label": "supported_cards_and_currencies",
+    "top_k_predictions": [
+      "card_acceptance",
+      "supported_cards_and_currencies",
+      "fiat_currency_support",
+      "exchange_via_app",
+      "exchange_charge"
+    ],
+    "entities": "forms, currency, accepted",
+    "explanation": "The key terms in the query are \"forms,\" \"currency,\" and \"accepted,\" indicating that the user is inquiring about the types of currency accepted.",
+    "predicted_label": "supported_cards_and_currencies"
+  },
+  {
+    "id": 1523,
+    "text": "I wasn't charged the correct amount for an item I purchased, how can I fix this?",
+    "true_label": "request_refund",
+    "top_k_predictions": [
+      "request_refund",
+      "card_payment_not_recognised",
+      "extra_charge_on_statement",
+      "exchange_charge",
+      "Refund_not_showing_up"
+    ],
+    "entities": "correct amount, item purchased, fix",
+    "explanation": "The key terms in the query indicate that the user is concerned about an incorrect charge for a purchased item and wants to rectify the issue.",
+    "predicted_label": "extra_charge_on_statement"
+  },
+  {
+    "id": 1978,
+    "text": "I need support options, I want to top my card",
+    "true_label": "supported_cards_and_currencies",
+    "top_k_predictions": [
+      "topping_up_by_card",
+      "top_up_limits",
+      "top_up_failed",
+      "top_up_reverted",
+      "top_up_by_bank_transfer_charge"
+    ],
+    "entities": "support options, top, card",
+    "explanation": "The key terms in the sentence are \"support options,\" \"top,\" and \"card.\" The user is looking for support options related to topping up their card.",
+    "predicted_label": "topping_up_by_card"
+  },
+  {
+    "id": 1735,
+    "text": "The account transfer I was trying to do failed.",
+    "true_label": "beneficiary_not_allowed",
+    "top_k_predictions": [
+      "failed_transfer",
+      "declined_transfer",
+      "transfer_timing",
+      "transfer_not_received_by_recipient",
+      "transfer_into_account"
+    ],
+    "entities": "account transfer, failed",
+    "explanation": "The key terms in the sentence are \"account transfer\" and \"failed,\" indicating that the user is referring to a transfer that was unsuccessful.",
+    "predicted_label": "failed_transfer"
+  },
+  {
+    "id": 2732,
+    "text": "Some of my card payments look different than where I purchased products from. Why is that?",
+    "true_label": "card_payment_not_recognised",
+    "top_k_predictions": [
+      "card_payment_not_recognised",
+      "card_acceptance",
+      "card_payment_wrong_exchange_rate",
+      "extra_charge_on_statement",
+      "card_payment_fee_charged"
+    ],
+    "entities": "card payments, different, purchased products",
+    "explanation": "The user is inquiring about discrepancies in their card payments compared to where they made purchases.",
+    "predicted_label": "card_payment_not_recognised"
+  },
+  {
+    "id": 1820,
+    "text": "If I want to exchange currency, will there be extras?",
+    "true_label": "exchange_charge",
+    "top_k_predictions": [
+      "exchange_charge",
+      "fiat_currency_support",
+      "exchange_via_app",
+      "extra_charge_on_statement",
+      "transfer_fee_charged"
+    ],
+    "entities": "exchange, currency, extras",
+    "explanation": "The key terms in the query are \"exchange,\" \"currency,\" and \"extras,\" indicating the user is inquiring about potential additional charges or fees when exchanging currency.",
+    "predicted_label": "exchange_charge"
+  },
+  {
+    "id": 1370,
+    "text": "I did a top-up, but I'm not seeing it in my wallet yet.",
+    "true_label": "topping_up_by_card",
+    "top_k_predictions": [
+      "top_up_failed",
+      "pending_top_up",
+      "top_up_reverted",
+      "top_up_by_bank_transfer_charge",
+      "balance_not_updated_after_bank_transfer"
+    ],
+    "entities": "top-up, wallet",
+    "explanation": "The key terms in the sentence are \"top-up\" and \"wallet,\" indicating that the user is referring to a transaction involving adding funds to their wallet but not seeing it reflected yet.",
+    "predicted_label": "pending_top_up"
+  },
+  {
+    "id": 1384,
+    "text": "Is it possible for me to get money out in a different currency?",
+    "true_label": "receiving_money",
+    "top_k_predictions": [
+      "exchange_via_app",
+      "wrong_exchange_rate_for_cash_withdrawal",
+      "cash_withdrawal_charge",
+      "exchange_charge",
+      "supported_cards_and_currencies"
+    ],
+    "entities": "money, different currency",
+    "explanation": "The key terms \"money\" and \"different currency\" indicate that the user is inquiring about the possibility of withdrawing cash in a currency other than their own.",
+    "predicted_label": "exchange_via_app"
+  },
+  {
+    "id": 1610,
+    "text": "I am waiting patiently for a week now for the seller to get back to me and there has been no response, could you please help me further with getting my money back.  Thank you.",
+    "true_label": "Refund_not_showing_up",
+    "top_k_predictions": [
+      "request_refund",
+      "Refund_not_showing_up",
+      "failed_transfer",
+      "card_payment_not_recognised",
+      "pending_transfer"
+    ],
+    "entities": "seller, response, money back",
+    "explanation": "The user is waiting for a response from the seller regarding getting their money back.",
+    "predicted_label": "request_refund"
+  },
+  {
+    "id": 272,
+    "text": "I really need money from my card today, but my card is getting declined. Please help!!",
+    "true_label": "top_up_failed",
+    "top_k_predictions": [
+      "declined_card_payment",
+      "card_not_working",
+      "card_payment_not_recognised",
+      "card_payment_wrong_exchange_rate",
+      "declined_transfer"
+    ],
+    "entities": "money, card, declined",
+    "explanation": "The key terms in the sentence are \"money,\" \"card,\" and \"declined.\" The user is expressing a need for money from their card, but the card is being declined, indicating a problem with card payment.",
+    "predicted_label": "declined_card_payment"
+  },
+  {
+    "id": 2271,
+    "text": "Double check your funds may be declined",
+    "true_label": "declined_transfer",
+    "top_k_predictions": [
+      "declined_card_payment",
+      "card_not_working",
+      "card_payment_not_recognised",
+      "declined_transfer",
+      "pending_card_payment"
+    ],
+    "entities": "double check, funds, declined",
+    "explanation": "The key terms in the sentence are \"double check,\" \"funds,\" and \"declined.\" The user is asking to verify something related to their funds being declined.",
+    "predicted_label": "declined_card_payment"
+  },
+  {
+    "id": 2906,
+    "text": "I was getting cash and can't get my card back.",
+    "true_label": "card_swallowed",
+    "top_k_predictions": [
+      "card_swallowed",
+      "pending_cash_withdrawal",
+      "card_not_working",
+      "lost_or_stolen_card",
+      "card_payment_not_recognised"
+    ],
+    "entities": "cash, card",
+    "explanation": "The key terms in the sentence are \"cash\" and \"card,\" indicating that the user is having an issue related to withdrawing cash and retrieving their card.",
+    "predicted_label": "card_swallowed"
+  },
+  {
+    "id": 573,
+    "text": "How do I cancel my card? There are charges on my account that I didn't make.",
+    "true_label": "cash_withdrawal_not_recognised",
+    "top_k_predictions": [
+      "cancel_transfer",
+      "extra_charge_on_statement",
+      "card_payment_not_recognised",
+      "card_not_working",
+      "lost_or_stolen_card"
+    ],
+    "entities": "cancel, card, charges, account",
+    "explanation": "The key terms in the query are \"cancel,\" \"card,\" \"charges,\" and \"account,\" indicating the user wants to cancel their card due to unauthorized charges on their account.",
+    "predicted_label": "cancel_transfer"
+  },
+  {
+    "id": 594,
+    "text": "Can I add to my account balance with a cheque?",
+    "true_label": "top_up_by_cash_or_cheque",
+    "top_k_predictions": [
+      "balance_not_updated_after_cheque_or_cash_deposit",
+      "top_up_by_cash_or_cheque",
+      "topping_up_by_card",
+      "transfer_into_account",
+      "top_up_by_bank_transfer_charge"
+    ],
+    "entities": "add, account balance, cheque",
+    "explanation": "The key terms in the query are \"add,\" \"account balance,\" and \"cheque,\" indicating the user is looking to increase their account balance using a cheque.",
+    "predicted_label": "top_up_by_cash_or_cheque"
+  },
+  {
+    "id": 989,
+    "text": "I tried to transfer money but it said it wasn't possible? I've done this before and it worked why isn't it working now?",
+    "true_label": "beneficiary_not_allowed",
+    "top_k_predictions": [
+      "failed_transfer",
+      "transfer_not_received_by_recipient",
+      "declined_transfer",
+      "transfer_timing",
+      "transfer_into_account"
+    ],
+    "entities": "transfer, money, possible, worked, not working",
+    "explanation": "The key terms in the query indicate a problem with a money transfer that was previously successful but is now not working. The user is seeking to understand why the transfer is not possible now.",
+    "predicted_label": "failed_transfer"
+  },
+  {
+    "id": 898,
+    "text": "Do I need to establish I am paid in GBP before a transfer?",
+    "true_label": "receiving_money",
+    "top_k_predictions": [
+      "transfer_into_account",
+      "transfer_timing",
+      "exchange_via_app",
+      "transfer_fee_charged",
+      "why_verify_identity"
+    ],
+    "entities": "establish, paid, GBP, transfer",
+    "explanation": "The key terms in the query are \"establish,\" \"paid,\" \"GBP,\" and \"transfer.\" The user is inquiring about the necessity of confirming their payment in GBP before initiating a transfer.",
+    "predicted_label": "transfer_into_account"
+  },
+  {
+    "id": 1336,
+    "text": "Can I exchange money from abroad without additional costs?",
+    "true_label": "exchange_charge",
+    "top_k_predictions": [
+      "exchange_charge",
+      "exchange_via_app",
+      "transfer_into_account",
+      "country_support",
+      "cash_withdrawal_charge"
+    ],
+    "entities": "exchange, money, abroad, additional costs",
+    "explanation": "The key terms in the query are \"exchange,\" \"money,\" \"abroad,\" and \"additional costs,\" indicating the user is inquiring about exchanging money from abroad without incurring additional charges.",
+    "predicted_label": "exchange_charge"
+  },
+  {
+    "id": 2429,
+    "text": "Cannot access my top up.",
+    "true_label": "topping_up_by_card",
+    "top_k_predictions": [
+      "pending_top_up",
+      "top_up_failed",
+      "top_up_reverted",
+      "topping_up_by_card",
+      "card_not_working"
+    ],
+    "entities": "access, top up",
+    "explanation": "The key terms in the query are \"access\" and \"top up,\" indicating that the user is having trouble accessing their top-up.",
+    "predicted_label": "pending_top_up"
+  },
+  {
+    "id": 2657,
+    "text": "Why am I required to do an identity check?",
+    "true_label": "why_verify_identity",
+    "top_k_predictions": [
+      "verify_my_identity",
+      "unable_to_verify_identity",
+      "why_verify_identity",
+      "activate_my_card",
+      "country_support"
+    ],
+    "entities": "identity check",
+    "explanation": "The key terms in the query are \"identity check,\" which indicate that the user is questioning the need for verifying their identity.",
+    "predicted_label": "why_verify_identity"
+  },
+  {
+    "id": 2587,
+    "text": "Why am I unable to take money from my card but the statement says the transaction is still pending?",
+    "true_label": "pending_cash_withdrawal",
+    "top_k_predictions": [
+      "pending_cash_withdrawal",
+      "pending_card_payment",
+      "card_payment_wrong_exchange_rate",
+      "card_not_working",
+      "pending_transfer"
+    ],
+    "entities": "money, card, transaction, pending",
+    "explanation": "The key terms in the query are \"money,\" \"card,\" \"transaction,\" and \"pending.\" The user is inquiring about a situation where they are unable to withdraw money from their card, but the transaction is still pending according to their statement.",
+    "predicted_label": "pending_card_payment"
+  },
+  {
+    "id": 2577,
+    "text": "I cannot make transactions with my virtual card.",
+    "true_label": "virtual_card_not_working",
+    "top_k_predictions": [
+      "virtual_card_not_working",
+      "card_not_working",
+      "card_payment_not_recognised",
+      "card_payment_wrong_exchange_rate",
+      "card_acceptance"
+    ],
+    "entities": "transactions, virtual card",
+    "explanation": "The key terms in the sentence are \"transactions\" and \"virtual card,\" indicating that the user is having issues with making transactions using their virtual card.",
+    "predicted_label": "virtual_card_not_working"
+  },
+  {
+    "id": 1376,
+    "text": "What methods can I use to add money to my account?",
+    "true_label": "transfer_into_account",
+    "top_k_predictions": [
+      "topping_up_by_card",
+      "transfer_into_account",
+      "balance_not_updated_after_bank_transfer",
+      "top_up_limits",
+      "top_up_by_cash_or_cheque"
+    ],
+    "entities": "methods, add money, account",
+    "explanation": "The key terms in the query are \"methods,\" \"add money,\" and \"account,\" which indicate that the user is looking for different ways to deposit money into their account.",
+    "predicted_label": "topping_up_by_card"
+  },
+  {
+    "id": 2642,
+    "text": "How long does it take for a money transfer to show?",
+    "true_label": "pending_transfer",
+    "top_k_predictions": [
+      "transfer_timing",
+      "transfer_into_account",
+      "transfer_not_received_by_recipient",
+      "pending_transfer",
+      "transfer_fee_charged"
+    ],
+    "entities": "money transfer, show",
+    "explanation": "The key terms in the query are \"money transfer\" and \"show,\" indicating that the user is inquiring about the timing or duration for a money transfer to be visible or reflected in an account.",
+    "predicted_label": "transfer_timing"
+  },
+  {
+    "id": 407,
+    "text": "Why don't I have my transfer?",
+    "true_label": "balance_not_updated_after_bank_transfer",
+    "top_k_predictions": [
+      "pending_transfer",
+      "transfer_timing",
+      "cancel_transfer",
+      "failed_transfer",
+      "lost_or_stolen_card"
+    ],
+    "entities": "transfer",
+    "explanation": "The key term \"transfer\" is important in understanding the user's query about the status of their transfer.",
+    "predicted_label": "pending_transfer"
+  },
+  {
+    "id": 1222,
+    "text": "How long does a funds transfer take from one back to another?",
+    "true_label": "transfer_timing",
+    "top_k_predictions": [
+      "transfer_timing",
+      "transfer_into_account",
+      "transfer_not_received_by_recipient",
+      "pending_transfer",
+      "transfer_fee_charged"
+    ],
+    "entities": "funds transfer, one bank, another",
+    "explanation": "The key terms in the query are \"funds transfer,\" \"one bank,\" and \"another,\" indicating a query about the timing of a transfer between two banks.",
+    "predicted_label": "transfer_timing"
+  },
+  {
+    "id": 254,
+    "text": "Is there a transfer fee?",
+    "true_label": "transfer_fee_charged",
+    "top_k_predictions": [
+      "transfer_fee_charged",
+      "pending_transfer",
+      "transfer_timing",
+      "transfer_not_received_by_recipient",
+      "transfer_into_account"
+    ],
+    "entities": "transfer fee",
+    "explanation": "The key term \"transfer fee\" is important for understanding the user query.",
+    "predicted_label": "transfer_fee_charged"
+  },
+  {
+    "id": 1257,
+    "text": "Freeze my account it's been hacked.",
+    "true_label": "compromised_card",
+    "top_k_predictions": [
+      "compromised_card",
+      "card_not_working",
+      "lost_or_stolen_card",
+      "card_payment_not_recognised",
+      "card_swallowed"
+    ],
+    "entities": "account, hacked",
+    "explanation": "The key terms \"account\" and \"hacked\" indicate a security-related issue with the user's account.",
+    "predicted_label": "account_compromised"
+  },
+  {
+    "id": 2165,
+    "text": "someone stole my money",
+    "true_label": "direct_debit_payment_not_recognised",
+    "top_k_predictions": [
+      "lost_or_stolen_card",
+      "compromised_card",
+      "card_payment_not_recognised",
+      "card_not_working",
+      "declined_card_payment"
+    ],
+    "entities": "stole, money",
+    "explanation": "The key terms \"stole\" and \"money\" indicate a situation where the user's money has been taken without authorization.",
+    "predicted_label": "lost_or_stolen_card"
+  },
+  {
+    "id": 1565,
+    "text": "How long until my transfer goes through?",
+    "true_label": "transfer_timing",
+    "top_k_predictions": [
+      "transfer_timing",
+      "pending_transfer",
+      "transfer_into_account",
+      "failed_transfer",
+      "transfer_not_received_by_recipient"
+    ],
+    "entities": "transfer, goes through",
+    "explanation": "The key terms in the query are \"transfer\" and \"goes through,\" indicating that the user is inquiring about the timing or duration of a transfer process.",
+    "predicted_label": "transfer_timing"
+  },
+  {
+    "id": 2235,
+    "text": "Can I use my account if the identity verification is not complete?",
+    "true_label": "why_verify_identity",
+    "top_k_predictions": [
+      "verify_my_identity",
+      "unable_to_verify_identity",
+      "why_verify_identity",
+      "activate_my_card",
+      "card_acceptance"
+    ],
+    "entities": "account, identity verification, complete",
+    "explanation": "The key terms in the query are \"account,\" \"identity verification,\" and \"complete.\" The user is inquiring about using their account without completing the identity verification process.",
+    "predicted_label": "unable_to_verify_identity"
+  },
+  {
+    "id": 717,
+    "text": "My disposable virtual card is not working when I try to use it at a point of sale transaction. What do I do now?",
+    "true_label": "virtual_card_not_working",
+    "top_k_predictions": [
+      "virtual_card_not_working",
+      "card_not_working",
+      "card_payment_not_recognised",
+      "compromised_card",
+      "card_acceptance"
+    ],
+    "entities": "disposable virtual card, not working, point of sale transaction",
+    "explanation": "The key terms in the sentence indicate that the user is facing an issue with their disposable virtual card not working during a point of sale transaction.",
+    "predicted_label": "virtual_card_not_working"
+  },
+  {
+    "id": 2569,
+    "text": "How long to I have to wait for a transfer to reach my account?",
+    "true_label": "transfer_timing",
+    "top_k_predictions": [
+      "transfer_timing",
+      "transfer_into_account",
+      "pending_transfer",
+      "transfer_not_received_by_recipient",
+      "transfer_fee_charged"
+    ],
+    "entities": "wait, transfer, reach, account",
+    "explanation": "The key terms in the query are \"wait,\" \"transfer,\" \"reach,\" and \"account,\" indicating that the user is inquiring about the timing or duration for a transfer to be completed and reach their account.",
+    "predicted_label": "transfer_timing"
+  },
+  {
+    "id": 2537,
+    "text": "How long does it take for an international transfer into my account?",
+    "true_label": "balance_not_updated_after_bank_transfer",
+    "top_k_predictions": [
+      "transfer_timing",
+      "transfer_into_account",
+      "transfer_not_received_by_recipient",
+      "pending_transfer",
+      "receiving_money"
+    ],
+    "entities": "international transfer, account",
+    "explanation": "The key terms in the query are \"international transfer\" and \"account,\" indicating the user is inquiring about the timing of a transfer into their account from an international source.",
+    "predicted_label": "transfer_timing"
+  },
+  {
+    "id": 1015,
+    "text": "I received my new card, but I don't see it in the app anywhere.  What do I do?",
+    "true_label": "card_linking",
+    "top_k_predictions": [
+      "card_arrival",
+      "card_not_working",
+      "get_physical_card",
+      "card_delivery_estimate",
+      "activate_my_card"
+    ],
+    "entities": "new card, app",
+    "explanation": "The key terms in the sentence are \"new card\" and \"app,\" indicating that the user is referring to a recently received card not showing up in the app.",
+    "predicted_label": "card_not_working"
+  },
+  {
+    "id": 401,
+    "text": "Someone is using my account to do online shopping! Please freeze it asap",
+    "true_label": "compromised_card",
+    "top_k_predictions": [
+      "compromised_card",
+      "lost_or_stolen_card",
+      "card_payment_not_recognised",
+      "card_not_working",
+      "card_payment_wrong_exchange_rate"
+    ],
+    "entities": "account, online shopping, freeze",
+    "explanation": "The user is reporting unauthorized activity on their account and requesting to freeze it.",
+    "predicted_label": "compromised_card"
+  },
+  {
+    "id": 881,
+    "text": "I've tried my card a bunch of times and it never worked.",
+    "true_label": "card_not_working",
+    "top_k_predictions": [
+      "card_not_working",
+      "card_acceptance",
+      "card_payment_not_recognised",
+      "top_up_failed",
+      "declined_card_payment"
+    ],
+    "entities": "card, tried, bunch of times, never worked",
+    "explanation": "The key terms in the sentence are \"card,\" \"tried,\" \"bunch of times,\" and \"never worked.\" The user is experiencing issues with their card not working despite multiple attempts.",
+    "predicted_label": "card_not_working"
+  },
+  {
+    "id": 2462,
+    "text": "How come you need to know my identity?",
+    "true_label": "why_verify_identity",
+    "top_k_predictions": [
+      "unable_to_verify_identity",
+      "why_verify_identity",
+      "verify_my_identity",
+      "compromised_card",
+      "card_acceptance"
+    ],
+    "entities": "know, identity",
+    "explanation": "The key terms in the sentence are \"know\" and \"identity,\" which indicate a question about the reason for verifying identity.",
+    "predicted_label": "why_verify_identity"
+  },
+  {
+    "id": 1375,
+    "text": "Can i have a card to my daughter?",
+    "true_label": "getting_spare_card",
+    "top_k_predictions": [
+      "card_arrival",
+      "order_physical_card",
+      "card_delivery_estimate",
+      "get_physical_card",
+      "receiving_money"
+    ],
+    "entities": "card, daughter",
+    "explanation": "The key terms in the sentence are \"card\" and \"daughter,\" indicating that the user is asking about obtaining a card for their daughter.",
+    "predicted_label": "order_physical_card"
+  },
+  {
+    "id": 1271,
+    "text": "What currencies will this app exchange?",
+    "true_label": "exchange_via_app",
+    "top_k_predictions": [
+      "supported_cards_and_currencies",
+      "exchange_via_app",
+      "exchange_charge",
+      "fiat_currency_support",
+      "country_support"
+    ],
+    "entities": "currencies, app, exchange",
+    "explanation": "The key terms in the query are \"currencies\" and \"app\" which indicate the user is asking about the currencies that the app can exchange.",
+    "predicted_label": "supported_cards_and_currencies"
+  },
+  {
+    "id": 585,
+    "text": "Can you look to make sure the exchange rate is correct",
+    "true_label": "wrong_exchange_rate_for_cash_withdrawal",
+    "top_k_predictions": [
+      "exchange_charge",
+      "wrong_exchange_rate_for_cash_withdrawal",
+      "card_payment_wrong_exchange_rate",
+      "card_payment_not_recognised",
+      "exchange_via_app"
+    ],
+    "entities": "exchange rate, correct",
+    "explanation": "The key terms in the query are \"exchange rate\" and \"correct,\" indicating that the user is concerned about the accuracy of the exchange rate.",
+    "predicted_label": "exchange_charge"
+  },
+  {
+    "id": 63,
+    "text": "I think my identity has been stolen, can you check on unauthorized charges?",
+    "true_label": "compromised_card",
+    "top_k_predictions": [
+      "compromised_card",
+      "card_payment_not_recognised",
+      "lost_or_stolen_card",
+      "card_payment_wrong_exchange_rate",
+      "card_payment_fee_charged"
+    ],
+    "entities": "identity stolen, unauthorized charges",
+    "explanation": "The key terms in the query suggest that the user is concerned about unauthorized charges due to identity theft.",
+    "predicted_label": "compromised_card"
+  },
+  {
+    "id": 1147,
+    "text": "I was taking out funds and was unable to regain my card.",
+    "true_label": "card_swallowed",
+    "top_k_predictions": [
+      "cash_withdrawal_not_recognised",
+      "lost_or_stolen_card",
+      "card_not_working",
+      "failed_transfer",
+      "getting_spare_card"
+    ],
+    "entities": "funds, unable, card",
+    "explanation": "The key terms in the sentence are \"funds,\" \"unable,\" and \"card,\" indicating a problem related to withdrawing money and not being able to retrieve the card.",
+    "predicted_label": "cash_withdrawal_not_recognised"
+  },
+  {
+    "id": 1508,
+    "text": "How can I resolve a problem where my card won't go through at all?",
+    "true_label": "card_not_working",
+    "top_k_predictions": [
+      "card_not_working",
+      "card_payment_not_recognised",
+      "declined_card_payment",
+      "card_payment_fee_charged",
+      "card_payment_wrong_exchange_rate"
+    ],
+    "entities": "card, problem, won't go through",
+    "explanation": "The key terms in the query are \"card,\" \"problem,\" and \"won't go through,\" indicating an issue with a card transaction not being successful.",
+    "predicted_label": "card_not_working"
+  },
+  {
+    "id": 3012,
+    "text": "Ordered awhile back, what is the ETA in the US?",
+    "true_label": "card_delivery_estimate",
+    "top_k_predictions": [
+      "card_delivery_estimate",
+      "card_arrival",
+      "order_physical_card",
+      "transfer_timing",
+      "pending_transfer"
+    ],
+    "entities": "ordered, ETA, US",
+    "explanation": "The key terms in the query are \"ordered,\" \"ETA,\" and \"US,\" indicating that the user is inquiring about the estimated time of arrival for an order in the US.",
+    "predicted_label": "card_delivery_estimate"
+  },
+  {
+    "id": 273,
+    "text": "im so mad right now. theres several charges that I think my x boyfriend made on my card. the companys on the website wouldn't refund me my money, they told me to contact my bank. DO something please.",
+    "true_label": "direct_debit_payment_not_recognised",
+    "top_k_predictions": [
+      "compromised_card",
+      "Refund_not_showing_up",
+      "card_payment_not_recognised",
+      "request_refund",
+      "card_payment_wrong_exchange_rate"
+    ],
+    "entities": "compromised card, refund, charges, x boyfriend, website, bank",
+    "explanation": "The user is expressing frustration over unauthorized charges made on their card by their ex-boyfriend and is seeking help to get a refund from the company.",
+    "predicted_label": "compromised_card"
+  },
+  {
+    "id": 2519,
+    "text": "I cannot find my credit card.",
+    "true_label": "lost_or_stolen_card",
+    "top_k_predictions": [
+      "lost_or_stolen_card",
+      "card_not_working",
+      "card_payment_not_recognised",
+      "card_swallowed",
+      "card_delivery_estimate"
+    ],
+    "entities": "credit card, find",
+    "explanation": "The key terms in the query are \"credit card\" and \"find,\" indicating that the user is looking for assistance related to a lost or misplaced credit card.",
+    "predicted_label": "lost_or_stolen_card"
+  },
+  {
+    "id": 468,
+    "text": "Need to deposit a cheque into my account",
+    "true_label": "top_up_by_cash_or_cheque",
+    "top_k_predictions": [
+      "balance_not_updated_after_cheque_or_cash_deposit",
+      "top_up_by_cash_or_cheque",
+      "transfer_into_account",
+      "receiving_money",
+      "top_up_by_bank_transfer_charge"
+    ],
+    "entities": "deposit, cheque, account",
+    "explanation": "The key terms in the query are \"deposit,\" \"cheque,\" and \"account,\" indicating the user's intention to deposit a cheque into their account.",
+    "predicted_label": "transfer_into_account"
+  },
+  {
+    "id": 2426,
+    "text": "I need some help with identity verification.",
+    "true_label": "verify_my_identity",
+    "top_k_predictions": [
+      "verify_my_identity",
+      "unable_to_verify_identity",
+      "why_verify_identity",
+      "card_delivery_estimate",
+      "card_payment_not_recognised"
+    ],
+    "entities": "help, identity verification",
+    "explanation": "The key terms in the query are \"help\" and \"identity verification,\" indicating that the user is seeking assistance with the process of verifying their identity.",
+    "predicted_label": "verify_my_identity"
+  },
+  {
+    "id": 1075,
+    "text": "What stores will take my credit card as payment?",
+    "true_label": "card_acceptance",
+    "top_k_predictions": [
+      "card_acceptance",
+      "card_payment_not_recognised",
+      "supported_cards_and_currencies",
+      "card_payment_wrong_exchange_rate",
+      "country_support"
+    ],
+    "entities": "stores, credit card, payment",
+    "explanation": "The key terms in the query are \"stores,\" \"credit card,\" and \"payment,\" indicating that the user is inquiring about where they can use their credit card for payment.",
+    "predicted_label": "card_acceptance"
+  },
+  {
+    "id": 2021,
+    "text": "I was at the store earlier and my virtual card didn't work. What's the solution for this problem?",
+    "true_label": "virtual_card_not_working",
+    "top_k_predictions": [
+      "virtual_card_not_working",
+      "card_not_working",
+      "card_payment_not_recognised",
+      "activate_my_card",
+      "card_swallowed"
+    ],
+    "entities": "store, virtual card, didn't work, solution, problem",
+    "explanation": "The key terms in the sentence are \"store,\" \"virtual card,\" \"didn't work,\" \"solution,\" and \"problem.\" The user is experiencing an issue with their virtual card not working at a store and is seeking a solution to this problem.",
+    "predicted_label": "virtual_card_not_working"
+  },
+  {
+    "id": 2586,
+    "text": "My card is being declined for a purchase. I bought items before and the card worked. Do you know what the problem is?",
+    "true_label": "reverted_card_payment?",
+    "top_k_predictions": [
+      "declined_card_payment",
+      "card_not_working",
+      "card_payment_not_recognised",
+      "card_payment_wrong_exchange_rate",
+      "card_acceptance"
+    ],
+    "entities": "card, declined, purchase, worked, problem",
+    "explanation": "The key terms in the sentence are \"card,\" \"declined,\" \"purchase,\" \"worked,\" and \"problem.\" The user is experiencing an issue with their card being declined for a purchase, even though it worked before, and they are seeking help to identify the problem.",
+    "predicted_label": "declined_card_payment"
+  },
+  {
+    "id": 2215,
+    "text": "The app will not let me into my account.",
+    "true_label": "unable_to_verify_identity",
+    "top_k_predictions": [
+      "unable_to_verify_identity",
+      "card_not_working",
+      "card_payment_not_recognised",
+      "activate_my_card",
+      "card_linking"
+    ],
+    "entities": "app, account",
+    "explanation": "The key terms \"app\" and \"account\" indicate that the user is having trouble accessing their account through the app.",
+    "predicted_label": "unable_to_verify_identity"
+  },
+  {
+    "id": 2441,
+    "text": "Why do I have to give you all of my identification details?",
+    "true_label": "why_verify_identity",
+    "top_k_predictions": [
+      "why_verify_identity",
+      "unable_to_verify_identity",
+      "verify_my_identity",
+      "card_acceptance",
+      "card_not_working"
+    ],
+    "entities": "identification details",
+    "explanation": "The key terms in the query are \"identification details,\" which indicate a concern or question about providing personal information for verification purposes.",
+    "predicted_label": "why_verify_identity"
+  },
+  {
+    "id": 2735,
+    "text": "I bought this item and was charged the wrong amount can I get a refund?",
+    "true_label": "request_refund",
+    "top_k_predictions": [
+      "request_refund",
+      "Refund_not_showing_up",
+      "card_payment_wrong_exchange_rate",
+      "extra_charge_on_statement",
+      "card_payment_not_recognised"
+    ],
+    "entities": "bought, item, charged, wrong amount, refund",
+    "explanation": "The key terms in the sentence indicate that the user is seeking a refund due to being charged the wrong amount for an item they purchased.",
+    "predicted_label": "request_refund"
+  },
+  {
+    "id": 535,
+    "text": "Why was my virtual card declined when attempting to setup automatic billing?",
+    "true_label": "virtual_card_not_working",
+    "top_k_predictions": [
+      "card_payment_not_recognised",
+      "virtual_card_not_working",
+      "declined_card_payment",
+      "card_not_working",
+      "card_payment_fee_charged"
+    ],
+    "entities": "virtual card, declined, setup automatic billing",
+    "explanation": "The key terms in the query are \"virtual card,\" \"declined,\" and \"setup automatic billing.\" The user is inquiring about why their virtual card was declined when trying to set up automatic billing.",
+    "predicted_label": "declined_card_payment"
+  },
+  {
+    "id": 461,
+    "text": "If I only have 1 other US card, can you take it?",
+    "true_label": "supported_cards_and_currencies",
+    "top_k_predictions": [
+      "card_delivery_estimate",
+      "card_linking",
+      "getting_spare_card",
+      "card_not_working",
+      "activate_my_card"
+    ],
+    "entities": "US card",
+    "explanation": "The key term \"US card\" indicates that the user is referring to a card from the United States. This could be relevant for the intent of card linking.",
+    "predicted_label": "card_linking"
+  },
+  {
+    "id": 1591,
+    "text": "I have 1 other US card.  Can you take that?",
+    "true_label": "supported_cards_and_currencies",
+    "top_k_predictions": [
+      "card_not_working",
+      "card_acceptance",
+      "card_delivery_estimate",
+      "card_payment_not_recognised",
+      "get_physical_card"
+    ],
+    "entities": "US card",
+    "explanation": "The key term \"US card\" indicates that the user is referring to a card from the United States.",
+    "predicted_label": "card_acceptance"
+  },
+  {
+    "id": 275,
+    "text": "My card payment did not complete.",
+    "true_label": "declined_card_payment",
+    "top_k_predictions": [
+      "card_payment_not_recognised",
+      "top_up_failed",
+      "failed_transfer",
+      "declined_card_payment",
+      "pending_card_payment"
+    ],
+    "entities": "card payment, complete",
+    "explanation": "The key terms in the sentence are \"card payment\" and \"complete,\" indicating that the user is referring to a payment made with a card that did not go through successfully.",
+    "predicted_label": "card_payment_not_recognised"
+  },
+  {
+    "id": 264,
+    "text": "Why am I required to verify my identity?",
+    "true_label": "why_verify_identity",
+    "top_k_predictions": [
+      "why_verify_identity",
+      "unable_to_verify_identity",
+      "verify_my_identity",
+      "card_not_working",
+      "activate_my_card"
+    ],
+    "entities": "verify, identity",
+    "explanation": "The key terms in the sentence are \"verify\" and \"identity,\" indicating a question about the process of verifying one's identity.",
+    "predicted_label": "why_verify_identity"
+  },
+  {
+    "id": 2712,
+    "text": "How long does it take for a transfer?",
+    "true_label": "transfer_timing",
+    "top_k_predictions": [
+      "transfer_timing",
+      "transfer_into_account",
+      "pending_transfer",
+      "transfer_not_received_by_recipient",
+      "failed_transfer"
+    ],
+    "entities": "transfer, timing",
+    "explanation": "The key terms in the query are \"transfer\" and \"timing,\" indicating that the user is inquiring about the duration or time it takes for a transfer to be completed.",
+    "predicted_label": "transfer_timing"
+  },
+  {
+    "id": 2457,
+    "text": "how much you charge for exhcange",
+    "true_label": "exchange_charge",
+    "top_k_predictions": [
+      "exchange_charge",
+      "exchange_via_app",
+      "wrong_exchange_rate_for_cash_withdrawal",
+      "top_up_by_bank_transfer_charge",
+      "card_payment_wrong_exchange_rate"
+    ],
+    "entities": "charge, exchange",
+    "explanation": "The key terms in the sentence are \"charge\" and \"exchange,\" indicating that the user is inquiring about the fees associated with currency exchange.",
+    "predicted_label": "exchange_charge"
+  },
+  {
+    "id": 170,
+    "text": "Why is my debit card being declined when I have money?",
+    "true_label": "declined_card_payment",
+    "top_k_predictions": [
+      "declined_card_payment",
+      "card_acceptance",
+      "card_payment_not_recognised",
+      "card_not_working",
+      "declined_transfer"
+    ],
+    "entities": "debit card, declined, money",
+    "explanation": "The key terms in the query are \"debit card,\" \"declined,\" and \"money,\" indicating that the user is experiencing an issue with their debit card being declined despite having sufficient funds.",
+    "predicted_label": "declined_card_payment"
+  },
+  {
+    "id": 2903,
+    "text": "why did the app refuse to make an approved payment",
+    "true_label": "reverted_card_payment?",
+    "top_k_predictions": [
+      "declined_transfer",
+      "card_payment_not_recognised",
+      "failed_transfer",
+      "top_up_failed",
+      "card_not_working"
+    ],
+    "entities": "app, refuse, approved payment",
+    "explanation": "The key terms in the query are \"app,\" \"refuse,\" and \"approved payment,\" indicating that the user is inquiring about a payment that was declined or not processed by the app despite being approved.",
+    "predicted_label": "declined_transfer"
+  },
+  {
+    "id": 1721,
+    "text": "How long does a transfer take to be confirmed?",
+    "true_label": "pending_transfer",
+    "top_k_predictions": [
+      "transfer_timing",
+      "transfer_not_received_by_recipient",
+      "transfer_into_account",
+      "pending_transfer",
+      "failed_transfer"
+    ],
+    "entities": "transfer, take, confirmed",
+    "explanation": "The key terms in the query are \"transfer,\" \"take,\" and \"confirmed,\" indicating that the user is inquiring about the timing or duration of a transfer confirmation.",
+    "predicted_label": "transfer_timing"
+  },
+  {
+    "id": 1028,
+    "text": "The exchange rate for my transaction last Saturday seems to have been wrong I got charged extra.  Please fix.",
+    "true_label": "card_payment_wrong_exchange_rate",
+    "top_k_predictions": [
+      "extra_charge_on_statement",
+      "card_payment_wrong_exchange_rate",
+      "exchange_charge",
+      "wrong_exchange_rate_for_cash_withdrawal",
+      "exchange_via_app"
+    ],
+    "entities": "exchange rate, transaction, Saturday, wrong, charged extra",
+    "explanation": "The user is reporting an issue with the exchange rate for a transaction on Saturday where they were charged extra.",
+    "predicted_label": "wrong_exchange_rate_for_transaction"
+  },
+  {
+    "id": 1030,
+    "text": "I want to order another crad",
+    "true_label": "getting_spare_card",
+    "top_k_predictions": [
+      "order_physical_card",
+      "get_physical_card",
+      "card_not_working",
+      "card_arrival",
+      "card_linking"
+    ],
+    "entities": "order, another, card",
+    "explanation": "The key terms in the sentence are \"order\" and \"card,\" indicating the user's intent to request a new card.",
+    "predicted_label": "order_physical_card"
+  },
+  {
+    "id": 2360,
+    "text": "Why did the disposable virtual card which I used to pay a gym subscription get denied?",
+    "true_label": "virtual_card_not_working",
+    "top_k_predictions": [
+      "card_payment_not_recognised",
+      "card_not_working",
+      "declined_card_payment",
+      "disposable_card_limits",
+      "virtual_card_not_working"
+    ],
+    "entities": "disposable virtual card, pay, gym subscription, denied",
+    "explanation": "The user is inquiring about the reason behind the denial of a payment made with a disposable virtual card for a gym subscription.",
+    "predicted_label": "declined_card_payment"
+  },
+  {
+    "id": 2909,
+    "text": "How long until my transfer will be available to me",
+    "true_label": "balance_not_updated_after_bank_transfer",
+    "top_k_predictions": [
+      "transfer_timing",
+      "transfer_into_account",
+      "pending_transfer",
+      "transfer_not_received_by_recipient",
+      "receiving_money"
+    ],
+    "entities": "transfer, available",
+    "explanation": "The key terms in the query are \"transfer\" and \"available,\" indicating that the user is inquiring about the timing or availability of a transfer.",
+    "predicted_label": "transfer_timing"
+  },
+  {
+    "id": 1766,
+    "text": "I would like to refill my account using SWIFT.",
+    "true_label": "top_up_by_bank_transfer_charge",
+    "top_k_predictions": [
+      "top_up_failed",
+      "top_up_by_bank_transfer_charge",
+      "top_up_by_cash_or_cheque",
+      "transfer_into_account",
+      "topping_up_by_card"
+    ],
+    "entities": "refill, account, SWIFT",
+    "explanation": "The key terms in the query are \"refill,\" \"account,\" and \"SWIFT.\" The user is looking to add funds to their account using SWIFT, which is a type of international bank transfer.",
+    "predicted_label": "transfer_into_account"
+  },
+  {
+    "id": 2516,
+    "text": "I think my statement has a fraudulent charge",
+    "true_label": "card_payment_not_recognised",
+    "top_k_predictions": [
+      "extra_charge_on_statement",
+      "card_payment_not_recognised",
+      "card_payment_fee_charged",
+      "compromised_card",
+      "card_payment_wrong_exchange_rate"
+    ],
+    "entities": "statement, fraudulent charge",
+    "explanation": "The key terms in the query are \"statement\" and \"fraudulent charge,\" indicating that the user is concerned about a potentially unauthorized or fraudulent charge on their statement.",
+    "predicted_label": "extra_charge_on_statement"
+  },
+  {
+    "id": 2074,
+    "text": "Why do I have to verify my identity?",
+    "true_label": "why_verify_identity",
+    "top_k_predictions": [
+      "why_verify_identity",
+      "unable_to_verify_identity",
+      "verify_my_identity",
+      "card_not_working",
+      "card_payment_not_recognised"
+    ],
+    "entities": "verify, identity",
+    "explanation": "The key terms in the query are \"verify\" and \"identity,\" indicating that the user is asking about the reason for verifying their identity.",
+    "predicted_label": "why_verify_identity"
+  },
+  {
+    "id": 1569,
+    "text": "the conversion value for my card payments is incorrect.",
+    "true_label": "card_payment_wrong_exchange_rate",
+    "top_k_predictions": [
+      "card_payment_wrong_exchange_rate",
+      "card_payment_not_recognised",
+      "declined_card_payment",
+      "card_payment_fee_charged",
+      "card_not_working"
+    ],
+    "entities": "conversion value, card payments",
+    "explanation": "The key terms in the sentence are \"conversion value\" and \"card payments,\" indicating that the user is concerned about the incorrect conversion value for their card payments.",
+    "predicted_label": "card_payment_wrong_exchange_rate"
+  },
+  {
+    "id": 1035,
+    "text": "How can I fix a problem where my virtual card is rejected?",
+    "true_label": "virtual_card_not_working",
+    "top_k_predictions": [
+      "virtual_card_not_working",
+      "card_acceptance",
+      "top_up_reverted",
+      "card_not_working",
+      "pending_card_payment"
+    ],
+    "entities": "virtual card, rejected",
+    "explanation": "The key terms \"virtual card\" and \"rejected\" indicate that the user is experiencing an issue with their virtual card being rejected.",
+    "predicted_label": "virtual_card_not_working"
+  },
+  {
+    "id": 943,
+    "text": "I'm out of money, can I add money with my bank?",
+    "true_label": "transfer_into_account",
+    "top_k_predictions": [
+      "topping_up_by_card",
+      "top_up_by_bank_transfer_charge",
+      "transfer_into_account",
+      "top_up_failed",
+      "top_up_by_cash_or_cheque"
+    ],
+    "entities": "money, bank",
+    "explanation": "The key terms \"money\" and \"bank\" indicate that the user is looking to add funds to their account using their bank.",
+    "predicted_label": "transfer_into_account"
+  },
+  {
+    "id": 2709,
+    "text": "What happened to my top-up?",
+    "true_label": "top_up_reverted",
+    "top_k_predictions": [
+      "top_up_failed",
+      "top_up_reverted",
+      "pending_top_up",
+      "top_up_limits",
+      "balance_not_updated_after_bank_transfer"
+    ],
+    "entities": "top-up",
+    "explanation": "The key term \"top-up\" is crucial for understanding the user query.",
+    "predicted_label": "pending_top_up"
+  },
+  {
+    "id": 2722,
+    "text": "do I need to verify my identity every time I log into my account?",
+    "true_label": "why_verify_identity",
+    "top_k_predictions": [
+      "why_verify_identity",
+      "verify_my_identity",
+      "unable_to_verify_identity",
+      "activate_my_card",
+      "card_not_working"
+    ],
+    "entities": "verify, identity, log into, account",
+    "explanation": "The key terms in the query are \"verify,\" \"identity,\" \"log into,\" and \"account,\" indicating a concern about the frequency of verifying identity during account login.",
+    "predicted_label": "why_verify_identity"
+  },
+  {
+    "id": 1925,
+    "text": "When will the transfer go through?",
+    "true_label": "pending_transfer",
+    "top_k_predictions": [
+      "transfer_timing",
+      "pending_transfer",
+      "transfer_into_account",
+      "transfer_not_received_by_recipient",
+      "failed_transfer"
+    ],
+    "entities": "transfer, go through",
+    "explanation": "The key terms in the query are \"transfer\" and \"go through,\" indicating that the user is inquiring about the timing or status of a transfer.",
+    "predicted_label": "transfer_timing"
+  },
+  {
+    "id": 298,
+    "text": "My child needs a card, how can I add them to the account I currently have?",
+    "true_label": "getting_spare_card",
+    "top_k_predictions": [
+      "card_linking",
+      "get_physical_card",
+      "card_delivery_estimate",
+      "activate_my_card",
+      "order_physical_card"
+    ],
+    "entities": "child, add, account",
+    "explanation": "The key terms in the query are \"child,\" \"add,\" and \"account,\" indicating that the user wants to add their child to their existing account.",
+    "predicted_label": "card_linking"
+  },
+  {
+    "id": 2965,
+    "text": "I paid for something in foreign currency but noticed the exchange rate is incorrect.",
+    "true_label": "card_payment_wrong_exchange_rate",
+    "top_k_predictions": [
+      "card_payment_wrong_exchange_rate",
+      "wrong_exchange_rate_for_cash_withdrawal",
+      "exchange_charge",
+      "exchange_via_app",
+      "fiat_currency_support"
+    ],
+    "entities": "paid, foreign currency, exchange rate, incorrect",
+    "explanation": "The key terms in the query are \"paid,\" \"foreign currency,\" \"exchange rate,\" and \"incorrect.\" The user is expressing concern about an incorrect exchange rate when making a payment in a foreign currency.",
+    "predicted_label": "card_payment_wrong_exchange_rate"
+  },
+  {
+    "id": 2372,
+    "text": "I tryed to make a top-up with cryptocurrency but the payment was referted.",
+    "true_label": "top_up_reverted",
+    "top_k_predictions": [
+      "top_up_reverted",
+      "top_up_failed",
+      "reverted_card_payment?",
+      "failed_transfer",
+      "pending_top_up"
+    ],
+    "entities": "top-up, cryptocurrency, payment, reverted",
+    "explanation": "The key terms in the sentence are \"top-up,\" \"cryptocurrency,\" \"payment,\" and \"reverted.\" The user attempted to make a top-up using cryptocurrency, but the payment was reverted.",
+    "predicted_label": "top_up_reverted"
+  },
+  {
+    "id": 2551,
+    "text": "Why would my topup not go through?",
+    "true_label": "top_up_failed",
+    "top_k_predictions": [
+      "top_up_failed",
+      "topping_up_by_card",
+      "pending_top_up",
+      "top_up_limits",
+      "card_payment_not_recognised"
+    ],
+    "entities": "topup, go through",
+    "explanation": "The key terms in the query are \"topup\" and \"go through,\" indicating that the user is inquiring about a failed top-up transaction.",
+    "predicted_label": "top_up_failed"
+  },
+  {
+    "id": 2676,
+    "text": "I have paid money into my account but it doesn't show.",
+    "true_label": "balance_not_updated_after_cheque_or_cash_deposit",
+    "top_k_predictions": [
+      "balance_not_updated_after_bank_transfer",
+      "transfer_into_account",
+      "balance_not_updated_after_cheque_or_cash_deposit",
+      "top_up_failed",
+      "top_up_by_cash_or_cheque"
+    ],
+    "entities": "paid, money, account, show",
+    "explanation": "The key terms in the query are \"paid,\" \"money,\" \"account,\" and \"show,\" indicating that the user is concerned about a payment made into their account not reflecting.",
+    "predicted_label": "balance_not_updated_after_bank_transfer"
+  },
+  {
+    "id": 1824,
+    "text": "I cannot use my disposable virtual card.",
+    "true_label": "virtual_card_not_working",
+    "top_k_predictions": [
+      "virtual_card_not_working",
+      "card_not_working",
+      "disposable_card_limits",
+      "card_payment_not_recognised",
+      "card_acceptance"
+    ],
+    "entities": "disposable virtual card",
+    "explanation": "The key terms in the sentence are \"disposable\" and \"virtual card,\" indicating that the user is having issues with a specific type of card.",
+    "predicted_label": "disposable_card_limits"
+  },
+  {
+    "id": 480,
+    "text": "I go the wrong exchange rate applied to my purchase in a foreign country.",
+    "true_label": "card_payment_wrong_exchange_rate",
+    "top_k_predictions": [
+      "card_payment_wrong_exchange_rate",
+      "exchange_charge",
+      "wrong_exchange_rate_for_cash_withdrawal",
+      "exchange_via_app",
+      "fiat_currency_support"
+    ],
+    "entities": "wrong exchange rate, purchase, foreign country",
+    "explanation": "The key terms in the query are \"wrong exchange rate,\" \"purchase,\" and \"foreign country,\" indicating that the user is concerned about an incorrect exchange rate applied to a transaction made in a foreign country.",
+    "predicted_label": "card_payment_wrong_exchange_rate"
+  },
+  {
+    "id": 2375,
+    "text": "What are the available cards?",
+    "true_label": "visa_or_mastercard",
+    "top_k_predictions": [
+      "supported_cards_and_currencies",
+      "visa_or_mastercard",
+      "card_acceptance",
+      "card_arrival",
+      "get_physical_card"
+    ],
+    "entities": "available cards",
+    "explanation": "The key term \"available cards\" indicates that the user is inquiring about the types of cards that are supported or offered.",
+    "predicted_label": "supported_cards_and_currencies"
+  },
+  {
+    "id": 2751,
+    "text": "Why did I need to verfiy my identity?",
+    "true_label": "why_verify_identity",
+    "top_k_predictions": [
+      "why_verify_identity",
+      "unable_to_verify_identity",
+      "verify_my_identity",
+      "card_payment_not_recognised",
+      "card_not_working"
+    ],
+    "entities": "verify, identity",
+    "explanation": "The key terms in the sentence are \"verify\" and \"identity,\" indicating a question about the need for identity verification.",
+    "predicted_label": "why_verify_identity"
+  },
+  {
+    "id": 2677,
+    "text": "Will you reinstate my PIN?",
+    "true_label": "pin_blocked",
+    "top_k_predictions": [
+      "pin_blocked",
+      "card_not_working",
+      "activate_my_card",
+      "card_payment_not_recognised",
+      "card_payment_wrong_exchange_rate"
+    ],
+    "entities": "reinstate, PIN",
+    "explanation": "The key terms in the query are \"reinstate\" and \"PIN,\" indicating that the user is seeking assistance with their PIN.",
+    "predicted_label": "pin_blocked"
+  },
+  {
+    "id": 1998,
+    "text": "What is the purpose for the identity check",
+    "true_label": "why_verify_identity",
+    "top_k_predictions": [
+      "why_verify_identity",
+      "verify_my_identity",
+      "unable_to_verify_identity",
+      "card_payment_fee_charged",
+      "pending_transfer"
+    ],
+    "entities": "purpose, identity check",
+    "explanation": "The key terms in the query are \"purpose\" and \"identity check,\" indicating that the user is seeking information about the reason or intent behind an identity check.",
+    "predicted_label": "why_verify_identity"
+  },
+  {
+    "id": 1232,
+    "text": "What is the transfer fee charge?",
+    "true_label": "transfer_fee_charged",
+    "top_k_predictions": [
+      "transfer_fee_charged",
+      "exchange_charge",
+      "card_payment_fee_charged",
+      "transfer_into_account",
+      "top_up_by_bank_transfer_charge"
+    ],
+    "entities": "transfer fee charge",
+    "explanation": "The key terms in the query are \"transfer fee charge,\" which indicate that the user is inquiring about the fee associated with transferring money.",
+    "predicted_label": "transfer_fee_charged"
+  },
+  {
+    "id": 2821,
+    "text": "How can I fix my card, it got declined twice.",
+    "true_label": "declined_transfer",
+    "top_k_predictions": [
+      "declined_card_payment",
+      "card_not_working",
+      "card_payment_not_recognised",
+      "card_acceptance",
+      "card_payment_fee_charged"
+    ],
+    "entities": "fix, card, declined, twice",
+    "explanation": "The key terms in the query are \"fix,\" \"card,\" \"declined,\" and \"twice,\" indicating that the user is experiencing issues with their card being declined multiple times.",
+    "predicted_label": "declined_card_payment"
+  },
+  {
+    "id": 1274,
+    "text": "Where can I get my card at?",
+    "true_label": "order_physical_card",
+    "top_k_predictions": [
+      "get_physical_card",
+      "card_arrival",
+      "activate_my_card",
+      "order_physical_card",
+      "card_delivery_estimate"
+    ],
+    "entities": "card",
+    "explanation": "The key term \"card\" is important for understanding the user's intent.",
+    "predicted_label": "get_physical_card"
+  },
+  {
+    "id": 1470,
+    "text": "Hello- It is urgent I get a refund on this product. The merchant has not been helpful, what can I do now to get this resolved ASAP?",
+    "true_label": "request_refund",
+    "top_k_predictions": [
+      "Refund_not_showing_up",
+      "request_refund",
+      "card_payment_not_recognised",
+      "failed_transfer",
+      "card_payment_wrong_exchange_rate"
+    ],
+    "entities": "refund, product, merchant, resolved, ASAP",
+    "explanation": "The key terms in the sentence indicate that the user is seeking help with getting a refund for a product where the merchant has not been helpful, and they need a quick resolution.",
+    "predicted_label": "request_refund"
+  },
+  {
+    "id": 513,
+    "text": "Why doesn't my disposable virtual card work?",
+    "true_label": "virtual_card_not_working",
+    "top_k_predictions": [
+      "virtual_card_not_working",
+      "card_not_working",
+      "card_payment_not_recognised",
+      "card_payment_wrong_exchange_rate",
+      "activate_my_card"
+    ],
+    "entities": "disposable virtual card, work",
+    "explanation": "The key terms in the query are \"disposable virtual card\" and \"work,\" indicating that the user is experiencing issues with their virtual card not functioning properly.",
+    "predicted_label": "virtual_card_not_working"
+  },
+  {
+    "id": 1011,
+    "text": "I have an unauthorized transaction on my statement",
+    "true_label": "card_payment_not_recognised",
+    "top_k_predictions": [
+      "cash_withdrawal_not_recognised",
+      "extra_charge_on_statement",
+      "card_payment_not_recognised",
+      "failed_transfer",
+      "reverted_card_payment?"
+    ],
+    "entities": "unauthorized transaction, statement",
+    "explanation": "The key terms in the query are \"unauthorized transaction\" and \"statement,\" indicating that the user is concerned about a transaction they did not authorize appearing on their statement.",
+    "predicted_label": "extra_charge_on_statement"
+  },
+  {
+    "id": 645,
+    "text": "How would I use my money in a different country?",
+    "true_label": "exchange_via_app",
+    "top_k_predictions": [
+      "exchange_via_app",
+      "country_support",
+      "exchange_charge",
+      "cash_withdrawal_not_recognised",
+      "wrong_exchange_rate_for_cash_withdrawal"
+    ],
+    "entities": "money, different country",
+    "explanation": "The key terms in the query are \"money\" and \"different country,\" indicating that the user is seeking information on how to use their money in a different country.",
+    "predicted_label": "country_support"
+  },
+  {
+    "id": 1646,
+    "text": "I don't understand the money transfer process.",
+    "true_label": "transfer_into_account",
+    "top_k_predictions": [
+      "transfer_not_received_by_recipient",
+      "transfer_timing",
+      "transfer_fee_charged",
+      "transfer_into_account",
+      "failed_transfer"
+    ],
+    "entities": "money transfer process",
+    "explanation": "The key terms in the query are \"money transfer process,\" indicating that the user is seeking information or clarification about how money transfers work.",
+    "predicted_label": "transfer_timing"
+  },
+  {
+    "id": 1405,
+    "text": "What can I pay with? Does cash work?",
+    "true_label": "top_up_by_cash_or_cheque",
+    "top_k_predictions": [
+      "cash_withdrawal_not_recognised",
+      "topping_up_by_card",
+      "supported_cards_and_currencies",
+      "card_payment_not_recognised",
+      "cash_withdrawal_charge"
+    ],
+    "entities": "pay, cash",
+    "explanation": "The key terms \"pay\" and \"cash\" indicate that the user is inquiring about payment methods and specifically asking about using cash.",
+    "predicted_label": "topping_up_by_card"
+  },
+  {
+    "id": 2096,
+    "text": "what does pending mean?",
+    "true_label": "pending_card_payment",
+    "top_k_predictions": [
+      "pending_transfer",
+      "pending_card_payment",
+      "pending_cash_withdrawal",
+      "pending_top_up",
+      "card_payment_not_recognised"
+    ],
+    "entities": "pending",
+    "explanation": "The key term \"pending\" is important for understanding the user query.",
+    "predicted_label": "pending_transfer"
+  },
+  {
+    "id": 2292,
+    "text": "the card payment exchange rate is wrong",
+    "true_label": "card_payment_wrong_exchange_rate",
+    "top_k_predictions": [
+      "card_payment_wrong_exchange_rate",
+      "wrong_exchange_rate_for_cash_withdrawal",
+      "exchange_via_app",
+      "exchange_charge",
+      "card_payment_not_recognised"
+    ],
+    "entities": "card payment, exchange rate, wrong",
+    "explanation": "The key terms in the sentence are \"card payment,\" \"exchange rate,\" and \"wrong.\" The user is expressing dissatisfaction with the exchange rate related to a card payment transaction.",
+    "predicted_label": "card_payment_wrong_exchange_rate"
+  },
+  {
+    "id": 319,
+    "text": "I don't know where this transaction came from?",
+    "true_label": "card_payment_not_recognised",
+    "top_k_predictions": [
+      "balance_not_updated_after_cheque_or_cash_deposit",
+      "card_payment_not_recognised",
+      "receiving_money",
+      "pending_card_payment",
+      "card_not_working"
+    ],
+    "entities": "transaction",
+    "explanation": "The key term \"transaction\" indicates that the user is inquiring about a specific financial activity or event.",
+    "predicted_label": "receiving_money"
+  },
+  {
+    "id": 324,
+    "text": "How can my friend transfer money to me?",
+    "true_label": "receiving_money",
+    "top_k_predictions": [
+      "transfer_into_account",
+      "receiving_money",
+      "transfer_not_received_by_recipient",
+      "transfer_timing",
+      "transfer_fee_charged"
+    ],
+    "entities": "friend, transfer money",
+    "explanation": "The key terms in the query are \"friend\" and \"transfer money,\" indicating that the user is seeking information on how their friend can transfer money to them.",
+    "predicted_label": "receiving_money"
+  },
+  {
+    "id": 1152,
+    "text": "I checked my account today and it said I was out of money. How do I transfer money into my account?",
+    "true_label": "transfer_into_account",
+    "top_k_predictions": [
+      "transfer_into_account",
+      "transfer_timing",
+      "balance_not_updated_after_bank_transfer",
+      "topping_up_by_card",
+      "top_up_by_bank_transfer_charge"
+    ],
+    "entities": "account, money, transfer",
+    "explanation": "The key terms in the query are \"account,\" \"money,\" and \"transfer,\" indicating the user wants to know how to transfer money into their account.",
+    "predicted_label": "transfer_into_account"
+  },
+  {
+    "id": 1443,
+    "text": "How can I check the exchange rate applied to my transaction?",
+    "true_label": "card_payment_wrong_exchange_rate",
+    "top_k_predictions": [
+      "exchange_via_app",
+      "card_payment_wrong_exchange_rate",
+      "exchange_charge",
+      "wrong_exchange_rate_for_cash_withdrawal",
+      "fiat_currency_support"
+    ],
+    "entities": "check, exchange rate, transaction",
+    "explanation": "The key terms in the query are \"check,\" \"exchange rate,\" and \"transaction,\" indicating that the user is seeking information on verifying the exchange rate used in a transaction.",
+    "predicted_label": "exchange_via_app"
+  },
+  {
+    "id": 1776,
+    "text": "virtual card is not working for me",
+    "true_label": "virtual_card_not_working",
+    "top_k_predictions": [
+      "virtual_card_not_working",
+      "card_not_working",
+      "card_payment_not_recognised",
+      "activate_my_card",
+      "card_acceptance"
+    ],
+    "entities": "virtual card, not working",
+    "explanation": "The key terms \"virtual card\" and \"not working\" are important for understanding the user query.",
+    "predicted_label": "virtual_card_not_working"
+  },
+  {
+    "id": 1429,
+    "text": "On my last transaction it seem that my top-up was not successful.",
+    "true_label": "top_up_reverted",
+    "top_k_predictions": [
+      "top_up_failed",
+      "balance_not_updated_after_bank_transfer",
+      "top_up_reverted",
+      "top_up_limits",
+      "pending_top_up"
+    ],
+    "entities": "top-up, successful",
+    "explanation": "The key terms \"top-up\" and \"successful\" indicate that the user is referring to a failed top-up transaction.",
+    "predicted_label": "top_up_failed"
+  },
+  {
+    "id": 2987,
+    "text": "I think someone has access to my card numbers that shouldn't.",
+    "true_label": "compromised_card",
+    "top_k_predictions": [
+      "compromised_card",
+      "card_payment_not_recognised",
+      "card_not_working",
+      "card_payment_fee_charged",
+      "card_payment_wrong_exchange_rate"
+    ],
+    "entities": "someone, access, card numbers",
+    "explanation": "The key terms in the query are \"someone,\" \"access,\" and \"card numbers,\" indicating a concern about unauthorized access to the user's card information.",
+    "predicted_label": "compromised_card"
+  },
+  {
+    "id": 2928,
+    "text": "areas card is accpeted",
+    "true_label": "card_acceptance",
+    "top_k_predictions": [
+      "card_acceptance",
+      "country_support",
+      "supported_cards_and_currencies",
+      "card_not_working",
+      "visa_or_mastercard"
+    ],
+    "entities": "card, accepted",
+    "explanation": "The key terms in the query are \"card\" and \"accepted,\" indicating the user is inquiring about where a specific card is accepted.",
+    "predicted_label": "card_acceptance"
+  },
+  {
+    "id": 1754,
+    "text": "I had a wrong fee charged at this ATM.",
+    "true_label": "cash_withdrawal_charge",
+    "top_k_predictions": [
+      "card_payment_fee_charged",
+      "cash_withdrawal_charge",
+      "wrong_exchange_rate_for_cash_withdrawal",
+      "transfer_fee_charged",
+      "extra_charge_on_statement"
+    ],
+    "entities": "wrong fee, ATM",
+    "explanation": "The key terms \"wrong fee\" and \"ATM\" indicate that the user is referring to an issue with a fee charged at an ATM.",
+    "predicted_label": "extra_charge_on_statement"
+  },
+  {
+    "id": 2264,
+    "text": "What do i need to verify my id?",
+    "true_label": "unable_to_verify_identity",
+    "top_k_predictions": [
+      "why_verify_identity",
+      "unable_to_verify_identity",
+      "verify_my_identity",
+      "activate_my_card",
+      "card_not_working"
+    ],
+    "entities": "verify, id",
+    "explanation": "The key terms in the sentence are \"verify\" and \"id,\" indicating that the user is seeking information about verifying their identity.",
+    "predicted_label": "verify_my_identity"
+  },
+  {
+    "id": 815,
+    "text": "How can I verify my indentity?",
+    "true_label": "verify_my_identity",
+    "top_k_predictions": [
+      "why_verify_identity",
+      "unable_to_verify_identity",
+      "verify_my_identity",
+      "lost_or_stolen_card",
+      "compromised_card"
+    ],
+    "entities": "verify, identity",
+    "explanation": "The key terms in the query are \"verify\" and \"identity,\" indicating that the user is seeking information on how to confirm their identity.",
+    "predicted_label": "verify_my_identity"
+  },
+  {
+    "id": 196,
+    "text": "Can I reactivate my PIN?",
+    "true_label": "pin_blocked",
+    "top_k_predictions": [
+      "pin_blocked",
+      "activate_my_card",
+      "card_not_working",
+      "verify_my_identity",
+      "balance_not_updated_after_bank_transfer"
+    ],
+    "entities": "reactivate, PIN",
+    "explanation": "The key terms \"reactivate\" and \"PIN\" suggest that the user is inquiring about reactivating their PIN, which aligns with the intent of \"pin blocked.\"",
+    "predicted_label": "pin_blocked"
+  },
+  {
+    "id": 706,
+    "text": "The wrong exchange rate was used when I bought something with a foriegn currency.",
+    "true_label": "card_payment_wrong_exchange_rate",
+    "top_k_predictions": [
+      "wrong_exchange_rate_for_cash_withdrawal",
+      "card_payment_wrong_exchange_rate",
+      "exchange_charge",
+      "exchange_via_app",
+      "card_payment_not_recognised"
+    ],
+    "entities": "wrong exchange rate, bought, foreign currency",
+    "explanation": "The user is expressing dissatisfaction with the exchange rate used for a purchase made in a foreign currency.",
+    "predicted_label": "wrong_exchange_rate_for_cash_withdrawal"
+  },
+  {
+    "id": 1273,
+    "text": "I was trying to use my virtual card at a merchant and it was rejected. How can I fix this?",
+    "true_label": "virtual_card_not_working",
+    "top_k_predictions": [
+      "virtual_card_not_working",
+      "card_not_working",
+      "card_acceptance",
+      "card_payment_not_recognised",
+      "card_swallowed"
+    ],
+    "entities": "virtual card, merchant, rejected, fix",
+    "explanation": "The key terms in the query indicate that the user is facing an issue with their virtual card being rejected at a merchant and is seeking a solution to fix this problem.",
+    "predicted_label": "virtual_card_not_working"
+  },
+  {
+    "id": 1713,
+    "text": "How can I get my card back out?",
+    "true_label": "card_swallowed",
+    "top_k_predictions": [
+      "get_physical_card",
+      "card_swallowed",
+      "card_not_working",
+      "lost_or_stolen_card",
+      "activate_my_card"
+    ],
+    "entities": "card, get, back",
+    "explanation": "The key terms in the query are \"card\" (referring to a physical card), \"get\" (indicating a desire to retrieve something), and \"back\" (suggesting the card is stuck or lost).",
+    "predicted_label": "get_physical_card"
+  },
+  {
+    "id": 2937,
+    "text": "My virtual card isn't working. What do I do?",
+    "true_label": "virtual_card_not_working",
+    "top_k_predictions": [
+      "virtual_card_not_working",
+      "card_not_working",
+      "activate_my_card",
+      "card_acceptance",
+      "card_payment_not_recognised"
+    ],
+    "entities": "virtual card, not working",
+    "explanation": "The key terms in the query are \"virtual card\" and \"not working,\" indicating an issue with the virtual card not functioning properly.",
+    "predicted_label": "virtual_card_not_working"
+  },
+  {
+    "id": 1970,
+    "text": "How do I get my disposable virtual card to work?",
+    "true_label": "virtual_card_not_working",
+    "top_k_predictions": [
+      "virtual_card_not_working",
+      "card_not_working",
+      "card_linking",
+      "card_payment_not_recognised",
+      "card_acceptance"
+    ],
+    "entities": "disposable virtual card, work",
+    "explanation": "The key terms in the query are \"disposable virtual card\" and \"work,\" indicating that the user is having issues with making their virtual card function properly.",
+    "predicted_label": "virtual_card_not_working"
+  },
+  {
+    "id": 223,
+    "text": "How do I locate my card?",
+    "true_label": "card_arrival",
+    "top_k_predictions": [
+      "activate_my_card",
+      "card_not_working",
+      "card_delivery_estimate",
+      "lost_or_stolen_card",
+      "card_swallowed"
+    ],
+    "entities": "locate, card",
+    "explanation": "The key terms \"locate\" and \"card\" suggest that the user is looking for information on how to find their card, which aligns with the intent of \"lost or stolen card.\"",
+    "predicted_label": "lost_or_stolen_card"
+  },
+  {
+    "id": 1977,
+    "text": "What credit cards are supported?",
+    "true_label": "supported_cards_and_currencies",
+    "top_k_predictions": [
+      "supported_cards_and_currencies",
+      "card_acceptance",
+      "country_support",
+      "visa_or_mastercard",
+      "fiat_currency_support"
+    ],
+    "entities": "credit cards, supported",
+    "explanation": "The key terms in the query are \"credit cards\" and \"supported,\" indicating that the user is inquiring about which credit cards are supported.",
+    "predicted_label": "supported_cards_and_currencies"
+  },
+  {
+    "id": 1163,
+    "text": "I do not wish to verify my identity.",
+    "true_label": "why_verify_identity",
+    "top_k_predictions": [
+      "why_verify_identity",
+      "unable_to_verify_identity",
+      "verify_my_identity",
+      "activate_my_card",
+      "card_not_working"
+    ],
+    "entities": "verify, identity",
+    "explanation": "The key terms \"verify\" and \"identity\" are important for understanding the user's intent.",
+    "predicted_label": "why_verify_identity"
+  },
+  {
+    "id": 1818,
+    "text": "I bought something overseas and the wrong exchange rate is on my statement.",
+    "true_label": "card_payment_wrong_exchange_rate",
+    "top_k_predictions": [
+      "card_payment_wrong_exchange_rate",
+      "wrong_exchange_rate_for_cash_withdrawal",
+      "exchange_charge",
+      "extra_charge_on_statement",
+      "exchange_via_app"
+    ],
+    "entities": "bought, overseas, wrong exchange rate, statement",
+    "explanation": "The key terms in the sentence are \"bought,\" \"overseas,\" \"wrong exchange rate,\" and \"statement.\" These terms indicate that the user is concerned about an incorrect exchange rate being applied to a purchase made overseas and appearing on their statement.",
+    "predicted_label": "extra_charge_on_statement"
+  },
+  {
+    "id": 1518,
+    "text": "Why can't I use my virtual card for subscription services?",
+    "true_label": "virtual_card_not_working",
+    "top_k_predictions": [
+      "virtual_card_not_working",
+      "card_payment_not_recognised",
+      "card_not_working",
+      "card_payment_wrong_exchange_rate",
+      "card_acceptance"
+    ],
+    "entities": "virtual card, subscription services",
+    "explanation": "The key terms in the query are \"virtual card\" and \"subscription services,\" indicating that the user is having trouble using their virtual card for subscription services.",
+    "predicted_label": "virtual_card_not_working"
+  },
+  {
+    "id": 194,
+    "text": "Where's accounting for my cash withdrawal?",
+    "true_label": "pending_cash_withdrawal",
+    "top_k_predictions": [
+      "cash_withdrawal_not_recognised",
+      "cash_withdrawal_charge",
+      "pending_cash_withdrawal",
+      "wrong_exchange_rate_for_cash_withdrawal",
+      "balance_not_updated_after_cheque_or_cash_deposit"
+    ],
+    "entities": "accounting, cash withdrawal",
+    "explanation": "The key terms in the query are \"accounting\" and \"cash withdrawal,\" indicating that the user is inquiring about the record or status of a cash withdrawal transaction.",
+    "predicted_label": "pending_cash_withdrawal"
+  },
+  {
+    "id": 224,
+    "text": "What do you need for my identity check?",
+    "true_label": "verify_my_identity",
+    "top_k_predictions": [
+      "why_verify_identity",
+      "verify_my_identity",
+      "unable_to_verify_identity",
+      "card_delivery_estimate",
+      "card_payment_not_recognised"
+    ],
+    "entities": "identity check",
+    "explanation": "The key terms in the query are \"identity check,\" which indicate that the user is inquiring about the process or requirements for verifying their identity.",
+    "predicted_label": "why_verify_identity"
+  },
+  {
+    "id": 514,
+    "text": "I'm pretty sure something went wrong with my exchange. I changed Russian Ruble to UK pounds and was charged way too much!",
+    "true_label": "card_payment_wrong_exchange_rate",
+    "top_k_predictions": [
+      "exchange_charge",
+      "wrong_exchange_rate_for_cash_withdrawal",
+      "card_payment_wrong_exchange_rate",
+      "exchange_via_app",
+      "failed_transfer"
+    ],
+    "entities": "exchange, wrong, Russian Ruble, UK pounds, charged",
+    "explanation": "The key terms in the sentence indicate that the user is concerned about an exchange transaction where they believe they were charged an incorrect amount when converting Russian Rubles to UK pounds.",
+    "predicted_label": "wrong_exchange_rate_for_cash_withdrawal"
+  }
+]

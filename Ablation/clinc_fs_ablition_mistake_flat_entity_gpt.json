@@ -1,0 +1,464 @@
+[
+  {
+    "id": 162,
+    "text": "what is the year to date total on my vacation days",
+    "true_label": "pto_balance",
+    "top_k_predictions": [
+      "pto_used",
+      "pto_balance",
+      "pto_request",
+      "time",
+      "pto_request_status"
+    ],
+    "entities": "year to date, total, vacation days",
+    "explanation": "The key terms \"year to date,\" \"total,\" and \"vacation days\" indicate a query related to the total number of vacation days used so far this year.",
+    "predicted_label": "pto_used"
+  },
+  {
+    "id": 2214,
+    "text": "how to report bent credit card",
+    "true_label": "damaged_card",
+    "top_k_predictions": [
+      "report_lost_card",
+      "report_fraud",
+      "card_declined",
+      "credit_limit_change",
+      "credit_score"
+    ],
+    "entities": "report, bent, credit card",
+    "explanation": "The key terms \"report\", \"bent\", and \"credit card\" indicate the user's intent to report a damaged or bent credit card.",
+    "predicted_label": "report_lost_card"
+  },
+  {
+    "id": 698,
+    "text": "turn on the microwave for 3 minutes",
+    "true_label": "smart_home",
+    "top_k_predictions": [
+      "cook_time",
+      "timer",
+      "smart_home",
+      "time",
+      "recipe"
+    ],
+    "entities": "microwave, 3 minutes",
+    "explanation": "The key terms \"microwave\" and \"3 minutes\" indicate a request related to setting a timer for a microwave.",
+    "predicted_label": "timer"
+  },
+  {
+    "id": 14,
+    "text": "can i harm my credit if i miss a car payment",
+    "true_label": "improve_credit_score",
+    "top_k_predictions": [
+      "credit_score",
+      "improve_credit_score",
+      "credit_limit",
+      "credit_limit_change",
+      "bill_balance"
+    ],
+    "entities": "harm, credit, miss, car payment",
+    "explanation": "The key terms ['harm', 'credit', 'miss', 'car payment'] help reveal the intent behind the user query and align it with the correct label 'credit_score'.",
+    "predicted_label": "credit_score"
+  },
+  {
+    "id": 1780,
+    "text": "how can i contribute to my credit score",
+    "true_label": "improve_credit_score",
+    "top_k_predictions": [
+      "credit_score",
+      "improve_credit_score",
+      "credit_limit_change",
+      "credit_limit",
+      "balance"
+    ],
+    "entities": "credit score",
+    "explanation": "The key term \"credit score\" indicates the user's focus on understanding how to contribute to their credit score.",
+    "predicted_label": "credit_score"
+  },
+  {
+    "id": 833,
+    "text": "what do i set the timer for if i'm making gyoza",
+    "true_label": "cook_time",
+    "top_k_predictions": [
+      "cook_time",
+      "ingredients_list",
+      "timer",
+      "recipe",
+      "food_last"
+    ],
+    "entities": "timer, making, gyoza",
+    "explanation": "The key terms 'timer', 'making', and 'gyoza' indicate the user is asking about setting a timer for cooking gyoza.",
+    "predicted_label": "timer"
+  },
+  {
+    "id": 442,
+    "text": "how many days on holiday do i have",
+    "true_label": "pto_balance",
+    "top_k_predictions": [
+      "next_holiday",
+      "pto_balance",
+      "how_busy",
+      "pto_request",
+      "time"
+    ],
+    "entities": "days, holiday",
+    "explanation": "The key terms \"days\" and \"holiday\" indicate a query related to the number of days for a holiday.",
+    "predicted_label": "next_holiday"
+  },
+  {
+    "id": 1729,
+    "text": "6 inch voices please",
+    "true_label": "whisper_mode",
+    "top_k_predictions": [
+      "change_volume",
+      "restaurant_reservation",
+      "reminder",
+      "meeting_schedule",
+      "todo_list"
+    ],
+    "entities": "6 inch, voices",
+    "explanation": "The key terms \"6 inch\" and \"voices\" suggest a request related to adjusting volume or sound level.",
+    "predicted_label": "change_volume"
+  },
+  {
+    "id": 1104,
+    "text": "what is the expiration date for those eg",
+    "true_label": "food_last",
+    "top_k_predictions": [
+      "expiration_date",
+      "shopping_list_update",
+      "ingredients_list",
+      "definition",
+      "food_last"
+    ],
+    "entities": "expiration date",
+    "explanation": "The key terms [\"expiration date\"] help reveal the intent behind the user query and align it with the correct label 'expiration_date'.",
+    "predicted_label": "expiration_date"
+  },
+  {
+    "id": 378,
+    "text": "have i gotten around to adding the bike ride to my calendar yet",
+    "true_label": "calendar",
+    "top_k_predictions": [
+      "calendar_update",
+      "calendar",
+      "reminder",
+      "todo_list_update",
+      "todo_list"
+    ],
+    "entities": "bike ride, calendar",
+    "explanation": "The key terms \"bike ride\" and \"calendar\" indicate the user is asking about adding an event to their calendar.",
+    "predicted_label": "calendar_update"
+  },
+  {
+    "id": 1656,
+    "text": "what should i refer to you as",
+    "true_label": "what_is_your_name",
+    "top_k_predictions": [
+      "user_name",
+      "what_is_your_name",
+      "change_ai_name",
+      "change_user_name",
+      "who_do_you_work_for"
+    ],
+    "entities": "refer",
+    "explanation": "The key term \"refer\" indicates the user is seeking guidance on how to address the assistant.",
+    "predicted_label": "user_name"
+  },
+  {
+    "id": 411,
+    "text": "what is the best way to remove this appointment",
+    "true_label": "calendar_update",
+    "top_k_predictions": [
+      "meeting_schedule",
+      "calendar",
+      "calendar_update",
+      "cancel_reservation",
+      "schedule_maintenance"
+    ],
+    "entities": "remove, appointment",
+    "explanation": "The key terms \"remove\" and \"appointment\" indicate the user's intent to delete or cancel an appointment.",
+    "predicted_label": "cancel_reservation"
+  },
+  {
+    "id": 333,
+    "text": "what is needed to cook lasagna",
+    "true_label": "ingredients_list",
+    "top_k_predictions": [
+      "recipe",
+      "ingredients_list",
+      "cook_time",
+      "food_last",
+      "how_busy"
+    ],
+    "entities": "needed, cook, lasagna",
+    "explanation": "The key terms 'needed', 'cook', and 'lasagna' indicate a query about the requirements for cooking lasagna.",
+    "predicted_label": "recipe"
+  },
+  {
+    "id": 1578,
+    "text": "tell jim i'm coming home soon",
+    "true_label": "text",
+    "top_k_predictions": [
+      "tell_joke",
+      "confirm_reservation",
+      "reminder",
+      "travel_suggestion",
+      "find_phone"
+    ],
+    "entities": "tell, jim, coming home soon",
+    "explanation": "The key terms \"tell\", \"jim\", \"coming home soon\" indicate a message being conveyed to someone about returning home.",
+    "predicted_label": "reminder"
+  },
+  {
+    "id": 153,
+    "text": "if i go to evans, what should i do",
+    "true_label": "travel_suggestion",
+    "top_k_predictions": [
+      "todo_list",
+      "shopping_list_update",
+      "schedule_maintenance",
+      "restaurant_suggestion",
+      "restaurant_reservation"
+    ],
+    "entities": "evans",
+    "explanation": "The key term \"evans\" indicates a location or place mentioned in the query.",
+    "predicted_label": "restaurant_suggestion"
+  },
+  {
+    "id": 1054,
+    "text": "facts",
+    "true_label": "yes",
+    "top_k_predictions": [
+      "nutrition_info",
+      "definition",
+      "pto_request_status",
+      "transactions",
+      "balance"
+    ],
+    "entities": "facts",
+    "explanation": "The key term \"facts\" indicates a general inquiry for information.",
+    "predicted_label": "definition"
+  },
+  {
+    "id": 2129,
+    "text": "speak up",
+    "true_label": "change_volume",
+    "top_k_predictions": [
+      "are_you_a_bot",
+      "oil_change_when",
+      "user_name",
+      "change_language",
+      "whisper_mode"
+    ],
+    "entities": "speak up",
+    "explanation": "The key term \"speak up\" indicates a request to increase the volume or speak louder.",
+    "predicted_label": "whisper_mode"
+  },
+  {
+    "id": 1028,
+    "text": "i need trip to the zoo on the calendar for june 4",
+    "true_label": "calendar_update",
+    "top_k_predictions": [
+      "calendar",
+      "calendar_update",
+      "travel_suggestion",
+      "todo_list",
+      "todo_list_update"
+    ],
+    "entities": "trip, zoo, calendar, June 4",
+    "explanation": "The key terms 'trip', 'zoo', 'calendar', and 'June 4' indicate the user wants to add an event to the calendar.",
+    "predicted_label": "calendar"
+  },
+  {
+    "id": 410,
+    "text": "what can i address you",
+    "true_label": "what_is_your_name",
+    "top_k_predictions": [
+      "what_is_your_name",
+      "user_name",
+      "change_volume",
+      "change_language",
+      "change_ai_name"
+    ],
+    "entities": "address",
+    "explanation": "The key term \"address\" indicates the user is seeking information on how to refer to the assistant.",
+    "predicted_label": "user_name"
+  },
+  {
+    "id": 1026,
+    "text": "place a marker for me where i am on the map",
+    "true_label": "current_location",
+    "top_k_predictions": [
+      "share_location",
+      "current_location"
+    ],
+    "entities": "place, marker, map",
+    "explanation": "The key terms \"place\", \"marker\", and \"map\" indicate a user's request to mark their current location on a map.",
+    "predicted_label": "mark_location"
+  },
+  {
+    "id": 1506,
+    "text": "how many days until i am off",
+    "true_label": "next_holiday",
+    "top_k_predictions": [
+      "time",
+      "pto_request",
+      "how_busy",
+      "pto_request_status",
+      "calendar"
+    ],
+    "entities": "days, off",
+    "explanation": "The key terms \"days\" and \"off\" indicate a query related to the number of days until a specific event or time off.",
+    "predicted_label": "time"
+  },
+  {
+    "id": 1074,
+    "text": "please calculate my vacation time",
+    "true_label": "pto_balance",
+    "top_k_predictions": [
+      "pto_used",
+      "time",
+      "pto_balance",
+      "pto_request",
+      "pto_request_status"
+    ],
+    "entities": "calculate, vacation time",
+    "explanation": "The key terms \"calculate\" and \"vacation time\" indicate the user's intent to perform a calculation related to vacation time.",
+    "predicted_label": "pto_used"
+  },
+  {
+    "id": 1136,
+    "text": "great",
+    "true_label": "yes",
+    "top_k_predictions": [
+      "thank_you",
+      "tell_joke",
+      "oil_change_when",
+      "restaurant_suggestion",
+      "definition"
+    ],
+    "entities": "great",
+    "explanation": "The key term \"great\" does not provide specific information to determine intent.",
+    "predicted_label": "N/A"
+  },
+  {
+    "id": 714,
+    "text": "that would be great",
+    "true_label": "yes",
+    "top_k_predictions": [
+      "restaurant_suggestion",
+      "thank_you",
+      "yes",
+      "schedule_maintenance",
+      "meeting_schedule"
+    ],
+    "entities": "great",
+    "explanation": "The key term \"great\" does not provide enough context to determine the intent accurately.",
+    "predicted_label": "none"
+  },
+  {
+    "id": 1595,
+    "text": "who pay your salary",
+    "true_label": "who_do_you_work_for",
+    "top_k_predictions": [
+      "income",
+      "who_do_you_work_for",
+      "payday",
+      "account_blocked",
+      "transactions"
+    ],
+    "entities": "salary",
+    "explanation": "The key term 'salary' indicates a query related to income or employment.",
+    "predicted_label": "income"
+  },
+  {
+    "id": 910,
+    "text": "i'm finished with my to do list",
+    "true_label": "todo_list_update",
+    "top_k_predictions": [
+      "todo_list",
+      "todo_list_update",
+      "shopping_list",
+      "reminder",
+      "calendar"
+    ],
+    "entities": "finished, to do list",
+    "explanation": "The key terms \"finished\" and \"to do list\" indicate that the user has completed their tasks on the to do list.",
+    "predicted_label": "todo_list"
+  },
+  {
+    "id": 192,
+    "text": "how should i refer to you",
+    "true_label": "what_is_your_name",
+    "top_k_predictions": [
+      "what_is_your_name",
+      "user_name",
+      "who_do_you_work_for",
+      "change_ai_name",
+      "change_user_name"
+    ],
+    "entities": "refer",
+    "explanation": "The key term \"refer\" indicates the user is seeking guidance on how to address or call the assistant.",
+    "predicted_label": "user_name"
+  },
+  {
+    "id": 1591,
+    "text": "would you like to introduce yourself",
+    "true_label": "what_is_your_name",
+    "top_k_predictions": [
+      "user_name",
+      "what_is_your_name",
+      "where_are_you_from",
+      "ingredients_list",
+      "who_do_you_work_for"
+    ],
+    "entities": "introduce, yourself",
+    "explanation": "The key terms \"introduce\" and \"yourself\" indicate the user is asking for an introduction.",
+    "predicted_label": "introduce_yourself"
+  },
+  {
+    "id": 807,
+    "text": "please put lawn mowing on my list of to dos",
+    "true_label": "todo_list_update",
+    "top_k_predictions": [
+      "todo_list",
+      "todo_list_update",
+      "shopping_list",
+      "schedule_maintenance",
+      "calendar_update"
+    ],
+    "entities": "lawn mowing, list, to dos",
+    "explanation": "The key terms \"lawn mowing\", \"list\", and \"to dos\" indicate a request to add a task to a list.",
+    "predicted_label": "todo_list"
+  },
+  {
+    "id": 1566,
+    "text": "warm up my car for me",
+    "true_label": "smart_home",
+    "top_k_predictions": [
+      "car_rental",
+      "schedule_maintenance",
+      "oil_change_when",
+      "tire_change",
+      "oil_change_how"
+    ],
+    "entities": "warm up, car",
+    "explanation": "The key terms \"warm up\" and \"car\" indicate a request related to starting or preparing a car for use.",
+    "predicted_label": "car_starting"
+  },
+  {
+    "id": 1852,
+    "text": "let carl know that he sucks",
+    "true_label": "text",
+    "top_k_predictions": [
+      "user_name",
+      "change_volume",
+      "tell_joke",
+      "cancel_reservation",
+      "report_fraud"
+    ],
+    "entities": "carl, know, sucks",
+    "explanation": "The key terms 'carl', 'know', and 'sucks' indicate a message directed towards someone named Carl with a negative sentiment.",
+    "predicted_label": "user_name"
+  }
+]
