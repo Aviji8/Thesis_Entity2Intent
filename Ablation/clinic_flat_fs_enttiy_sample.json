@@ -1,0 +1,572 @@
+[
+  {
+    "text": "can you make a reservation at michael's",
+    "true_label": "accept_reservations",
+    "entities": "make a reservation, michael's",
+    "explanation": "The key terms ['make a reservation', \"michael's\"] help reveal the intent behind the user query and align it with the correct label 'accept_reservations'."
+  },
+  {
+    "text": "can you please unlock my bank account",
+    "true_label": "account_blocked",
+    "entities": "bank account",
+    "explanation": "The key terms ['bank account'] help reveal the intent behind the user query and align it with the correct label 'account_blocked'."
+  },
+  {
+    "text": "can you wake me up at noon",
+    "true_label": "alarm",
+    "entities": "at noon, wake me up",
+    "explanation": "The key terms ['at noon', 'wake me up'] help reveal the intent behind the user query and align it with the correct label 'alarm'."
+  },
+  {
+    "text": "has visa gotten back to me regarding my card app",
+    "true_label": "application_status",
+    "entities": "card app, gotten back, visa",
+    "explanation": "The key terms ['card app', 'gotten back', 'visa'] help reveal the intent behind the user query and align it with the correct label 'application_status'."
+  },
+  {
+    "text": "what's the annual rate on my discover card",
+    "true_label": "apr",
+    "entities": "discover card, annual rate",
+    "explanation": "The key terms ['discover card', 'annual rate'] help reveal the intent behind the user query and align it with the correct label 'apr'."
+  },
+  {
+    "text": "are you an automated assistance",
+    "true_label": "are_you_a_bot",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'are_you_a_bot'."
+  },
+  {
+    "text": "will the amount in my chase bank account right now cover the cost of a new dryer",
+    "true_label": "balance",
+    "entities": "bank account",
+    "explanation": "The key terms ['bank account'] help reveal the intent behind the user query and align it with the correct label 'balance'."
+  },
+  {
+    "text": "how much does my water and electricity cost",
+    "true_label": "bill_balance",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'bill_balance'."
+  },
+  {
+    "text": "when do i have to pay my internet",
+    "true_label": "bill_due",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'bill_due'."
+  },
+  {
+    "text": "have i gotten around to adding the bike ride to my calendar yet",
+    "true_label": "calendar",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'calendar'."
+  },
+  {
+    "text": "what is the best way to remove this appointment",
+    "true_label": "calendar_update",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'calendar_update'."
+  },
+  {
+    "text": "rescind",
+    "true_label": "cancel",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'cancel'."
+  },
+  {
+    "text": "im not gonna need the dinner reservation",
+    "true_label": "cancel_reservation",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'cancel_reservation'."
+  },
+  {
+    "text": "contact avis and see if they have cars available",
+    "true_label": "car_rental",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'car_rental'."
+  },
+  {
+    "text": "do i have enough funds in my card",
+    "true_label": "card_declined",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'card_declined'."
+  },
+  {
+    "text": "what are the rules for traveling with toothpaste",
+    "true_label": "carry_on",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'carry_on'."
+  },
+  {
+    "text": "if you can do accents, i want to hear you talk like david bowie",
+    "true_label": "change_accent",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'change_accent'."
+  },
+  {
+    "text": "i would like you to think of yourself as machine and answer when i say your name as such",
+    "true_label": "change_ai_name",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'change_ai_name'."
+  },
+  {
+    "text": "can you give me the answers in italian instead of english",
+    "true_label": "change_language",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'change_language'."
+  },
+  {
+    "text": "john is my name",
+    "true_label": "change_user_name",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'change_user_name'."
+  },
+  {
+    "text": "speak up",
+    "true_label": "change_volume",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'change_volume'."
+  },
+  {
+    "text": "i need to make sure there is a reservation for george at connor oneil's",
+    "true_label": "confirm_reservation",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'confirm_reservation'."
+  },
+  {
+    "text": "i need the cooking length for a turkey",
+    "true_label": "cook_time",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'cook_time'."
+  },
+  {
+    "text": "tell me the credit on my mastercard",
+    "true_label": "credit_limit",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'credit_limit'."
+  },
+  {
+    "text": "can my credit limit on my discovery card go up",
+    "true_label": "credit_limit_change",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'credit_limit_change'."
+  },
+  {
+    "text": "tell me the steps to getting my credit score",
+    "true_label": "credit_score",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'credit_score'."
+  },
+  {
+    "text": "i need to know the name of my current location for the tow truck",
+    "true_label": "current_location",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'current_location'."
+  },
+  {
+    "text": "how can i get a new card that got melted in the sun",
+    "true_label": "damaged_card",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'damaged_card'."
+  },
+  {
+    "text": "what is the meaning of realism",
+    "true_label": "definition",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'definition'."
+  },
+  {
+    "text": "how much country of canada money would i get for $100",
+    "true_label": "exchange_rate",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'exchange_rate'."
+  },
+  {
+    "text": "when is my cards end month",
+    "true_label": "expiration_date",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'expiration_date'."
+  },
+  {
+    "text": "are you able to track a phone",
+    "true_label": "find_phone",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'find_phone'."
+  },
+  {
+    "text": "i've got some chips from monday, will they still be ok to eat",
+    "true_label": "food_last",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'food_last'."
+  },
+  {
+    "text": "what octaine is recommended for this car",
+    "true_label": "gas_type",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'gas_type'."
+  },
+  {
+    "text": "is the friday's full after 4",
+    "true_label": "how_busy",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'how_busy'."
+  },
+  {
+    "text": "were you born in the 80s",
+    "true_label": "how_old_are_you",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'how_old_are_you'."
+  },
+  {
+    "text": "can i harm my credit if i miss a car payment",
+    "true_label": "improve_credit_score",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'improve_credit_score'."
+  },
+  {
+    "text": "how much money was deposited to my bank account from my employer this month",
+    "true_label": "income",
+    "entities": "bank account",
+    "explanation": "The key terms ['bank account'] help reveal the intent behind the user query and align it with the correct label 'income'."
+  },
+  {
+    "text": "what all is in gumbo",
+    "true_label": "ingredients_list",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'ingredients_list'."
+  },
+  {
+    "text": "what are my insurance rewards",
+    "true_label": "insurance",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'insurance'."
+  },
+  {
+    "text": "when was the car last services",
+    "true_label": "last_maintenance",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'last_maintenance'."
+  },
+  {
+    "text": "i will be calling hr",
+    "true_label": "make_call",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'make_call'."
+  },
+  {
+    "text": "is a meeting with ruth on my schedule today",
+    "true_label": "meeting_schedule",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'meeting_schedule'."
+  },
+  {
+    "text": "i need to pay the smallest amount on my phone bill",
+    "true_label": "min_payment",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'min_payment'."
+  },
+  {
+    "text": "does bank of america give credit cards to people like me",
+    "true_label": "new_card",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'new_card'."
+  },
+  {
+    "text": "how many days until i am off",
+    "true_label": "next_holiday",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'next_holiday'."
+  },
+  {
+    "text": "continue to next song on the playlist",
+    "true_label": "next_song",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'next_song'."
+  },
+  {
+    "text": "i want to know how nutritious an avocado typically is",
+    "true_label": "nutrition_info",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'nutrition_info'."
+  },
+  {
+    "text": "diy oil change",
+    "true_label": "oil_change_how",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'oil_change_how'."
+  },
+  {
+    "text": "what is the schedule for my next oil change",
+    "true_label": "oil_change_when",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'oil_change_when'."
+  },
+  {
+    "text": "i need to know what the most recent update is on the status of my online purchase",
+    "true_label": "order_status",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'order_status'."
+  },
+  {
+    "text": "please find the receipt date for my last paycheck",
+    "true_label": "payday",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'payday'."
+  },
+  {
+    "text": "get me my slow sounds",
+    "true_label": "play_music",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'play_music'."
+  },
+  {
+    "text": "what's the status on my vacation days",
+    "true_label": "pto_balance",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'pto_balance'."
+  },
+  {
+    "text": "i'd like to take a vacation day from 2/24 to 2/25",
+    "true_label": "pto_request",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'pto_request'."
+  },
+  {
+    "text": "what's the status of my vacation days",
+    "true_label": "pto_request_status",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'pto_request_status'."
+  },
+  {
+    "text": "how many sick, personal, and vacation days have i billed so far this year",
+    "true_label": "pto_used",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'pto_used'."
+  },
+  {
+    "text": "what do i need to do to cook a chicken",
+    "true_label": "recipe",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'recipe'."
+  },
+  {
+    "text": "do i have enough points to for a redemption",
+    "true_label": "redeem_rewards",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'redeem_rewards'."
+  },
+  {
+    "text": "did i tell you to remind me about laundry",
+    "true_label": "reminder",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'reminder'."
+  },
+  {
+    "text": "can i have a reminder set up",
+    "true_label": "reminder_update",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'reminder_update'."
+  },
+  {
+    "text": "can my debit card be replaced quickly",
+    "true_label": "replacement_card_duration",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'replacement_card_duration'."
+  },
+  {
+    "text": "i have a bs transaction from ebay on my account",
+    "true_label": "report_fraud",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'report_fraud'."
+  },
+  {
+    "text": "i want you to repord my card as lost",
+    "true_label": "report_lost_card",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'report_lost_card'."
+  },
+  {
+    "text": "check reservation availability for 2 at red lobster at 8pm",
+    "true_label": "restaurant_reservation",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'restaurant_reservation'."
+  },
+  {
+    "text": "i'm hungry, where should i go",
+    "true_label": "restaurant_suggestion",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'restaurant_suggestion'."
+  },
+  {
+    "text": "where are my rewards for my chase card",
+    "true_label": "rewards_balance",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'rewards_balance'."
+  },
+  {
+    "text": "put a tire inspection on my schedule please",
+    "true_label": "schedule_maintenance",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'schedule_maintenance'."
+  },
+  {
+    "text": "how do i share where i am, with another person",
+    "true_label": "share_location",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'share_location'."
+  },
+  {
+    "text": "is milk one of the things i need to buy",
+    "true_label": "shopping_list",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'shopping_list'."
+  },
+  {
+    "text": "is paprika listed on my shopping list, please add it",
+    "true_label": "shopping_list_update",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'shopping_list_update'."
+  },
+  {
+    "text": "turn on the microwave for 3 minutes",
+    "true_label": "smart_home",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'smart_home'."
+  },
+  {
+    "text": "what are my finances like lately",
+    "true_label": "spending_history",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'spending_history'."
+  },
+  {
+    "text": "tell me a pun",
+    "true_label": "tell_joke",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'tell_joke'."
+  },
+  {
+    "text": "tell jim i'm coming home soon",
+    "true_label": "text",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'text'."
+  },
+  {
+    "text": "thanks for letting me know",
+    "true_label": "thank_you",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'thank_you'."
+  },
+  {
+    "text": "is it six o clock yet",
+    "true_label": "time",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'time'."
+  },
+  {
+    "text": "remind me in (x) hours",
+    "true_label": "timer",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'timer'."
+  },
+  {
+    "text": "would i need new tires if my last purchase was in may of 2018",
+    "true_label": "tire_change",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'tire_change'."
+  },
+  {
+    "text": "repeat my to do list",
+    "true_label": "todo_list",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'todo_list'."
+  },
+  {
+    "text": "i no longer need to wash dishes; take it of my list",
+    "true_label": "todo_list_update",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'todo_list_update'."
+  },
+  {
+    "text": "how clogged are the streets before the stadium",
+    "true_label": "traffic",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'traffic'."
+  },
+  {
+    "text": "open yesterday's last payment",
+    "true_label": "transactions",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'transactions'."
+  },
+  {
+    "text": "can we wire some money over to the other account i have",
+    "true_label": "transfer",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'transfer'."
+  },
+  {
+    "text": "where should i book my next trip",
+    "true_label": "travel_suggestion",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'travel_suggestion'."
+  },
+  {
+    "text": "what do i go by",
+    "true_label": "user_name",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'user_name'."
+  },
+  {
+    "text": "if you were traveling to indonesia, as i am, would you have your shots updated before your visit",
+    "true_label": "vaccines",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'vaccines'."
+  },
+  {
+    "text": "what is the form i need to report my earnings",
+    "true_label": "w2",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'w2'."
+  },
+  {
+    "text": "can you tell me the low tonight",
+    "true_label": "weather",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'weather'."
+  },
+  {
+    "text": "tell me about yourself",
+    "true_label": "what_is_your_name",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'what_is_your_name'."
+  },
+  {
+    "text": "whats the title of this",
+    "true_label": "what_song",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'what_song'."
+  },
+  {
+    "text": "where is your original location",
+    "true_label": "where_are_you_from",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'where_are_you_from'."
+  },
+  {
+    "text": "6 inch voices please",
+    "true_label": "whisper_mode",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'whisper_mode'."
+  },
+  {
+    "text": "who pay your salary",
+    "true_label": "who_do_you_work_for",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'who_do_you_work_for'."
+  },
+  {
+    "text": "facts",
+    "true_label": "yes",
+    "entities": "",
+    "explanation": "The key terms [] help reveal the intent behind the user query and align it with the correct label 'yes'."
+  }
+]
