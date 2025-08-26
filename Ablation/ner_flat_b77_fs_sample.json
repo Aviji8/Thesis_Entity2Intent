@@ -1,0 +1,350 @@
+[
+  {
+    "text": "I bought something and returned it and the money from the return isn't in my account.",
+    "true_label": "Refund_not_showing_up",
+    "entities": "returned, something, my account, the money from the return isn't in my account",
+    "explanation": "The key terms in the sentence are \"returned\", \"something\", \"my account\", \"the money from the return isn't in my account\". These help in understanding the user's intent."
+  },
+  {
+    "text": "Is there a way my new card can be renewed?",
+    "true_label": "activate_my_card",
+    "entities": "renew, new card, way my new card can be renewed",
+    "explanation": "The key terms in the sentence are \"renew\", \"new card\", \"way my new card can be renewed\". These help in understanding the user's intent."
+  },
+  {
+    "text": "Can I be topped up once I hit a certain balance?",
+    "true_label": "automatic_top_up",
+    "entities": "topped up, balance, user, once I hit a certain balance",
+    "explanation": "The key terms in the sentence are \"topped up\", \"balance\", \"user\", \"once I hit a certain balance\". These help in understanding the user's intent."
+  },
+  {
+    "text": "When will my transfer be available in my account.",
+    "true_label": "balance_not_updated_after_bank_transfer",
+    "entities": "transfer, my account, When will my transfer be available",
+    "explanation": "The key terms in the sentence are \"transfer\", \"my account\", \"When will my transfer be available\". These help in understanding the user's intent."
+  },
+  {
+    "text": "The balance on my account wasn't updated after I made a depost.",
+    "true_label": "balance_not_updated_after_cheque_or_cash_deposit",
+    "entities": "made a deposit, account balance, my account, balance on my account wasn't updated",
+    "explanation": "The key terms in the sentence are \"made a deposit\", \"account balance\", \"my account\", \"balance on my account wasn't updated\". These help in understanding the user's intent."
+  },
+  {
+    "text": "I had a transfer blocked",
+    "true_label": "beneficiary_not_allowed",
+    "entities": "had, transfer, transfer blocked",
+    "explanation": "The key terms in the sentence are \"had\", \"transfer\", \"transfer blocked\". These help in understanding the user's intent."
+  },
+  {
+    "text": "I don't want the transaction to go through now",
+    "true_label": "cancel_transfer",
+    "entities": "stop, transaction, now, don't want the transaction to go through",
+    "explanation": "The key terms in the sentence are \"stop\", \"transaction\", \"now\", \"don't want the transaction to go through\". These help in understanding the user's intent."
+  },
+  {
+    "text": "areas card is accpeted",
+    "true_label": "card_acceptance",
+    "entities": "know, card, areas card is accepted",
+    "explanation": "The key terms in the sentence are \"know\", \"card\", \"areas card is accepted\". These help in understanding the user's intent."
+  },
+  {
+    "text": "How do I locate my card?",
+    "true_label": "card_arrival",
+    "entities": "locate, my card, locate my card",
+    "explanation": "The key terms in the sentence are \"locate\", \"my card\", \"locate my card\". These help in understanding the user's intent."
+  },
+  {
+    "text": "Ordered awhile back, what is the ETA in the US?",
+    "true_label": "card_delivery_estimate",
+    "entities": "ordered, unknown, user, awhile back, what is the ETA in the US",
+    "explanation": "The key terms in the sentence are \"ordered\", \"unknown\", \"user\", \"awhile back\", \"what is the ETA in the US\". These help in understanding the user's intent."
+  },
+  {
+    "text": "Where do I need to go in the app to enter my card info?",
+    "true_label": "card_linking",
+    "entities": "enter, card info, Where do I need to go in the app to enter my card info",
+    "explanation": "The key terms in the sentence are \"enter\", \"card info\", \"Where do I need to go in the app to enter my card info\". These help in understanding the user's intent."
+  },
+  {
+    "text": "My card doesn't accept any transaction at all. What's wrong??",
+    "true_label": "card_not_working",
+    "entities": "doesn't accept any transaction, My card, doesn't accept any transaction",
+    "explanation": "The key terms in the sentence are \"doesn't accept any transaction\", \"My card\", \"doesn't accept any transaction\". These help in understanding the user's intent."
+  },
+  {
+    "text": "im not sure what this charge is for",
+    "true_label": "card_payment_fee_charged",
+    "entities": "understand, charge, user, not sure what this charge is for",
+    "explanation": "The key terms in the sentence are \"understand\", \"charge\", \"user\", \"not sure what this charge is for\". These help in understanding the user's intent."
+  },
+  {
+    "text": "There is a fraudulent charge on my statement.",
+    "true_label": "card_payment_not_recognised",
+    "entities": "report, fraudulent charge, my statement, fraudulent charge on my statement",
+    "explanation": "The key terms in the sentence are \"report\", \"fraudulent charge\", \"my statement\", \"fraudulent charge on my statement\". These help in understanding the user's intent."
+  },
+  {
+    "text": "I bought something overseas and the wrong exchange rate is on my statement.",
+    "true_label": "card_payment_wrong_exchange_rate",
+    "entities": "bought something, exchange rate, my statement, overseas, wrong exchange rate",
+    "explanation": "The key terms in the sentence are \"bought something\", \"exchange rate\", \"my statement\", \"overseas\", \"wrong exchange rate\". These help in understanding the user's intent."
+  },
+  {
+    "text": "How can I get my card back out?",
+    "true_label": "card_swallowed",
+    "entities": "get back, my card, get my card back out",
+    "explanation": "The key terms in the sentence are \"get back\", \"my card\", \"get my card back out\". These help in understanding the user's intent."
+  },
+  {
+    "text": "Was charged an ATM fee despite it being a small withdrawal on the 1st day of the month. I thought I was allowed 200 per month?",
+    "true_label": "cash_withdrawal_charge",
+    "entities": "charged an ATM fee, small withdrawal, user, 1st day of the month, I thought I was allowed 200 per month",
+    "explanation": "The key terms in the sentence are \"charged an ATM fee\", \"small withdrawal\", \"user\", \"1st day of the month\", \"I thought I was allowed 200 per month\". These help in understanding the user's intent."
+  },
+  {
+    "text": "I'm unsure of a withdrawl in my statement.",
+    "true_label": "cash_withdrawal_not_recognised",
+    "entities": "unsure, withdrawal in my statement, unsure of a withdrawal",
+    "explanation": "The key terms in the sentence are \"unsure\", \"withdrawal in my statement\", \"unsure of a withdrawal\". These help in understanding the user's intent."
+  },
+  {
+    "text": "Someone has my card number, freeze my account.",
+    "true_label": "compromised_card",
+    "entities": "freeze, account, my, Someone has my card number",
+    "explanation": "The key terms in the sentence are \"freeze\", \"account\", \"my\", \"Someone has my card number\". These help in understanding the user's intent."
+  },
+  {
+    "text": "Where can I find your locations?",
+    "true_label": "country_support",
+    "entities": "find, your locations, Where can I find your locations",
+    "explanation": "The key terms in the sentence are \"find\", \"your locations\", \"Where can I find your locations\". These help in understanding the user's intent."
+  },
+  {
+    "text": "Why was a transaction on my card declined?",
+    "true_label": "declined_card_payment",
+    "entities": "inquire, transaction, my card, declined",
+    "explanation": "The key terms in the sentence are \"inquire\", \"transaction\", \"my card\", \"declined\". These help in understanding the user's intent."
+  },
+  {
+    "text": "Double check your funds may be declined",
+    "true_label": "declined_transfer",
+    "entities": "double check, your funds, may be declined",
+    "explanation": "The key terms in the sentence are \"double check\", \"your funds\", \"may be declined\". These help in understanding the user's intent."
+  },
+  {
+    "text": "im so mad right now. theres several charges that I think my x boyfriend made on my card. the companys on the website wouldn't refund me my money, they told me to contact my bank. DO something please.",
+    "true_label": "direct_debit_payment_not_recognised",
+    "entities": "Refund, Charges on card, User, No specific time mentioned, theres several charges that I think my x boyfriend made on my card",
+    "explanation": "The key terms in the sentence are \"Refund\", \"Charges on card\", \"User\", \"No specific time mentioned\", \"theres several charges that I think my x boyfriend made on my card\". These help in understanding the user's intent."
+  },
+  {
+    "text": "Can you explain the virtual cards limit?",
+    "true_label": "disposable_card_limits",
+    "entities": "explain, virtual cards limit, explain the virtual cards limit",
+    "explanation": "The key terms in the sentence are \"explain\", \"virtual cards limit\", \"explain the virtual cards limit\". These help in understanding the user's intent."
+  },
+  {
+    "text": "how much you charge for exhcange",
+    "true_label": "exchange_charge",
+    "entities": "charge, exchange, how much you charge for exchange",
+    "explanation": "The key terms in the sentence are \"charge\", \"exchange\", \"how much you charge for exchange\". These help in understanding the user's intent."
+  },
+  {
+    "text": "How would I use my money in a different country?",
+    "true_label": "exchange_via_app",
+    "entities": "use, my money, in a different country",
+    "explanation": "The key terms in the sentence are \"use\", \"my money\", \"in a different country\". These help in understanding the user's intent."
+  },
+  {
+    "text": "There is a fee I don't recognize on my statement.",
+    "true_label": "extra_charge_on_statement",
+    "entities": "recognize, fee, my statement, don't recognize",
+    "explanation": "The key terms in the sentence are \"recognize\", \"fee\", \"my statement\", \"don't recognize\". These help in understanding the user's intent."
+  },
+  {
+    "text": "help me with my transfer",
+    "true_label": "failed_transfer",
+    "entities": "help, transfer, me, help me with my transfer",
+    "explanation": "The key terms in the sentence are \"help\", \"transfer\", \"me\", \"help me with my transfer\". These help in understanding the user's intent."
+  },
+  {
+    "text": "There is an incoming payment into my account, but it is deactivated. Will they still be processed?",
+    "true_label": "fiat_currency_support",
+    "entities": "process incoming payment, deactivated account, user's account, incoming payment into my account",
+    "explanation": "The key terms in the sentence are \"process incoming payment\", \"deactivated account\", \"user's account\", \"incoming payment into my account\". These help in understanding the user's intent."
+  },
+  {
+    "text": "I just got my new card but am not sure how to check its PIN.",
+    "true_label": "get_physical_card",
+    "entities": "check, PIN, new card, not sure how to check its PIN",
+    "explanation": "The key terms in the sentence are \"check\", \"PIN\", \"new card\", \"not sure how to check its PIN\". These help in understanding the user's intent."
+  },
+  {
+    "text": "Can i have a card to my daughter?",
+    "true_label": "getting_spare_card",
+    "entities": "have, card, daughter, Can i have a card",
+    "explanation": "The key terms in the sentence are \"have\", \"card\", \"daughter\", \"Can i have a card\". These help in understanding the user's intent."
+  },
+  {
+    "text": "I cannot find my credit card.",
+    "true_label": "lost_or_stolen_card",
+    "entities": "cannot find, my credit card, cannot find my credit card",
+    "explanation": "The key terms in the sentence are \"cannot find\", \"my credit card\", \"cannot find my credit card\". These help in understanding the user's intent."
+  },
+  {
+    "text": "Where can I receive my card?",
+    "true_label": "order_physical_card",
+    "entities": "receive, card, receive my card",
+    "explanation": "The key terms in the sentence are \"receive\", \"card\", \"receive my card\". These help in understanding the user's intent."
+  },
+  {
+    "text": "what does pending mean?",
+    "true_label": "pending_card_payment",
+    "entities": "understand, pending, what does pending mean",
+    "explanation": "The key terms in the sentence are \"understand\", \"pending\", \"what does pending mean\". These help in understanding the user's intent."
+  },
+  {
+    "text": "Where's accounting for my cash withdrawal?",
+    "true_label": "pending_cash_withdrawal",
+    "entities": "accounting, cash withdrawal, Where's accounting for my cash withdrawal",
+    "explanation": "The key terms in the sentence are \"accounting\", \"cash withdrawal\", \"Where's accounting for my cash withdrawal\". These help in understanding the user's intent."
+  },
+  {
+    "text": "So I just put my top-up into the card and it hasn't changed.",
+    "true_label": "pending_top_up",
+    "entities": "put my top-up into the card, card, it hasn't changed",
+    "explanation": "The key terms in the sentence are \"put my top-up into the card\", \"card\", \"it hasn't changed\". These help in understanding the user's intent."
+  },
+  {
+    "text": "My transfer hasn't gone through yet.",
+    "true_label": "pending_transfer",
+    "entities": "transfer, money, hasn't gone through yet",
+    "explanation": "The key terms in the sentence are \"transfer\", \"money\", \"hasn't gone through yet\". These help in understanding the user's intent."
+  },
+  {
+    "text": "My account is blocked, how do I log in now",
+    "true_label": "pin_blocked",
+    "entities": "log in, account, user, My account is blocked",
+    "explanation": "The key terms in the sentence are \"log in\", \"account\", \"user\", \"My account is blocked\". These help in understanding the user's intent."
+  },
+  {
+    "text": "Do I need to establish I am paid in GBP before a transfer?",
+    "true_label": "receiving_money",
+    "entities": "establish, I am paid in GBP, before a transfer",
+    "explanation": "The key terms in the sentence are \"establish\", \"I am paid in GBP\", \"before a transfer\". These help in understanding the user's intent."
+  },
+  {
+    "text": "I want a refund because my package has been taking too long to arrive. How do I go about doing that?",
+    "true_label": "request_refund",
+    "entities": "want a refund, package, been taking too long, refund",
+    "explanation": "The key terms in the sentence are \"want a refund\", \"package\", \"been taking too long\", \"refund\". These help in understanding the user's intent."
+  },
+  {
+    "text": "why did the app refuse to make an approved payment",
+    "true_label": "reverted_card_payment?",
+    "entities": "refuse to make, approved payment, app, refuse to make approved payment",
+    "explanation": "The key terms in the sentence are \"refuse to make\", \"approved payment\", \"app\", \"refuse to make approved payment\". These help in understanding the user's intent."
+  },
+  {
+    "text": "What credit cards are supported?",
+    "true_label": "supported_cards_and_currencies",
+    "entities": "query, credit cards, supported",
+    "explanation": "The key terms in the sentence are \"query\", \"credit cards\", \"supported\". These help in understanding the user's intent."
+  },
+  {
+    "text": "I would like to refill my account using SWIFT.",
+    "true_label": "top_up_by_bank_transfer_charge",
+    "entities": "refill, account, refill my account using SWIFT",
+    "explanation": "The key terms in the sentence are \"refill\", \"account\", \"refill my account using SWIFT\". These help in understanding the user's intent."
+  },
+  {
+    "text": "What type of deposits do you accept into my account?",
+    "true_label": "top_up_by_cash_or_cheque",
+    "entities": "accept, deposits, my account, What type of deposits",
+    "explanation": "The key terms in the sentence are \"accept\", \"deposits\", \"my account\", \"What type of deposits\". These help in understanding the user's intent."
+  },
+  {
+    "text": "I have a top up that didn't go through.  Why?",
+    "true_label": "top_up_failed",
+    "entities": "query, top up, didn't go through",
+    "explanation": "The key terms in the sentence are \"query\", \"top up\", \"didn't go through\". These help in understanding the user's intent."
+  },
+  {
+    "text": "Is there any limit to the amount I can add to a card at a time?",
+    "true_label": "top_up_limits",
+    "entities": "add, card, limit to the amount",
+    "explanation": "The key terms in the sentence are \"add\", \"card\", \"limit to the amount\". These help in understanding the user's intent."
+  },
+  {
+    "text": "What happened to my top-up?",
+    "true_label": "top_up_reverted",
+    "entities": "asking, top-up, user, What happened",
+    "explanation": "The key terms in the sentence are \"asking\", \"top-up\", \"user\", \"What happened\". These help in understanding the user's intent."
+  },
+  {
+    "text": "Can friends add to my account",
+    "true_label": "topping_up_by_card",
+    "entities": "add, my account, friends, Can friends add to my account",
+    "explanation": "The key terms in the sentence are \"add\", \"my account\", \"friends\", \"Can friends add to my account\". These help in understanding the user's intent."
+  },
+  {
+    "text": "Is there a transfer fee?",
+    "true_label": "transfer_fee_charged",
+    "entities": "inquire, transfer fee, Is there a transfer fee",
+    "explanation": "The key terms in the sentence are \"inquire\", \"transfer fee\", \"Is there a transfer fee\". These help in understanding the user's intent."
+  },
+  {
+    "text": "What methods can I use to add money to my account?",
+    "true_label": "transfer_into_account",
+    "entities": "add money, my account, methods can I use to add money",
+    "explanation": "The key terms in the sentence are \"add money\", \"my account\", \"methods can I use to add money\". These help in understanding the user's intent."
+  },
+  {
+    "text": "My money transfer has not arrived.",
+    "true_label": "transfer_not_received_by_recipient",
+    "entities": "money transfer, not arrived, money transfer has not arrived",
+    "explanation": "The key terms in the sentence are \"money transfer\", \"not arrived\", \"money transfer has not arrived\". These help in understanding the user's intent."
+  },
+  {
+    "text": "How long until my transfer goes through?",
+    "true_label": "transfer_timing",
+    "entities": "transfer, my transfer, How long until",
+    "explanation": "The key terms in the sentence are \"transfer\", \"my transfer\", \"How long until\". These help in understanding the user's intent."
+  },
+  {
+    "text": "The app will not let me into my account.",
+    "true_label": "unable_to_verify_identity",
+    "entities": "let me into, my account, me, The app will not let me into my account",
+    "explanation": "The key terms in the sentence are \"let me into\", \"my account\", \"me\", \"The app will not let me into my account\". These help in understanding the user's intent."
+  },
+  {
+    "text": "How can I verify my indentity?",
+    "true_label": "verify_my_identity",
+    "entities": "verify, identity, user, verify my identity",
+    "explanation": "The key terms in the sentence are \"verify\", \"identity\", \"user\", \"verify my identity\". These help in understanding the user's intent."
+  },
+  {
+    "text": "virtual card is not working for me",
+    "true_label": "virtual_card_not_working",
+    "entities": "not working, virtual card, me, virtual card is not working",
+    "explanation": "The key terms in the sentence are \"not working\", \"virtual card\", \"me\", \"virtual card is not working\". These help in understanding the user's intent."
+  },
+  {
+    "text": "What are the available cards?",
+    "true_label": "visa_or_mastercard",
+    "entities": "know, available cards, What are the available cards",
+    "explanation": "The key terms in the sentence are \"know\", \"available cards\", \"What are the available cards\". These help in understanding the user's intent."
+  },
+  {
+    "text": "Do I need to verify my identity each time I wish to use my account?",
+    "true_label": "why_verify_identity",
+    "entities": "verify, identity, my account, each time, need to verify my identity each time I wish to use my account",
+    "explanation": "The key terms in the sentence are \"verify\", \"identity\", \"my account\", \"each time\", \"need to verify my identity each time I wish to use my account\". These help in understanding the user's intent."
+  },
+  {
+    "text": "Can you look to make sure the exchange rate is correct",
+    "true_label": "wrong_exchange_rate_for_cash_withdrawal",
+    "entities": "look to make sure, the exchange rate, exchange rate is correct",
+    "explanation": "The key terms in the sentence are \"look to make sure\", \"the exchange rate\", \"exchange rate is correct\". These help in understanding the user's intent."
+  }
+]

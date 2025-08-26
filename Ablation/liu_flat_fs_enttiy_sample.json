@@ -1,0 +1,260 @@
+[
+  {
+    "text": "Cortana, open up contacts and add, email, something@gmail.com.",
+    "true_label": "addcontact",
+    "entities": "open up, add, contacts, email, something@gmail.com",
+    "explanation": "The key terms [\"open up\", \"add\", \"contacts\", \"email\", \"something@gmail.com\"] help reveal the intent behind the user query and align it with the correct label 'addcontact'."
+  },
+  {
+    "text": "Play fault in our stars on Audible",
+    "true_label": "audiobook",
+    "entities": "Play, fault in our stars, Audible",
+    "explanation": "The key terms [\"Play\", \"fault in our stars\", \"Audible\"] help reveal the intent behind the user query and align it with the correct label 'audiobook'."
+  },
+  {
+    "text": "There is a pile of torn paper on the rug to suck up",
+    "true_label": "cleaning",
+    "entities": "suck up, pile of torn paper, rug",
+    "explanation": "The key terms [\"suck up\", \"pile of torn paper\", \"rug\"] help reveal the intent behind the user query and align it with the correct label 'cleaning'."
+  },
+  {
+    "text": "turn <unk> on",
+    "true_label": "coffee",
+    "entities": "turn on, <unk>",
+    "explanation": "The key terms [\"turn on\", \"<unk>\"] help reveal the intent behind the user query and align it with the correct label 'coffee'."
+  },
+  {
+    "text": "What is the time in India, when the time in US is 12pm",
+    "true_label": "convert",
+    "entities": "understand, time, India, when the time in US is 12pm",
+    "explanation": "The key terms [\"understand\", \"time\", \"India\", \"when the time in US is 12pm\"] help reveal the intent behind the user query and align it with the correct label 'convert'."
+  },
+  {
+    "text": "I want to have a new playlist of 80s songs",
+    "true_label": "createoradd",
+    "entities": "have, new playlist of 80s songs",
+    "explanation": "The key terms [\"have\", \"new playlist of 80s songs\"] help reveal the intent behind the user query and align it with the correct label 'createoradd'."
+  },
+  {
+    "text": "give description of statue of liberty",
+    "true_label": "definition",
+    "entities": "give, description of statue of liberty",
+    "explanation": "The key terms [\"give\", \"description of statue of liberty\"] help reveal the intent behind the user query and align it with the correct label 'definition'."
+  },
+  {
+    "text": "this song is too length",
+    "true_label": "dislikeness",
+    "entities": "commenting, song",
+    "explanation": "The key terms [\"commenting\", \"song\"] help reveal the intent behind the user query and align it with the correct label 'dislikeness'."
+  },
+  {
+    "text": "hockey",
+    "true_label": "events",
+    "entities": "hockey",
+    "explanation": "The key terms [\"hockey\"] help reveal the intent behind the user query and align it with the correct label 'events'."
+  },
+  {
+    "text": "Was Paul Walker working on any movies besides the Fast and the Furious when he died?",
+    "true_label": "factoid",
+    "entities": "working, movies, Paul Walker, when he died",
+    "explanation": "The key terms [\"working\", \"movies\", \"Paul Walker\", \"when he died\"] help reveal the intent behind the user query and align it with the correct label 'factoid'."
+  },
+  {
+    "text": "play keno",
+    "true_label": "game",
+    "entities": "play, keno",
+    "explanation": "The key terms [\"play\", \"keno\"] help reveal the intent behind the user query and align it with the correct label 'game'."
+  },
+  {
+    "text": "Hey PDA!",
+    "true_label": "greet",
+    "entities": "greet, PDA",
+    "explanation": "The key terms [\"greet\", \"PDA\"] help reveal the intent behind the user query and align it with the correct label 'greet'."
+  },
+  {
+    "text": "go to setting",
+    "true_label": "hue_lightchange",
+    "entities": "go, setting",
+    "explanation": "The key terms [\"go\", \"setting\"] help reveal the intent behind the user query and align it with the correct label 'hue_lightchange'."
+  },
+  {
+    "text": "Its too bright in here",
+    "true_label": "hue_lightdim",
+    "entities": "complain, brightness, user",
+    "explanation": "The key terms [\"complain\", \"brightness\", \"user\"] help reveal the intent behind the user query and align it with the correct label 'hue_lightdim'."
+  },
+  {
+    "text": "pls turn on all the outdoor lights",
+    "true_label": "hue_lighton",
+    "entities": "turn on, all the outdoor lights",
+    "explanation": "The key terms [\"turn on\", \"all the outdoor lights\"] help reveal the intent behind the user query and align it with the correct label 'hue_lighton'."
+  },
+  {
+    "text": "raie lights",
+    "true_label": "hue_lightup",
+    "entities": "unknown, raie lights, unknown, unknown",
+    "explanation": "The key terms [\"unknown\", \"raie lights\", \"unknown\", \"unknown\"] help reveal the intent behind the user query and align it with the correct label 'hue_lightup'."
+  },
+  {
+    "text": "Compile favorites list according to my song feedback",
+    "true_label": "likeness",
+    "entities": "compile, favorites list, my song feedback",
+    "explanation": "The key terms [\"compile\", \"favorites list\", \"my song feedback\"] help reveal the intent behind the user query and align it with the correct label 'likeness'."
+  },
+  {
+    "text": "Olly, guide me to the restaurant",
+    "true_label": "locations",
+    "entities": "guide, restaurant",
+    "explanation": "The key terms [\"guide\", \"restaurant\"] help reveal the intent behind the user query and align it with the correct label 'locations'."
+  },
+  {
+    "text": "20-10",
+    "true_label": "maths",
+    "entities": "subtract, 20 and 10",
+    "explanation": "The key terms [\"subtract\", \"20 and 10\"] help reveal the intent behind the user query and align it with the correct label 'maths'."
+  },
+  {
+    "text": "Recommend a movie which is released last Friday",
+    "true_label": "movies",
+    "entities": "recommend, a movie, last Friday",
+    "explanation": "The key terms [\"recommend\", \"a movie\", \"last Friday\"] help reveal the intent behind the user query and align it with the correct label 'movies'."
+  },
+  {
+    "text": "Gather all my songs from Madonna",
+    "true_label": "music",
+    "entities": "Gather, all my songs, Madonna",
+    "explanation": "The key terms [\"Gather\", \"all my songs\", \"Madonna\"] help reveal the intent behind the user query and align it with the correct label 'music'."
+  },
+  {
+    "text": "dont do that again.",
+    "true_label": "negate",
+    "entities": "dont do, that, again",
+    "explanation": "The key terms [\"dont do\", \"that\", \"again\"] help reveal the intent behind the user query and align it with the correct label 'negate'."
+  },
+  {
+    "text": "Find the nearest Olive Garden that has take out service.",
+    "true_label": "order",
+    "entities": "Find, Olive Garden",
+    "explanation": "The key terms [\"Find\", \"Olive Garden\"] help reveal the intent behind the user query and align it with the correct label 'order'."
+  },
+  {
+    "text": "go to favourite list",
+    "true_label": "podcasts",
+    "entities": "go, favourite list",
+    "explanation": "The key terms [\"go\", \"favourite list\"] help reveal the intent behind the user query and align it with the correct label 'podcasts'."
+  },
+  {
+    "text": "Waiter at Outback was rude",
+    "true_label": "post",
+    "entities": "was, Waiter at Outback",
+    "explanation": "The key terms [\"was\", \"Waiter at Outback\"] help reveal the intent behind the user query and align it with the correct label 'post'."
+  },
+  {
+    "text": "How many hours ahead is NYC?",
+    "true_label": "query",
+    "entities": "query, time difference, NYC",
+    "explanation": "The key terms [\"query\", \"time difference\", \"NYC\"] help reveal the intent behind the user query and align it with the correct label 'query'."
+  },
+  {
+    "text": "when is john's birthday?",
+    "true_label": "querycontact",
+    "entities": "query, birthday, john",
+    "explanation": "The key terms [\"query\", \"birthday\", \"john\"] help reveal the intent behind the user query and align it with the correct label 'querycontact'."
+  },
+  {
+    "text": "Recent advice concerning Google SEO",
+    "true_label": "quirky",
+    "entities": "advice, Google SEO, Recent",
+    "explanation": "The key terms [\"advice\", \"Google SEO\", \"Recent\"] help reveal the intent behind the user query and align it with the correct label 'quirky'."
+  },
+  {
+    "text": "Play Soundcloud",
+    "true_label": "radio",
+    "entities": "Play, Soundcloud",
+    "explanation": "The key terms [\"Play\", \"Soundcloud\"] help reveal the intent behind the user query and align it with the correct label 'radio'."
+  },
+  {
+    "text": "get it with fry",
+    "true_label": "recipe",
+    "entities": "get, it",
+    "explanation": "The key terms [\"get\", \"it\"] help reveal the intent behind the user query and align it with the correct label 'recipe'."
+  },
+  {
+    "text": "remove the old music list",
+    "true_label": "remove",
+    "entities": "remove, the old music list, old",
+    "explanation": "The key terms [\"remove\", \"the old music list\", \"old\"] help reveal the intent behind the user query and align it with the correct label 'remove'."
+  },
+  {
+    "text": "try the last message one more time please.",
+    "true_label": "repeat",
+    "entities": "try, the last message, one more time",
+    "explanation": "The key terms [\"try\", \"the last message\", \"one more time\"] help reveal the intent behind the user query and align it with the correct label 'repeat'."
+  },
+  {
+    "text": "how we calcultate",
+    "true_label": "sendemail",
+    "entities": "calculate, unknown",
+    "explanation": "The key terms [\"calculate\", \"unknown\"] help reveal the intent behind the user query and align it with the correct label 'sendemail'."
+  },
+  {
+    "text": "volume check",
+    "true_label": "set",
+    "entities": "check, volume",
+    "explanation": "The key terms [\"check\", \"volume\"] help reveal the intent behind the user query and align it with the correct label 'set'."
+  },
+  {
+    "text": "repeat this song",
+    "true_label": "settings",
+    "entities": "repeat, song",
+    "explanation": "The key terms [\"repeat\", \"song\"] help reveal the intent behind the user query and align it with the correct label 'settings'."
+  },
+  {
+    "text": "what is todays close of goog",
+    "true_label": "stock",
+    "entities": "know, todays close of goog, todays",
+    "explanation": "The key terms [\"know\", \"todays close of goog\", \"todays\"] help reveal the intent behind the user query and align it with the correct label 'stock'."
+  },
+  {
+    "text": "where is the closest uber",
+    "true_label": "taxi",
+    "entities": "find, uber",
+    "explanation": "The key terms [\"find\", \"uber\"] help reveal the intent behind the user query and align it with the correct label 'taxi'."
+  },
+  {
+    "text": "is it bumper to bumper",
+    "true_label": "traffic",
+    "entities": "inquire, traffic",
+    "explanation": "The key terms [\"inquire\", \"traffic\"] help reveal the intent behind the user query and align it with the correct label 'traffic'."
+  },
+  {
+    "text": "Please talk softer.",
+    "true_label": "volume_down",
+    "entities": "talk, softer",
+    "explanation": "The key terms [\"talk\", \"softer\"] help reveal the intent behind the user query and align it with the correct label 'volume_down'."
+  },
+  {
+    "text": "goodnight",
+    "true_label": "volume_mute",
+    "entities": "wishing, night",
+    "explanation": "The key terms [\"wishing\", \"night\"] help reveal the intent behind the user query and align it with the correct label 'volume_mute'."
+  },
+  {
+    "text": "Change volume to 35 percent.",
+    "true_label": "volume_other",
+    "entities": "Change, volume",
+    "explanation": "The key terms [\"Change\", \"volume\"] help reveal the intent behind the user query and align it with the correct label 'volume_other'."
+  },
+  {
+    "text": "Volume up/down",
+    "true_label": "volume_up",
+    "entities": "volume up/down, device",
+    "explanation": "The key terms [\"volume up/down\", \"device\"] help reveal the intent behind the user query and align it with the correct label 'volume_up'."
+  },
+  {
+    "text": "Turn off bedroom fan",
+    "true_label": "wemo_off",
+    "entities": "Turn off, bedroom fan",
+    "explanation": "The key terms [\"Turn off\", \"bedroom fan\"] help reveal the intent behind the user query and align it with the correct label 'wemo_off'."
+  }
+]

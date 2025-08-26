@@ -1,0 +1,2146 @@
+[
+  {
+    "id": 2267,
+    "text": "UEFA European Championship",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "events",
+      "game"
+    ],
+    "entities": "UEFA European Championship",
+    "explanation": "The key term \"UEFA European Championship\" indicates a specific sports event.",
+    "predicted_label": "events"
+  },
+  {
+    "id": 2408,
+    "text": "Tell me about reasons of winning of trump.",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "factoid",
+      "events",
+      "query"
+    ],
+    "entities": "reasons, winning, Trump",
+    "explanation": "The key terms [\"reasons\", \"winning\", \"Trump\"] suggest the user is seeking information about the factors that contributed to Trump's victory.",
+    "predicted_label": "factoid"
+  },
+  {
+    "id": 428,
+    "text": "Is there any event today in my calendar?",
+    "true_label": "query",
+    "top_k_predictions": [
+      "events",
+      "query"
+    ],
+    "entities": "event, today, calendar",
+    "explanation": "The key terms [\"event\", \"today\", \"calendar\"] indicate a user asking about events in their calendar for the current day.",
+    "predicted_label": "events"
+  },
+  {
+    "id": 927,
+    "text": "When is my doctor's appointment",
+    "true_label": "query",
+    "top_k_predictions": [
+      "query",
+      "events",
+      "locations",
+      "querycontact",
+      "post"
+    ],
+    "entities": "doctor's appointment",
+    "explanation": "The key term \"doctor's appointment\" is important for understanding the intent behind the user query.",
+    "predicted_label": "querycontact"
+  },
+  {
+    "id": 1000,
+    "text": "What to do next on events",
+    "true_label": "query",
+    "top_k_predictions": [
+      "events",
+      "query",
+      "order",
+      "settings",
+      "sendemail"
+    ],
+    "entities": "events",
+    "explanation": "The key term \"events\" indicates the user is seeking information or actions related to events.",
+    "predicted_label": "events"
+  },
+  {
+    "id": 1034,
+    "text": "lights at percent",
+    "true_label": "hue_lightchange",
+    "top_k_predictions": [
+      "hue_lightchange",
+      "hue_lightup",
+      "settings",
+      "hue_lightdim",
+      "hue_lighton"
+    ],
+    "entities": "lights, percent",
+    "explanation": "The key terms [\"lights\", \"percent\"] suggest the user query is related to adjusting the brightness level of lights.",
+    "predicted_label": "hue_lightdim"
+  },
+  {
+    "id": 1906,
+    "text": "PDA: Save this channel on Pandora please",
+    "true_label": "likeness",
+    "top_k_predictions": [
+      "music",
+      "radio",
+      "podcasts",
+      "createoradd"
+    ],
+    "entities": "Save, channel, Pandora",
+    "explanation": "The key terms [\"Save\", \"channel\", \"Pandora\"] indicate the user's intent to save a channel on Pandora.",
+    "predicted_label": "createoradd"
+  },
+  {
+    "id": 366,
+    "text": "Is the year 2018 a leap year?",
+    "true_label": "query",
+    "top_k_predictions": [
+      "maths",
+      "factoid",
+      "query",
+      "definition",
+      "convert"
+    ],
+    "entities": "year, 2018, leap year",
+    "explanation": "The key terms [\"year\", \"2018\", \"leap year\"] indicate a query related to determining if a specific year is a leap year.",
+    "predicted_label": "maths"
+  },
+  {
+    "id": 1539,
+    "text": "Where is the venue in which the marriage of Tom is going to takeplace",
+    "true_label": "query",
+    "top_k_predictions": [
+      "locations",
+      "events",
+      "querycontact",
+      "query",
+      "traffic"
+    ],
+    "entities": "venue, marriage, Tom",
+    "explanation": "The key terms [\"venue\", \"marriage\", \"Tom\"] indicate a query related to a specific event location.",
+    "predicted_label": "locations"
+  },
+  {
+    "id": 2303,
+    "text": "open grubhub",
+    "true_label": "order",
+    "top_k_predictions": [
+      "order",
+      "locations"
+    ],
+    "entities": "open, grubhub",
+    "explanation": "The key terms \"open\" and \"grubhub\" suggest the user is looking to access or use the Grubhub platform.",
+    "predicted_label": "locations"
+  },
+  {
+    "id": 1297,
+    "text": "record",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "audiobook",
+      "music",
+      "podcasts",
+      "recipe",
+      "events"
+    ],
+    "entities": "record",
+    "explanation": "The key term \"record\" suggests the intent of capturing or saving something, which aligns with the correct label 'recipe'.",
+    "predicted_label": "recipe"
+  },
+  {
+    "id": 850,
+    "text": "Surrounding environment",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "locations",
+      "cleaning",
+      "hue_lightup",
+      "traffic",
+      "hue_lightdim"
+    ],
+    "entities": "surrounding, environment",
+    "explanation": "The key terms [\"surrounding\", \"environment\"] suggest a query related to the user's surroundings or environment.",
+    "predicted_label": "locations"
+  },
+  {
+    "id": 452,
+    "text": "how far is it from New York to Japan",
+    "true_label": "query",
+    "top_k_predictions": [
+      "locations",
+      "traffic",
+      "query",
+      "taxi",
+      "maths"
+    ],
+    "entities": "distance, New York, Japan",
+    "explanation": "The key terms [\"distance\", \"New York\", \"Japan\"] indicate a query about the distance between two locations.",
+    "predicted_label": "locations"
+  },
+  {
+    "id": 1903,
+    "text": "how's it going?",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "greet",
+      "events",
+      "query",
+      "quirky",
+      "traffic"
+    ],
+    "entities": "how's it going",
+    "explanation": "The key term \"how's it going\" indicates a casual greeting or inquiry about someone's well-being.",
+    "predicted_label": "greet"
+  },
+  {
+    "id": 896,
+    "text": "Loop this track.",
+    "true_label": "settings",
+    "top_k_predictions": [
+      "music",
+      "repeat",
+      "hue_lighton",
+      "radio",
+      "settings"
+    ],
+    "entities": "Loop, track",
+    "explanation": "The key terms [\"Loop\", \"track\"] suggest a user intent related to repeating or playing a specific track.",
+    "predicted_label": "repeat"
+  },
+  {
+    "id": 122,
+    "text": "i am sad",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "dislikeness",
+      "negate",
+      "greet",
+      "quirky",
+      "query"
+    ],
+    "entities": "sad",
+    "explanation": "The key term \"sad\" indicates the user's emotional state.",
+    "predicted_label": "dislikeness"
+  },
+  {
+    "id": 619,
+    "text": "PDA, Open Internet",
+    "true_label": "factoid",
+    "top_k_predictions": [
+      "settings",
+      "query",
+      "querycontact",
+      "addcontact",
+      "sendemail"
+    ],
+    "entities": "PDA, open, Internet",
+    "explanation": "The key terms [\"PDA\", \"open\", \"Internet\"] suggest the user intends to access the internet on a PDA device.",
+    "predicted_label": "settings"
+  },
+  {
+    "id": 2309,
+    "text": "repeat this song",
+    "true_label": "settings",
+    "top_k_predictions": [
+      "music",
+      "repeat",
+      "settings",
+      "radio",
+      "audiobook"
+    ],
+    "entities": "repeat, song",
+    "explanation": "The key terms [\"repeat\", \"song\"] help reveal the intent behind the user query and align it with the correct label 'repeat'.",
+    "predicted_label": "repeat"
+  },
+  {
+    "id": 8,
+    "text": "PDA what is the answer to...",
+    "true_label": "maths",
+    "top_k_predictions": [
+      "maths",
+      "query",
+      "definition",
+      "factoid",
+      "querycontact"
+    ],
+    "entities": "PDA, answer",
+    "explanation": "The key terms \"PDA\" and \"answer\" indicate a request for information or a response.",
+    "predicted_label": "query"
+  },
+  {
+    "id": 559,
+    "text": "If there were 10 easy steps to make myself rich what would they be?",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "query",
+      "stock",
+      "maths",
+      "factoid",
+      "createoradd"
+    ],
+    "entities": "10 easy steps, make myself rich",
+    "explanation": "The key terms \"10 easy steps\" and \"make myself rich\" indicate a user query seeking advice or information on becoming wealthy.",
+    "predicted_label": "factoid"
+  },
+  {
+    "id": 2059,
+    "text": "Show me best in class theatre",
+    "true_label": "movies",
+    "top_k_predictions": [
+      "events",
+      "movies",
+      "music",
+      "query",
+      "audiobook"
+    ],
+    "entities": "Show, best in class, theatre",
+    "explanation": "The key terms [\"Show\", \"best in class\", \"theatre\"] suggest the user is looking for information related to a theatre performance or venue.",
+    "predicted_label": "events"
+  },
+  {
+    "id": 1717,
+    "text": "Waiter at Outback was rude",
+    "true_label": "post",
+    "top_k_predictions": [
+      "dislikeness"
+    ],
+    "entities": "Waiter, Outback, rude",
+    "explanation": "The key terms [\"Waiter\", \"Outback\", \"rude\"] indicate a negative experience with a restaurant staff member.",
+    "predicted_label": "dislikeness"
+  },
+  {
+    "id": 1074,
+    "text": "Did you meet her?",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "querycontact",
+      "query",
+      "greet",
+      "addcontact",
+      "likeness"
+    ],
+    "entities": "meet, her",
+    "explanation": "The key terms \"meet\" and \"her\" suggest a query about meeting someone.",
+    "predicted_label": "query"
+  },
+  {
+    "id": 2297,
+    "text": "I need to have location services on, can you check?",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "locations",
+      "settings",
+      "traffic",
+      "query",
+      "querycontact"
+    ],
+    "entities": "location services, check",
+    "explanation": "The key terms [\"location services\", \"check\"] indicate a request related to enabling or checking location services.",
+    "predicted_label": "settings"
+  },
+  {
+    "id": 1712,
+    "text": "What's for today?",
+    "true_label": "query",
+    "top_k_predictions": [
+      "recipe",
+      "events",
+      "query",
+      "movies",
+      "coffee"
+    ],
+    "entities": "today",
+    "explanation": "The key term \"today\" indicates a query related to the current day.",
+    "predicted_label": "events"
+  },
+  {
+    "id": 1773,
+    "text": "object search",
+    "true_label": "definition",
+    "top_k_predictions": [
+      "query",
+      "definition",
+      "querycontact",
+      "locations",
+      "remove"
+    ],
+    "entities": "object, search",
+    "explanation": "The key terms \"object\" and \"search\" indicate the user is looking for something specific.",
+    "predicted_label": "query"
+  },
+  {
+    "id": 1925,
+    "text": "repeat music",
+    "true_label": "settings",
+    "top_k_predictions": [
+      "music",
+      "repeat",
+      "radio",
+      "volume_up",
+      "volume_mute"
+    ],
+    "entities": "repeat, music",
+    "explanation": "The key terms [\"repeat\", \"music\"] suggest the user wants to repeat a music track or playlist.",
+    "predicted_label": "repeat"
+  },
+  {
+    "id": 888,
+    "text": "Physical education drill Marilyn",
+    "true_label": "query",
+    "top_k_predictions": [
+      "game"
+    ],
+    "entities": "physical education, drill, Marilyn",
+    "explanation": "The key terms [\"physical education\", \"drill\", \"Marilyn\"] suggest a query related to a specific activity or exercise.",
+    "predicted_label": "physical_education"
+  },
+  {
+    "id": 1738,
+    "text": "when is the event going to start?",
+    "true_label": "query",
+    "top_k_predictions": [
+      "events",
+      "query",
+      "locations",
+      "traffic",
+      "querycontact"
+    ],
+    "entities": "event, start",
+    "explanation": "The key terms [\"event\", \"start\"] indicate a query about the timing of an event.",
+    "predicted_label": "events"
+  },
+  {
+    "id": 2196,
+    "text": "Can I take food home here?",
+    "true_label": "query",
+    "top_k_predictions": [
+      "locations",
+      "order"
+    ],
+    "entities": "take, food, home",
+    "explanation": "The key terms [\"take\", \"food\", \"home\"] suggest the user is inquiring about the possibility of taking food home, indicating an intent related to ordering or takeout.",
+    "predicted_label": "order"
+  },
+  {
+    "id": 396,
+    "text": "your salary",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "factoid",
+      "events",
+      "taxi",
+      "stock",
+      "query"
+    ],
+    "entities": "salary",
+    "explanation": "The key term \"salary\" indicates the user is seeking information related to salary.",
+    "predicted_label": "factoid"
+  },
+  {
+    "id": 2439,
+    "text": "How doespopulation play a role in a countries econonmy?",
+    "true_label": "factoid",
+    "top_k_predictions": [
+      "stock",
+      "query",
+      "factoid"
+    ],
+    "entities": "population, role, countries, economy",
+    "explanation": "The key terms [\"population\", \"role\", \"countries\", \"economy\"] indicate a query related to understanding the relationship between population and a country's economy.",
+    "predicted_label": "query"
+  },
+  {
+    "id": 2415,
+    "text": "please repeat my shopping list",
+    "true_label": "query",
+    "top_k_predictions": [
+      "repeat",
+      "order",
+      "query"
+    ],
+    "entities": "repeat, shopping list",
+    "explanation": "The key terms [\"repeat\", \"shopping list\"] indicate the user wants to repeat a list, aligning with the intent 'repeat'.",
+    "predicted_label": "repeat"
+  },
+  {
+    "id": 1473,
+    "text": "Play The Circle",
+    "true_label": "audiobook",
+    "top_k_predictions": [
+      "game",
+      "music",
+      "movies",
+      "radio",
+      "audiobook"
+    ],
+    "entities": "Play, The Circle",
+    "explanation": "The key terms [\"Play\", \"The Circle\"] suggest the user is looking to engage with a specific media content, likely a movie or a game.",
+    "predicted_label": "movies"
+  },
+  {
+    "id": 154,
+    "text": "turn <unk> on",
+    "true_label": "coffee",
+    "top_k_predictions": [
+      "hue_lighton",
+      "hue_lightchange",
+      "hue_lightup",
+      "hue_lightdim",
+      "settings"
+    ],
+    "entities": "turn, unknown, on",
+    "explanation": "The key terms [\"turn\", \"unknown\", \"on\"] suggest the intent is related to turning something on, but the specific entity is unknown.",
+    "predicted_label": "hue_lighton"
+  },
+  {
+    "id": 1830,
+    "text": "What's a parsec?",
+    "true_label": "factoid",
+    "top_k_predictions": [
+      "definition",
+      "factoid",
+      "maths",
+      "query",
+      "querycontact"
+    ],
+    "entities": "parsec",
+    "explanation": "The key term \"parsec\" indicates the user is seeking a definition or explanation of this term.",
+    "predicted_label": "definition"
+  },
+  {
+    "id": 2428,
+    "text": "influx",
+    "true_label": "traffic",
+    "top_k_predictions": [
+      "events",
+      "traffic",
+      "stock",
+      "volume_up",
+      "volume_down"
+    ],
+    "entities": "influx",
+    "explanation": "The key term \"influx\" suggests a sudden arrival or increase in something, which could be related to a surge in volume or activity.",
+    "predicted_label": "volume_up"
+  },
+  {
+    "id": 341,
+    "text": "gossiping about celebrities",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "movies",
+      "dislikeness",
+      "likeness"
+    ],
+    "entities": "gossiping, celebrities",
+    "explanation": "The key terms [\"gossiping\", \"celebrities\"] suggest the user is interested in celebrity news or updates.",
+    "predicted_label": "likeness"
+  },
+  {
+    "id": 934,
+    "text": "What friends were in popular places the last day?",
+    "true_label": "query",
+    "top_k_predictions": [
+      "locations",
+      "events",
+      "query",
+      "movies",
+      "traffic"
+    ],
+    "entities": "friends, popular places, last day",
+    "explanation": "The key terms [\"friends\", \"popular places\", \"last day\"] indicate a query about social activities or gatherings at specific locations within a recent time frame.",
+    "predicted_label": "locations"
+  },
+  {
+    "id": 1904,
+    "text": "who is going to my meeting at 9AM?",
+    "true_label": "query",
+    "top_k_predictions": [
+      "events",
+      "querycontact",
+      "traffic",
+      "query",
+      "locations"
+    ],
+    "entities": "meeting, 9AM",
+    "explanation": "The key terms [\"meeting\", \"9AM\"] suggest the user is inquiring about the attendees of a meeting at a specific time.",
+    "predicted_label": "querycontact"
+  },
+  {
+    "id": 1999,
+    "text": "go to favourite list",
+    "true_label": "podcasts",
+    "top_k_predictions": [
+      "movies",
+      "settings",
+      "addcontact",
+      "query",
+      "events"
+    ],
+    "entities": "go to, favourite list",
+    "explanation": "The key terms [\"go to\", \"favourite list\"] suggest a user intent related to navigating to a specific list of favorites.",
+    "predicted_label": "settings"
+  },
+  {
+    "id": 826,
+    "text": "Change the audio settings",
+    "true_label": "volume_other",
+    "top_k_predictions": [
+      "settings",
+      "volume_up",
+      "volume_mute",
+      "volume_other",
+      "set"
+    ],
+    "entities": "Change, audio, settings",
+    "explanation": "The key terms [\"Change\", \"audio\", \"settings\"] indicate a request related to adjusting audio settings.",
+    "predicted_label": "settings"
+  },
+  {
+    "id": 234,
+    "text": "downloads management",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "settings",
+      "music",
+      "cleaning",
+      "stock",
+      "remove"
+    ],
+    "entities": "downloads management",
+    "explanation": "The key terms \"downloads\" and \"management\" indicate a user query related to managing downloads.",
+    "predicted_label": "settings"
+  },
+  {
+    "id": 391,
+    "text": "This is a good song. Put it on repeat.",
+    "true_label": "likeness",
+    "top_k_predictions": [
+      "music",
+      "repeat",
+      "volume_up",
+      "radio",
+      "likeness"
+    ],
+    "entities": "good song, repeat",
+    "explanation": "The key terms [\"good song\", \"repeat\"] suggest the user wants to put a song on repeat.",
+    "predicted_label": "repeat"
+  },
+  {
+    "id": 1675,
+    "text": "Tell more about this event",
+    "true_label": "query",
+    "top_k_predictions": [
+      "events",
+      "traffic",
+      "query",
+      "movies",
+      "music"
+    ],
+    "entities": "Tell, event",
+    "explanation": "The key terms [\"Tell\", \"event\"] suggest the user is seeking information about an event.",
+    "predicted_label": "events"
+  },
+  {
+    "id": 930,
+    "text": "Need Information about events, before shift ends.",
+    "true_label": "query",
+    "top_k_predictions": [
+      "events",
+      "query",
+      "querycontact",
+      "traffic"
+    ],
+    "entities": "information, events, shift ends",
+    "explanation": "The key terms [\"information\", \"events\", \"shift ends\"] suggest the user is seeking information about events before their shift ends.",
+    "predicted_label": "events"
+  },
+  {
+    "id": 309,
+    "text": "I would like to know her history",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "definition",
+      "events",
+      "querycontact",
+      "query",
+      "factoid"
+    ],
+    "entities": "know, history",
+    "explanation": "The key terms [\"know\", \"history\"] suggest the user is seeking information about someone's past or background.",
+    "predicted_label": "factoid"
+  },
+  {
+    "id": 220,
+    "text": "what is the purpose of",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "definition",
+      "query",
+      "set",
+      "hue_lightdim",
+      "factoid"
+    ],
+    "entities": "purpose",
+    "explanation": "The key term \"purpose\" indicates a query seeking information about the reason or objective of something.",
+    "predicted_label": "definition"
+  },
+  {
+    "id": 2025,
+    "text": "location",
+    "true_label": "definition",
+    "top_k_predictions": [
+      "locations",
+      "traffic",
+      "query",
+      "events",
+      "settings"
+    ],
+    "entities": "location, guide",
+    "explanation": "The key terms [\"location\", \"guide\"] suggest that the user is looking for guidance to a specific location.",
+    "predicted_label": "locations"
+  },
+  {
+    "id": 1250,
+    "text": "Investing",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "stock"
+    ],
+    "entities": "investing",
+    "explanation": "The key term \"investing\" indicates that the user is interested in investment-related activities.",
+    "predicted_label": "investing"
+  },
+  {
+    "id": 2515,
+    "text": "I need to let my small group know the location has changed",
+    "true_label": "set",
+    "top_k_predictions": [
+      "locations",
+      "events",
+      "sendemail",
+      "querycontact",
+      "post"
+    ],
+    "entities": "small group, location changed",
+    "explanation": "The key terms [\"small group\", \"location changed\"] suggest the user wants to inform a group about a change in location.",
+    "predicted_label": "post"
+  },
+  {
+    "id": 1146,
+    "text": "I want my PDA to tell me when a new anime season will come out",
+    "true_label": "set",
+    "top_k_predictions": [
+      "events",
+      "movies",
+      "query",
+      "game",
+      "factoid"
+    ],
+    "entities": "PDA, new anime season",
+    "explanation": "The key terms [\"PDA\", \"new anime season\"] indicate the user is seeking information about upcoming anime releases.",
+    "predicted_label": "events"
+  },
+  {
+    "id": 2113,
+    "text": "Set a notification for sports game.",
+    "true_label": "set",
+    "top_k_predictions": [
+      "events",
+      "game"
+    ],
+    "entities": "notification, sports game",
+    "explanation": "The key terms [\"notification\", \"sports game\"] indicate the user's intent is related to setting a notification for a sports game.",
+    "predicted_label": "events"
+  },
+  {
+    "id": 620,
+    "text": "use shortcut",
+    "true_label": "music",
+    "top_k_predictions": [
+      "settings",
+      "set",
+      "quirky",
+      "createoradd",
+      "events"
+    ],
+    "entities": "shortcut",
+    "explanation": "The key term \"shortcut\" indicates a user query related to using shortcuts.",
+    "predicted_label": "settings"
+  },
+  {
+    "id": 2214,
+    "text": "Change my music player volume to 80%",
+    "true_label": "volume_up",
+    "top_k_predictions": [
+      "volume_other",
+      "volume_up",
+      "volume_mute",
+      "settings",
+      "music"
+    ],
+    "entities": "Change, music player volume, 80%",
+    "explanation": "The key terms [\"Change\", \"music player volume\", \"80%\"] suggest the user wants to adjust the volume of the music player.",
+    "predicted_label": "volume_other"
+  },
+  {
+    "id": 1493,
+    "text": "Olly you have to check out Kfix he's the best",
+    "true_label": "likeness",
+    "top_k_predictions": [
+      "music",
+      "query",
+      "quirky",
+      "movies",
+      "game"
+    ],
+    "entities": "check out, Kfix, best",
+    "explanation": "The key terms [\"check out\", \"Kfix\", \"best\"] suggest a recommendation or endorsement, aligning with the intent of recommending something.",
+    "predicted_label": "quirky"
+  },
+  {
+    "id": 1673,
+    "text": "Bingo",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "game",
+      "quirky",
+      "events"
+    ],
+    "entities": "Bingo",
+    "explanation": "The key term \"Bingo\" indicates a specific game or activity.",
+    "predicted_label": "game"
+  },
+  {
+    "id": 917,
+    "text": "goodnight",
+    "true_label": "volume_mute",
+    "top_k_predictions": [
+      "greet",
+      "settings",
+      "hue_lightchange",
+      "wemo_off",
+      "negate"
+    ],
+    "entities": "goodnight",
+    "explanation": "The key term \"goodnight\" indicates a farewell or bedtime-related intent.",
+    "predicted_label": "greet"
+  },
+  {
+    "id": 52,
+    "text": "Is the brightness of my screen running low?",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "settings",
+      "hue_lightdim",
+      "hue_lightchange",
+      "query",
+      "volume_down"
+    ],
+    "entities": "brightness, screen, low",
+    "explanation": "The key terms [\"brightness\", \"screen\", \"low\"] indicate a query related to screen brightness levels.",
+    "predicted_label": "settings"
+  },
+  {
+    "id": 368,
+    "text": "Olly you need to find an alternate route to my destination",
+    "true_label": "query",
+    "top_k_predictions": [
+      "traffic",
+      "locations",
+      "taxi",
+      "events"
+    ],
+    "entities": "find, alternate route, destination",
+    "explanation": "The key terms [\"find\", \"alternate route\", \"destination\"] indicate a request for finding an alternative route to a destination, aligning with the intent of finding directions or navigation.",
+    "predicted_label": "locations"
+  },
+  {
+    "id": 1828,
+    "text": "volume check",
+    "true_label": "set",
+    "top_k_predictions": [
+      "volume_up",
+      "volume_other",
+      "volume_down",
+      "volume_mute",
+      "settings"
+    ],
+    "entities": "volume, check",
+    "explanation": "The key terms [\"volume\", \"check\"] suggest a user intent related to checking the volume level.",
+    "predicted_label": "volume_check"
+  },
+  {
+    "id": 440,
+    "text": "Please give me the wnning lottory numbers for this weekend.",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "query",
+      "querycontact",
+      "game",
+      "stock",
+      "factoid"
+    ],
+    "entities": "winning, lottery numbers, weekend",
+    "explanation": "The key terms [\"winning\", \"lottery numbers\", \"weekend\"] suggest the user is seeking information about lottery numbers for the upcoming weekend.",
+    "predicted_label": "game"
+  },
+  {
+    "id": 557,
+    "text": "Cancel my meeting with Lisa on Tuesday and reschedule it for Thursday",
+    "true_label": "set",
+    "top_k_predictions": [
+      "events",
+      "query",
+      "settings",
+      "sendemail",
+      "querycontact"
+    ],
+    "entities": "cancel, meeting, Lisa, Tuesday, reschedule, Thursday",
+    "explanation": "The key terms [\"cancel\", \"meeting\", \"Lisa\", \"Tuesday\", \"reschedule\", \"Thursday\"] indicate a request to cancel and reschedule a meeting.",
+    "predicted_label": "settings"
+  },
+  {
+    "id": 753,
+    "text": "start chapter five of physics for future presidents",
+    "true_label": "audiobook",
+    "top_k_predictions": [
+      "maths",
+      "definition"
+    ],
+    "entities": "start, chapter five, physics for future presidents",
+    "explanation": "The key terms [\"start\", \"chapter five\", \"physics for future presidents\"] indicate the user's intent to begin reading a specific chapter in a book.",
+    "predicted_label": "reading_start"
+  },
+  {
+    "id": 2130,
+    "text": "open company name and find forms",
+    "true_label": "post",
+    "top_k_predictions": [
+      "query",
+      "querycontact",
+      "settings",
+      "addcontact",
+      "remove"
+    ],
+    "entities": "open, company name, find, forms",
+    "explanation": "The key terms [\"open\", \"company name\", \"find\", \"forms\"] suggest the user intends to access or search for forms related to a specific company.",
+    "predicted_label": "settings"
+  },
+  {
+    "id": 782,
+    "text": "Tell me everything about UMF",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "events",
+      "factoid",
+      "definition",
+      "query",
+      "locations"
+    ],
+    "entities": "everything, UMF",
+    "explanation": "The key terms [\"everything\", \"UMF\"] suggest the user is seeking comprehensive information about UMF.",
+    "predicted_label": "definition"
+  },
+  {
+    "id": 350,
+    "text": "Stay quite",
+    "true_label": "volume_mute",
+    "top_k_predictions": [
+      "quirky",
+      "negate",
+      "dislikeness",
+      "query",
+      "greet"
+    ],
+    "entities": "Stay, quiet",
+    "explanation": "The key terms [\"Stay\", \"quiet\"] suggest a command or instruction, indicating the intent behind the user query.",
+    "predicted_label": "negate"
+  },
+  {
+    "id": 443,
+    "text": "blot me the dentist appointment on Tuesday 21 March 2017",
+    "true_label": "set",
+    "top_k_predictions": [
+      "events",
+      "addcontact",
+      "sendemail",
+      "query",
+      "querycontact"
+    ],
+    "entities": "dentist appointment, Tuesday 21 March 2017",
+    "explanation": "The key terms [\"dentist appointment\", \"Tuesday 21 March 2017\"] suggest a scheduling or calendar-related intent.",
+    "predicted_label": "events"
+  },
+  {
+    "id": 670,
+    "text": "do you have a boyfriend?",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "querycontact",
+      "likeness",
+      "quirky",
+      "query",
+      "dislikeness"
+    ],
+    "entities": "boyfriend",
+    "explanation": "The key term \"boyfriend\" is important for understanding the user query.",
+    "predicted_label": "querycontact"
+  },
+  {
+    "id": 2050,
+    "text": "give me the list of all events coming up in the next month and set notifications for all of them",
+    "true_label": "set",
+    "top_k_predictions": [
+      "events"
+    ],
+    "entities": "list, events, next month, notifications",
+    "explanation": "The key terms [\"list\", \"events\", \"next month\", \"notifications\"] indicate that the user is looking for a list of upcoming events and wants to set notifications for them.",
+    "predicted_label": "events"
+  },
+  {
+    "id": 1582,
+    "text": "Update to current time",
+    "true_label": "query",
+    "top_k_predictions": [
+      "settings",
+      "query",
+      "set",
+      "events"
+    ],
+    "entities": "update, current time",
+    "explanation": "The key terms [\"update\", \"current time\"] suggest the user intends to update or synchronize to the current time.",
+    "predicted_label": "settings"
+  },
+  {
+    "id": 658,
+    "text": "Tell me upcoming event's",
+    "true_label": "query",
+    "top_k_predictions": [
+      "events",
+      "movies",
+      "query",
+      "game"
+    ],
+    "entities": "upcoming event",
+    "explanation": "The key terms [\"upcoming event\"] indicate a user query related to events.",
+    "predicted_label": "events"
+  },
+  {
+    "id": 1127,
+    "text": "google....",
+    "true_label": "factoid",
+    "top_k_predictions": [
+      "query",
+      "definition",
+      "querycontact",
+      "locations",
+      "factoid"
+    ],
+    "entities": "google",
+    "explanation": "The key term \"google\" indicates the user's intent to perform a search using the Google search engine.",
+    "predicted_label": "query"
+  },
+  {
+    "id": 531,
+    "text": "history of person",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "query",
+      "movies",
+      "events",
+      "definition",
+      "locations"
+    ],
+    "entities": "history, person",
+    "explanation": "The key terms \"history\" and \"person\" indicate a query related to learning about the background or past of an individual.",
+    "predicted_label": "query"
+  },
+  {
+    "id": 2427,
+    "text": "get it with fry",
+    "true_label": "recipe",
+    "top_k_predictions": [
+      "recipe",
+      "events",
+      "coffee",
+      "order",
+      "quirky"
+    ],
+    "entities": "get, it, fry",
+    "explanation": "The key terms [\"get\", \"it\", \"fry\"] suggest a user intent related to ordering food.",
+    "predicted_label": "order"
+  },
+  {
+    "id": 1003,
+    "text": "It would be good if my PDA can connect peoples",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "query",
+      "settings",
+      "sendemail",
+      "querycontact",
+      "addcontact"
+    ],
+    "entities": "connect, PDA, peoples",
+    "explanation": "The key terms [\"connect\", \"PDA\", \"peoples\"] suggest the user is looking for a feature related to connecting people on their PDA.",
+    "predicted_label": "settings"
+  },
+  {
+    "id": 2499,
+    "text": "Tell me more about the show.",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "movies",
+      "radio",
+      "events",
+      "game",
+      "locations"
+    ],
+    "entities": "show",
+    "explanation": "The key term \"show\" indicates the user is seeking information about a specific show or entertainment content.",
+    "predicted_label": "movies"
+  },
+  {
+    "id": 377,
+    "text": "Recent advice concerning Google SEO",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "traffic",
+      "query"
+    ],
+    "entities": "advice, Google SEO",
+    "explanation": "The key terms \"advice\" and \"Google SEO\" indicate that the user is seeking advice or information related to Google SEO.",
+    "predicted_label": "query"
+  },
+  {
+    "id": 2097,
+    "text": "Tell me about latest controversial news of kim kardashian.",
+    "true_label": "query",
+    "top_k_predictions": [
+      "post",
+      "movies",
+      "query",
+      "quirky",
+      "events"
+    ],
+    "entities": "latest, controversial news, Kim Kardashian",
+    "explanation": "The key terms [\"latest\", \"controversial news\", \"Kim Kardashian\"] indicate the user is seeking information about recent controversial news related to Kim Kardashian.",
+    "predicted_label": "quirky"
+  },
+  {
+    "id": 1610,
+    "text": "Tell me if I can travel the whole world in a day",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "query",
+      "locations",
+      "querycontact",
+      "traffic",
+      "factoid"
+    ],
+    "entities": "travel, whole world, day",
+    "explanation": "The key terms [\"travel\", \"whole world\", \"day\"] suggest a query related to travel duration or feasibility.",
+    "predicted_label": "query"
+  },
+  {
+    "id": 612,
+    "text": "Could you please confirm if Leonardo is Married?",
+    "true_label": "factoid",
+    "top_k_predictions": [
+      "query",
+      "querycontact",
+      "factoid",
+      "likeness",
+      "negate"
+    ],
+    "entities": "confirm, Leonardo, married",
+    "explanation": "The key terms [\"confirm\", \"Leonardo\", \"married\"] suggest that the intent behind the user query is to inquire about Leonardo's marital status.",
+    "predicted_label": "query"
+  },
+  {
+    "id": 1373,
+    "text": "search",
+    "true_label": "factoid",
+    "top_k_predictions": [
+      "query",
+      "querycontact",
+      "locations",
+      "factoid",
+      "definition"
+    ],
+    "entities": "search",
+    "explanation": "The key term \"search\" indicates that the user is looking for information or results related to a specific topic.",
+    "predicted_label": "query"
+  },
+  {
+    "id": 319,
+    "text": "Play it again please",
+    "true_label": "music",
+    "top_k_predictions": [
+      "music",
+      "movies",
+      "game",
+      "repeat",
+      "audiobook"
+    ],
+    "entities": "Play, it, again",
+    "explanation": "The key terms [\"Play\", \"it\", \"again\"] suggest a request to replay something, indicating a repeat intent.",
+    "predicted_label": "repeat"
+  },
+  {
+    "id": 2024,
+    "text": "Please access GPS to direct me",
+    "true_label": "query",
+    "top_k_predictions": [
+      "locations",
+      "traffic",
+      "query",
+      "querycontact",
+      "taxi"
+    ],
+    "entities": "access, GPS, direct",
+    "explanation": "The key terms [\"access\", \"GPS\", \"direct\"] suggest a user intent related to navigation or location services.",
+    "predicted_label": "locations"
+  },
+  {
+    "id": 907,
+    "text": "What time does the downtown parade start?",
+    "true_label": "query",
+    "top_k_predictions": [
+      "events",
+      "locations",
+      "traffic",
+      "query",
+      "querycontact"
+    ],
+    "entities": "time, downtown parade, start",
+    "explanation": "The key terms [\"time\", \"downtown parade\", \"start\"] indicate a query about the timing of an event, specifically the downtown parade.",
+    "predicted_label": "events"
+  },
+  {
+    "id": 1891,
+    "text": "this song is too length",
+    "true_label": "dislikeness",
+    "top_k_predictions": [
+      "music",
+      "volume_other",
+      "query",
+      "negate",
+      "volume_down"
+    ],
+    "entities": "song, too length",
+    "explanation": "The key terms [\"song\", \"too length\"] suggest a user query related to adjusting the length of a song.",
+    "predicted_label": "volume_other"
+  },
+  {
+    "id": 1389,
+    "text": "When is the party this weekend?",
+    "true_label": "query",
+    "top_k_predictions": [
+      "events",
+      "query",
+      "querycontact",
+      "locations"
+    ],
+    "entities": "party, weekend",
+    "explanation": "The key terms [\"party\", \"weekend\"] indicate a query about an event happening on a specific date.",
+    "predicted_label": "events"
+  },
+  {
+    "id": 1707,
+    "text": "I have dinner with my sister this Saturday",
+    "true_label": "set",
+    "top_k_predictions": [
+      "events",
+      "greet",
+      "query",
+      "locations",
+      "createoradd"
+    ],
+    "entities": "have, dinner, sister, Saturday",
+    "explanation": "The key terms [\"have\", \"dinner\", \"sister\", \"Saturday\"] indicate a plan or event involving dinner with the user's sister on a specific day.",
+    "predicted_label": "events"
+  },
+  {
+    "id": 1116,
+    "text": "using play/pause button",
+    "true_label": "audiobook",
+    "top_k_predictions": [
+      "music",
+      "audiobook",
+      "game",
+      "movies",
+      "volume_down"
+    ],
+    "entities": "play/pause button",
+    "explanation": "The key term \"play/pause button\" indicates a user interaction related to controlling media playback.",
+    "predicted_label": "music"
+  },
+  {
+    "id": 1929,
+    "text": "what genre is this?",
+    "true_label": "query",
+    "top_k_predictions": [
+      "movies",
+      "music",
+      "audiobook",
+      "definition",
+      "game"
+    ],
+    "entities": "genre",
+    "explanation": "The key term \"genre\" indicates that the user is seeking information related to the genre of something.",
+    "predicted_label": "movies"
+  },
+  {
+    "id": 74,
+    "text": "Visit metronorth.com to help me purchase train tickets",
+    "true_label": "query",
+    "top_k_predictions": [
+      "locations",
+      "order",
+      "traffic",
+      "query",
+      "querycontact"
+    ],
+    "entities": "visit, metronorth.com, purchase, train tickets",
+    "explanation": "The key terms [\"visit\", \"metronorth.com\", \"purchase\", \"train tickets\"] indicate the user's intent to buy train tickets from the Metronorth website.",
+    "predicted_label": "order"
+  },
+  {
+    "id": 1123,
+    "text": "Please repeat the last sentence from that book.",
+    "true_label": "audiobook",
+    "top_k_predictions": [
+      "audiobook",
+      "repeat",
+      "query",
+      "factoid"
+    ],
+    "entities": "repeat, last sentence, book",
+    "explanation": "The key terms [\"repeat\", \"last sentence\", \"book\"] suggest the user wants to hear a specific sentence again from a book, indicating the intent to 'repeat'.",
+    "predicted_label": "repeat"
+  },
+  {
+    "id": 1098,
+    "text": "What is the name of the best italian restuarant?",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "locations",
+      "query",
+      "querycontact",
+      "recipe",
+      "addcontact"
+    ],
+    "entities": "name, best, Italian, restaurant",
+    "explanation": "The key terms [\"name\", \"best\", \"Italian\", \"restaurant\"] indicate a query related to finding the best Italian restaurant.",
+    "predicted_label": "locations"
+  },
+  {
+    "id": 1587,
+    "text": "Open facebook messenger",
+    "true_label": "query",
+    "top_k_predictions": [
+      "sendemail",
+      "query",
+      "querycontact",
+      "settings",
+      "addcontact"
+    ],
+    "entities": "open, facebook messenger",
+    "explanation": "The key terms \"open\" and \"facebook messenger\" indicate the user's intent to open the Facebook Messenger app.",
+    "predicted_label": "settings"
+  },
+  {
+    "id": 1162,
+    "text": "Current trends in tecnology.",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "movies",
+      "stock",
+      "audiobook",
+      "music",
+      "settings"
+    ],
+    "entities": "Current trends, technology",
+    "explanation": "The key terms \"Current trends\" and \"technology\" indicate a query related to the latest developments in the tech industry.",
+    "predicted_label": "technology"
+  },
+  {
+    "id": 1313,
+    "text": "Add that song to my playlist.",
+    "true_label": "likeness",
+    "top_k_predictions": [
+      "music",
+      "addcontact",
+      "createoradd",
+      "post",
+      "query"
+    ],
+    "entities": "Add, song, playlist",
+    "explanation": "The key terms [\"Add\", \"song\", \"playlist\"] suggest the user wants to add a song to a playlist, indicating the intent behind the query.",
+    "predicted_label": "createoradd"
+  },
+  {
+    "id": 1004,
+    "text": "Plan me a holiday trip",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "locations",
+      "createoradd",
+      "order",
+      "events",
+      "query"
+    ],
+    "entities": "Plan, holiday trip",
+    "explanation": "The key terms [\"Plan\", \"holiday trip\"] suggest the user intends to plan a holiday trip.",
+    "predicted_label": "locations"
+  },
+  {
+    "id": 256,
+    "text": "What do you do with my personal data?",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "definition",
+      "querycontact",
+      "settings",
+      "query",
+      "sendemail"
+    ],
+    "entities": "personal data",
+    "explanation": "The key term \"personal data\" is important for understanding the intent behind the user query.",
+    "predicted_label": "sendemail"
+  },
+  {
+    "id": 657,
+    "text": "World War II",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "definition",
+      "events"
+    ],
+    "entities": "World War II",
+    "explanation": "The key term \"World War II\" indicates a specific historical event or topic.",
+    "predicted_label": "events"
+  },
+  {
+    "id": 1251,
+    "text": "isn't food great?",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "recipe",
+      "greet"
+    ],
+    "entities": "food",
+    "explanation": "The key term \"food\" indicates a general positive sentiment towards food.",
+    "predicted_label": "greet"
+  },
+  {
+    "id": 486,
+    "text": "Please do not respond.",
+    "true_label": "volume_mute",
+    "top_k_predictions": [
+      "negate",
+      "query",
+      "sendemail",
+      "querycontact",
+      "greet"
+    ],
+    "entities": "respond",
+    "explanation": "The key term \"respond\" indicates a request to not reply or engage further.",
+    "predicted_label": "negate"
+  },
+  {
+    "id": 1827,
+    "text": "What is 10 AM in Eastern time?",
+    "true_label": "query",
+    "top_k_predictions": [
+      "locations",
+      "convert",
+      "query",
+      "events",
+      "factoid"
+    ],
+    "entities": "10 AM, Eastern time",
+    "explanation": "The key terms [\"10 AM\", \"Eastern time\"] indicate a conversion of time zones.",
+    "predicted_label": "convert"
+  },
+  {
+    "id": 1715,
+    "text": "do homework for me please!",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "maths",
+      "definition",
+      "query",
+      "order",
+      "cleaning"
+    ],
+    "entities": "do homework",
+    "explanation": "The key term \"do homework\" indicates the user's request to have their homework completed.",
+    "predicted_label": "cleaning"
+  },
+  {
+    "id": 129,
+    "text": "navigate to a place",
+    "true_label": "query",
+    "top_k_predictions": [
+      "locations",
+      "traffic",
+      "taxi",
+      "settings",
+      "events"
+    ],
+    "entities": "navigate, place",
+    "explanation": "The key terms [\"navigate\", \"place\"] suggest the user intent is related to finding directions to a specific location.",
+    "predicted_label": "locations"
+  },
+  {
+    "id": 1720,
+    "text": "what is my meeting at 9AM?",
+    "true_label": "query",
+    "top_k_predictions": [
+      "events",
+      "query",
+      "querycontact"
+    ],
+    "entities": "meeting, 9AM",
+    "explanation": "The key terms [\"meeting\", \"9AM\"] indicate a query related to a scheduled event or appointment.",
+    "predicted_label": "events"
+  },
+  {
+    "id": 423,
+    "text": "hey olly what has been happening interesting in sports lately",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "game",
+      "movies",
+      "stock",
+      "events",
+      "radio"
+    ],
+    "entities": "sports, interesting",
+    "explanation": "The key terms [\"sports\", \"interesting\"] suggest the user is looking for recent updates or news in the sports domain.",
+    "predicted_label": "events"
+  },
+  {
+    "id": 2511,
+    "text": "what is the best method to decide what the best thing to do is....re:",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "query",
+      "cleaning",
+      "traffic",
+      "definition",
+      "querycontact"
+    ],
+    "entities": "best method, decide, best thing",
+    "explanation": "The key terms [\"best method\", \"decide\", \"best thing\"] suggest the user is seeking advice or guidance on making a decision.",
+    "predicted_label": "query"
+  },
+  {
+    "id": 1668,
+    "text": "What time am I meeting John tomorow?",
+    "true_label": "query",
+    "top_k_predictions": [
+      "query",
+      "querycontact",
+      "events",
+      "locations"
+    ],
+    "entities": "meeting, John, tomorrow",
+    "explanation": "The key terms [\"meeting\", \"John\", \"tomorrow\"] indicate a query related to scheduling a meeting with John for the next day.",
+    "predicted_label": "querycontact"
+  },
+  {
+    "id": 2037,
+    "text": "quite",
+    "true_label": "volume_mute",
+    "top_k_predictions": [
+      "quirky",
+      "dislikeness",
+      "query",
+      "music",
+      "likeness"
+    ],
+    "entities": "advice, Google SEO, Recent",
+    "explanation": "The key terms [\"advice\", \"Google SEO\", \"Recent\"] help reveal the intent behind the user query and align it with the correct label 'quirky'.",
+    "predicted_label": "quirky"
+  },
+  {
+    "id": 1594,
+    "text": "NOTE DOWN THIS EVENT ON MY CALENDAR.",
+    "true_label": "set",
+    "top_k_predictions": [
+      "events",
+      "createoradd",
+      "addcontact",
+      "sendemail",
+      "query"
+    ],
+    "entities": "note down, event, calendar",
+    "explanation": "The key terms [\"note down\", \"event\", \"calendar\"] help reveal the intent behind the user query and align it with the correct label 'createoradd'.",
+    "predicted_label": "createoradd"
+  },
+  {
+    "id": 1626,
+    "text": "Remember I've ordered a cake for tonight's birthday party, let me know the status please",
+    "true_label": "query",
+    "top_k_predictions": [
+      "order",
+      "events",
+      "query",
+      "sendemail",
+      "recipe"
+    ],
+    "entities": "ordered, cake, tonight, birthday party, status",
+    "explanation": "The key terms [\"ordered\", \"cake\", \"tonight\", \"birthday party\", \"status\"] indicate a request for an update on a previously placed order for a birthday party cake.",
+    "predicted_label": "order"
+  },
+  {
+    "id": 1203,
+    "text": "Is there valet service at the event",
+    "true_label": "query",
+    "top_k_predictions": [
+      "events",
+      "query",
+      "locations",
+      "traffic",
+      "taxi"
+    ],
+    "entities": "valet service, event",
+    "explanation": "The key terms [\"valet service\", \"event\"] suggest a query related to services available at an event.",
+    "predicted_label": "events"
+  },
+  {
+    "id": 2131,
+    "text": "yashas bithday with vinay ,vally",
+    "true_label": "set",
+    "top_k_predictions": [
+      "events",
+      "greet",
+      "addcontact",
+      "post",
+      "query"
+    ],
+    "entities": "yashas, birthday, vinay, vally",
+    "explanation": "The key terms [\"yashas\", \"birthday\", \"vinay\", \"vally\"] indicate a query related to a birthday event involving individuals named Yashas, Vinay, and Vally.",
+    "predicted_label": "events"
+  },
+  {
+    "id": 2152,
+    "text": "I hope we could eat cookies and watch movies together.",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "movies",
+      "events",
+      "coffee",
+      "likeness",
+      "music"
+    ],
+    "entities": "eat cookies, watch movies",
+    "explanation": "The key terms \"eat cookies\" and \"watch movies\" indicate a desire to engage in a specific activity.",
+    "predicted_label": "movies"
+  },
+  {
+    "id": 808,
+    "text": "Olly, Where is the best vacation spot in calafornia?",
+    "true_label": "factoid",
+    "top_k_predictions": [
+      "locations",
+      "query",
+      "events",
+      "traffic",
+      "querycontact"
+    ],
+    "entities": "vacation spot, California",
+    "explanation": "The key terms [\"vacation spot\", \"California\"] indicate the user is seeking information about a travel destination in California.",
+    "predicted_label": "locations"
+  },
+  {
+    "id": 277,
+    "text": "Text Sarah if she is free for brunch today.",
+    "true_label": "sendemail",
+    "top_k_predictions": [
+      "querycontact",
+      "events",
+      "sendemail",
+      "addcontact",
+      "query"
+    ],
+    "entities": "Text, Sarah, free, brunch, today",
+    "explanation": "The key terms [\"Text\", \"Sarah\", \"free\", \"brunch\", \"today\"] indicate the user's intent to send a message to Sarah about brunch availability for today.",
+    "predicted_label": "send_message"
+  },
+  {
+    "id": 2422,
+    "text": "please play all the songs in high volume and make adjustments to pop music mode.",
+    "true_label": "music",
+    "top_k_predictions": [
+      "music",
+      "volume_up",
+      "volume_other",
+      "volume_down",
+      "volume_mute"
+    ],
+    "entities": "play, all the songs, high volume, adjustments, pop music mode",
+    "explanation": "The key terms [\"play\", \"all the songs\", \"high volume\", \"adjustments\", \"pop music mode\"] suggest the user intends to control the volume and music settings.",
+    "predicted_label": "volume_other"
+  },
+  {
+    "id": 1939,
+    "text": "How many alarams are set?",
+    "true_label": "query",
+    "top_k_predictions": [
+      "set",
+      "settings",
+      "volume_other",
+      "events",
+      "query"
+    ],
+    "entities": "alarms, set",
+    "explanation": "The key terms [\"alarms\", \"set\"] indicate a query related to the number of alarms set.",
+    "predicted_label": "set"
+  },
+  {
+    "id": 1091,
+    "text": "Move to the next song in the list.",
+    "true_label": "settings",
+    "top_k_predictions": [
+      "music",
+      "radio",
+      "audiobook",
+      "volume_up",
+      "settings"
+    ],
+    "entities": "next song, list",
+    "explanation": "The key terms [\"next song\", \"list\"] suggest the user's intent is related to navigating through a list of songs.",
+    "predicted_label": "music"
+  },
+  {
+    "id": 2528,
+    "text": "Porn",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "movies",
+      "dislikeness",
+      "quirky",
+      "audiobook",
+      "cleaning"
+    ],
+    "entities": "Porn",
+    "explanation": "The key term \"Porn\" indicates the intent behind the user query.",
+    "predicted_label": "dislikeness"
+  },
+  {
+    "id": 1725,
+    "text": "how you know me",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "querycontact",
+      "query",
+      "greet",
+      "dislikeness",
+      "likeness"
+    ],
+    "entities": "know, me",
+    "explanation": "The key terms \"know\" and \"me\" suggest a query about personal information or identity.",
+    "predicted_label": "query"
+  },
+  {
+    "id": 2016,
+    "text": "tell me speed to go sun",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "traffic",
+      "query",
+      "locations",
+      "querycontact",
+      "events"
+    ],
+    "entities": "speed, sun",
+    "explanation": "The key terms [\"speed\", \"sun\"] suggest the user is asking for information related to speed and the sun.",
+    "predicted_label": "query"
+  },
+  {
+    "id": 149,
+    "text": "What do you think was the best decade?",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "movies",
+      "events",
+      "music",
+      "radio",
+      "game"
+    ],
+    "entities": "best decade",
+    "explanation": "The key term \"best decade\" indicates a query about historical time periods.",
+    "predicted_label": "events"
+  },
+  {
+    "id": 2276,
+    "text": "Where does my personal information get stored?",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "query",
+      "locations",
+      "settings",
+      "factoid",
+      "querycontact"
+    ],
+    "entities": "personal information, stored",
+    "explanation": "The key terms [\"personal information\", \"stored\"] indicate a user query related to data storage or privacy concerns.",
+    "predicted_label": "settings"
+  },
+  {
+    "id": 2446,
+    "text": "Tell me a play lust",
+    "true_label": "query",
+    "top_k_predictions": [
+      "game",
+      "quirky",
+      "movies",
+      "events",
+      "recipe"
+    ],
+    "entities": "play, lust",
+    "explanation": "The key terms [\"play\", \"lust\"] help reveal the intent behind the user query and align it with the correct label 'quirky'.",
+    "predicted_label": "quirky"
+  },
+  {
+    "id": 2075,
+    "text": "I would like to listen to",
+    "true_label": "music",
+    "top_k_predictions": [
+      "music",
+      "radio",
+      "podcasts",
+      "audiobook"
+    ],
+    "entities": "listen",
+    "explanation": "The key term \"listen\" indicates the user's intent to engage with audio content.",
+    "predicted_label": "radio"
+  },
+  {
+    "id": 1164,
+    "text": "how long is this?",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "query",
+      "maths",
+      "querycontact",
+      "settings"
+    ],
+    "entities": "length",
+    "explanation": "The key term \"length\" is important for understanding the intent behind the user query.",
+    "predicted_label": "query"
+  },
+  {
+    "id": 568,
+    "text": "Turn off bedroom fan",
+    "true_label": "wemo_off",
+    "top_k_predictions": [
+      "settings",
+      "set",
+      "remove",
+      "locations",
+      "cleaning"
+    ],
+    "entities": "turn off, bedroom fan",
+    "explanation": "The key terms [\"turn off\", \"bedroom fan\"] suggest the user wants to control a device, specifically the bedroom fan.",
+    "predicted_label": "set"
+  },
+  {
+    "id": 1538,
+    "text": "link 'john@gmail.com' to 'john' in contacts",
+    "true_label": "sendemail",
+    "top_k_predictions": [
+      "addcontact",
+      "querycontact",
+      "createoradd",
+      "sendemail"
+    ],
+    "entities": "link, john@gmail.com, john, contacts",
+    "explanation": "The key terms [\"link\", \"john@gmail.com\", \"john\", \"contacts\"] indicate the user's intent to link an email address to a contact in the contacts list.",
+    "predicted_label": "addcontact"
+  },
+  {
+    "id": 823,
+    "text": "Suggestions for future",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "addcontact",
+      "events",
+      "post",
+      "query",
+      "settings"
+    ],
+    "entities": "Suggestions, future",
+    "explanation": "The key terms [\"Suggestions\", \"future\"] suggest that the user is seeking advice or recommendations for something that will happen later.",
+    "predicted_label": "events"
+  },
+  {
+    "id": 894,
+    "text": "cars",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "traffic",
+      "taxi",
+      "radio",
+      "query",
+      "volume_up"
+    ],
+    "entities": "cars",
+    "explanation": "The key term \"cars\" indicates a query related to vehicles or automobiles.",
+    "predicted_label": "traffic"
+  },
+  {
+    "id": 929,
+    "text": "ricky matin",
+    "true_label": "music",
+    "top_k_predictions": [
+      "quirky",
+      "movies",
+      "events",
+      "likeness",
+      "greet"
+    ],
+    "entities": "ricky matin",
+    "explanation": "The key term \"ricky matin\" suggests a person's name or a potential search query related to a specific individual.",
+    "predicted_label": "events"
+  },
+  {
+    "id": 73,
+    "text": "why isnt adam sandler funny PDA?",
+    "true_label": "factoid",
+    "top_k_predictions": [
+      "movies",
+      "dislikeness",
+      "quirky",
+      "likeness",
+      "factoid"
+    ],
+    "entities": "adam sandler, funny, PDA",
+    "explanation": "The key terms [\"adam sandler\", \"funny\", \"PDA\"] suggest the user is questioning the humor of Adam Sandler in relation to PDA (public displays of affection).",
+    "predicted_label": "dislikeness"
+  },
+  {
+    "id": 1404,
+    "text": "Martial Arts",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "game",
+      "definition",
+      "events",
+      "quirky",
+      "cleaning"
+    ],
+    "entities": "Martial Arts",
+    "explanation": "The key term \"Martial Arts\" indicates a query related to a specific type of physical activity or sport.",
+    "predicted_label": "events"
+  },
+  {
+    "id": 1838,
+    "text": "how we calcultate",
+    "true_label": "sendemail",
+    "top_k_predictions": [
+      "maths",
+      "convert",
+      "definition",
+      "query",
+      "settings"
+    ],
+    "entities": "calculate",
+    "explanation": "The key term \"calculate\" indicates a mathematical operation or computation.",
+    "predicted_label": "maths"
+  },
+  {
+    "id": 2355,
+    "text": "hockey",
+    "true_label": "events",
+    "top_k_predictions": [
+      "game"
+    ],
+    "entities": "hockey",
+    "explanation": "The key term \"hockey\" indicates a specific interest or topic related to the sport of hockey.",
+    "predicted_label": "game"
+  },
+  {
+    "id": 243,
+    "text": "Give me the specs on the Bugatti Veyron.",
+    "true_label": "definition",
+    "top_k_predictions": [
+      "query",
+      "volume_down",
+      "stock",
+      "factoid",
+      "querycontact"
+    ],
+    "entities": "specs, Bugatti Veyron",
+    "explanation": "The key terms [\"specs\", \"Bugatti Veyron\"] indicate the user is seeking specific information about a car model.",
+    "predicted_label": "query"
+  },
+  {
+    "id": 1940,
+    "text": "my work schedule",
+    "true_label": "query",
+    "top_k_predictions": [
+      "settings",
+      "events"
+    ],
+    "entities": "work, schedule",
+    "explanation": "The key terms [\"work\", \"schedule\"] suggest the user is inquiring about their work schedule, indicating an intent related to personal organization or planning.",
+    "predicted_label": "settings"
+  },
+  {
+    "id": 1229,
+    "text": "When is medonna's birthday",
+    "true_label": "factoid",
+    "top_k_predictions": [
+      "events",
+      "querycontact",
+      "query",
+      "factoid",
+      "createoradd"
+    ],
+    "entities": "query, birthday, Madonna",
+    "explanation": "The key terms [\"query\", \"birthday\", \"Madonna\"] help reveal the intent behind the user query and align it with the correct label 'querycontact'.",
+    "predicted_label": "querycontact"
+  },
+  {
+    "id": 2132,
+    "text": "go to setting",
+    "true_label": "hue_lightchange",
+    "top_k_predictions": [
+      "settings",
+      "set",
+      "volume_mute",
+      "volume_up",
+      "query"
+    ],
+    "entities": "go, setting",
+    "explanation": "The key terms [\"go\", \"setting\"] suggest the user intends to navigate to a specific setting.",
+    "predicted_label": "settings"
+  },
+  {
+    "id": 253,
+    "text": "how we can get credit",
+    "true_label": "sendemail",
+    "top_k_predictions": [
+      "query",
+      "stock",
+      "order",
+      "createoradd",
+      "taxi"
+    ],
+    "entities": "get, credit",
+    "explanation": "The key terms \"get\" and \"credit\" indicate the user's intent to inquire about obtaining credit.",
+    "predicted_label": "query"
+  },
+  {
+    "id": 1888,
+    "text": "Tell me a good alcoholic drink",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "recipe",
+      "coffee",
+      "quirky"
+    ],
+    "entities": "good, alcoholic drink",
+    "explanation": "The key terms \"good\" and \"alcoholic drink\" indicate the user is seeking information about alcoholic beverages.",
+    "predicted_label": "recipe"
+  },
+  {
+    "id": 2466,
+    "text": "GIVE AN FULL DETAILS OF PDA'S",
+    "true_label": "query",
+    "top_k_predictions": [
+      "definition",
+      "query",
+      "settings",
+      "querycontact",
+      "createoradd"
+    ],
+    "entities": "give, full details, PDA's",
+    "explanation": "The key terms [\"give\", \"full details\", \"PDA's\"] help reveal the intent behind the user query and align it with the correct label 'definition'.",
+    "predicted_label": "definition"
+  },
+  {
+    "id": 1008,
+    "text": "what is my location?",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "locations",
+      "query",
+      "traffic",
+      "set",
+      "querycontact"
+    ],
+    "entities": "location",
+    "explanation": "The key term \"location\" indicates the user is asking about their current location.",
+    "predicted_label": "locations"
+  },
+  {
+    "id": 1488,
+    "text": "Please put all the lights",
+    "true_label": "hue_lightup",
+    "top_k_predictions": [
+      "hue_lighton",
+      "cleaning",
+      "hue_lightdim",
+      "settings",
+      "hue_lightchange"
+    ],
+    "entities": "put, all the lights",
+    "explanation": "The key terms [\"put\", \"all the lights\"] suggest the intent of controlling or managing lights.",
+    "predicted_label": "hue_lighton"
+  },
+  {
+    "id": 1370,
+    "text": "Would you provide me with the answer to this question",
+    "true_label": "quirky",
+    "top_k_predictions": [
+      "query",
+      "factoid",
+      "querycontact",
+      "definition",
+      "maths"
+    ],
+    "entities": "provide, answer, question",
+    "explanation": "The key terms [\"provide\", \"answer\", \"question\"] indicate that the user is seeking an answer to a question.",
+    "predicted_label": "query"
+  },
+  {
+    "id": 754,
+    "text": "Give me the latest information about President Trump please.",
+    "true_label": "query",
+    "top_k_predictions": [
+      "stock",
+      "query",
+      "factoid",
+      "events"
+    ],
+    "entities": "latest information, President Trump",
+    "explanation": "The key terms [\"latest information\", \"President Trump\"] suggest the user is seeking current updates or news about President Trump.",
+    "predicted_label": "factoid"
+  },
+  {
+    "id": 1743,
+    "text": "what kind of cloth eastern people wear",
+    "true_label": "factoid",
+    "top_k_predictions": [
+      "locations",
+      "definition",
+      "likeness",
+      "quirky",
+      "query"
+    ],
+    "entities": "cloth, eastern people",
+    "explanation": "The key terms [\"cloth\", \"eastern people\"] suggest the user is seeking information about clothing worn by people in the Eastern region.",
+    "predicted_label": "definition"
+  }
+]
